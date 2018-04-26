@@ -62,22 +62,22 @@ strong {
 
 @font-face {
     font-family: 'Roboto-condensed-bold';
-    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
+    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
 }
 
 @font-face {
     font-family: 'Roboto-condensed-regular';
-    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
+    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
 }
 
 @font-face {
     font-family: 'Open-sans-bold';
-    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
+    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
 }
 
 @font-face {
     font-family: 'Open-sans-regular';
-    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
+    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
 }
 
 .v-align {
