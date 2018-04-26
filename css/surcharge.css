@@ -62,22 +62,22 @@ strong {
 
 @font-face {
     font-family: 'Roboto-condensed-bold';
-    src: url("/theme/fonts/roboto/RobotoCondensed-Bold.ttf")
+    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
 }
 
 @font-face {
     font-family: 'Roboto-condensed-regular';
-    src: url("/theme/fonts/roboto/RobotoCondensed-Regular.ttf")
+    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
 }
 
 @font-face {
     font-family: 'Open-sans-bold';
-    src: url("/theme/fonts/open-sans/opensans-bold-webfont.woff")
+    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
 }
 
 @font-face {
     font-family: 'Open-sans-regular';
-    src: url("/theme/fonts/open-sans/opensans-regular-webfont.woff")
+    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
 }
 
 .v-align {
@@ -312,7 +312,7 @@ abbr[title] {
 }
 
 .cap-icon-shopping_basket::before {
-    background-image: url("/theme/images/icon-bag.svg");
+    background-image: url("/theme/sima2018_git_desktop/images/icon-bag.svg");
     background-repeat: no-repeat;
     content: "" !important;
     display: block;
@@ -591,7 +591,7 @@ figure {
 
 .site-banner>.inside .not-logged .widget-text .openCapTrigger .cap-icon-user-circle-o:before {
     content: "";
-    background-image: url("/theme/images/account.svg");
+    background-image: url("/theme/sima2018_git_desktop/images/account.svg");
     width: 1.2rem;
     height: 1.2rem;
     margin-right: 0.7rem;
@@ -813,7 +813,7 @@ figure {
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 {
     text-indent: -100rem;
-    background-image: url("/theme/images/sima.png");
+    background-image: url("/theme/sima2018_git_desktop/images/sima.png");
     background-size: 16.6rem auto;
     background-repeat: no-repeat;
     width: 16.6rem;
@@ -870,14 +870,14 @@ figure {
     margin-left: auto;
     -webkit-box-shadow: 0 1.5rem 2rem -1rem rgba(196, 84, 55, 0.35);
     box-shadow: 0 1.5rem 2rem -1rem rgba(196, 84, 55, 0.35);
-    background-image: url("/theme/images/icon-card.svg")
+    background-image: url("/theme/sima2018_git_desktop/images/icon-card.svg")
 }
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376072 {
     background-color: #8CC63F;
     -webkit-box-shadow: 0 1.5rem 2rem -1rem rgba(104, 148, 47, 0.35);
     box-shadow: 0 1.5rem 2rem -1rem rgba(104, 148, 47, 0.35);
-    background-image: url("/theme/images/icon-ticket.svg")
+    background-image: url("/theme/sima2018_git_desktop/images/icon-ticket.svg")
 }
 
 .site-footer {
@@ -1150,7 +1150,7 @@ figure {
 }
 
 .cta-band.cta-appli {
-    background-image: url("/theme/images/img-background-cta-appli.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-appli.jpg");
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -1164,7 +1164,7 @@ figure {
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin {
-    background-image: url("/theme/images/img-background-besoin-info.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-besoin-info.jpg");
     background-size: cover;
     padding: 10em
 }
@@ -1366,7 +1366,7 @@ figure {
     min-width: 50%;
     margin: 0;
     border: 0;
-    background-image: url("/theme/images/img-visiteur-pro.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-visiteur-pro.jpg");
     background-size: cover;
     padding: 23rem;
     background-position: center
@@ -1394,7 +1394,7 @@ figure {
 }
 
 .article-focus+.article-focus {
-    background-image: url("/theme/images/img-exposant.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
     background: cover
 }
 
@@ -1452,7 +1452,7 @@ figure {
     -ms-grid-row: 1;
     -ms-grid-row-span: 4;
     grid-row: 1 / 5;
-    background-image: url("/theme/images/img-mosaic-principal.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-principal.jpg");
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1471,7 +1471,7 @@ figure {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / 3;
-    background-image: url("/theme/images/img-mosaic-tracteur.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-tracteur.jpg")
 }
 
 .front .zone .mosaic div.three {
@@ -1480,7 +1480,7 @@ figure {
     -ms-grid-row: 3;
     -ms-grid-row-span: 2;
     grid-row: 3 / 5;
-    background-image: url("/theme/images/img-mosaic-bois.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-bois.jpg")
 }
 
 .front .zone .mosaic div.four {
@@ -1488,7 +1488,7 @@ figure {
     grid-column: 3;
     -ms-grid-row: 1;
     grid-row: 1;
-    background-image: url("/theme/images/img-mosaic-ipad.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-ipad.jpg")
 }
 
 .front .zone .mosaic div.five {
@@ -1496,7 +1496,7 @@ figure {
     grid-column: 3;
     -ms-grid-row: 2;
     grid-row: 2;
-    background-image: url("/theme/images/img-mosaic-drone.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-drone.jpg")
 }
 
 .front .zone .mosaic div.six {
@@ -1505,7 +1505,7 @@ figure {
     -ms-grid-row: 3;
     -ms-grid-row-span: 2;
     grid-row: 3 / 5;
-    background-image: url("/theme/images/img-mosaic-trayeuse.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-trayeuse.jpg")
 }
 
 .front .zone .list-articles .inside {
@@ -1707,7 +1707,7 @@ figure {
 }
 
 .front .zone .rendez-vous-pro {
-    background-image: url("/theme/images/img-background-rdv-des-pros.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-rdv-des-pros.jpg");
     background-size: cover;
     background-origin: center;
     padding: 8rem 0
@@ -1816,7 +1816,7 @@ figure {
 }
 
 .content374293 main .zone .background-exposant {
-    background-image: url("/theme/images/img-background-exposant.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant.jpg");
     background-size: cover;
     background-position: center;
     height: calc(100vh - 12rem);
@@ -1894,7 +1894,7 @@ figure {
 }
 
 .content374293 main .zone .vid-exposant {
-    background-image: url("/theme/images/img-background-exposant-vid.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-vid.jpg");
     background-size: cover;
     background-position: center;
     height: 56.4rem;
@@ -1967,7 +1967,7 @@ figure {
 }
 
 .content374293 main .zone .soyez-present {
-    background-image: url("/theme/images/img-background-exposant-present.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-present.jpg");
     background-size: cover;
     background-position: center;
     padding-bottom: 67rem
@@ -2110,7 +2110,7 @@ figure {
 }
 
 .content374293 main .zone .inscription {
-    background-image: url("/theme/images/img-background-exposant-inscription.png");
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-inscription.png");
     background-size: cover;
     background-position: center;
     height: 110rem
@@ -2147,7 +2147,7 @@ figure {
 }
 
 .content374293 main .zone .article-focus {
-    background-image: url("/theme/images/img-exposant.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2189,7 +2189,7 @@ figure {
 }
 
 .content374293 main .article-focus {
-    background-image: url("/theme/images/img-exposant.jpg");
+    background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
     background-size: cover;
     background-position: center;
     width: 100%
