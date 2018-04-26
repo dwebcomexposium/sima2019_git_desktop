@@ -62,22 +62,22 @@ strong {
 
 @font-face {
     font-family: 'Roboto-condensed-bold';
-    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
+    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
 }
 
 @font-face {
     font-family: 'Roboto-condensed-regular';
-    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
+    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
 }
 
 @font-face {
     font-family: 'Open-sans-bold';
-    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
+    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
 }
 
 @font-face {
     font-family: 'Open-sans-regular';
-    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
+    src: url("/theme/sima2018_git_desktop/sima2018_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
 }
 
 .v-align {
@@ -638,7 +638,7 @@ figure {
 
 .site-banner>.inside button.gsf-trigger.js-toggle-trigger.unstyled .icon.icon-search::before {
     content: "";
-    background-image: url("/theme/images/icon-search.svg");
+    background-image: url("/theme/sima2018_git_desktop/images/icon-search.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.5rem;
@@ -928,7 +928,7 @@ figure {
 }
 
 .site-footer>.inside .newsletter-form .box-dark>.inside {
-    background-image: url("/theme/images/icon-newsletter.svg");
+    background-image: url("/theme/sima2018_git_desktop/images/icon-newsletter.svg");
     background-repeat: no-repeat;
     background-position: center right 20rem;
     background-size: 8.9rem auto
@@ -1075,7 +1075,7 @@ figure {
 }
 
 .site-footer>.inside .quicklinks .ql-list .linkid385396 {
-    background-image: url("/theme/images/logo-comexposium.svg");
+    background-image: url("/theme/sima2018_git_desktop/images/logo-comexposium.svg");
     text-indent: -500rem;
     width: 17.9rem;
     height: 4.9rem;
@@ -1083,7 +1083,7 @@ figure {
 }
 
 .site-footer>.inside .quicklinks .ql-list .linkid385403 {
-    background-image: url("/theme/images/logo-axema.svg");
+    background-image: url("/theme/sima2018_git_desktop/images/logo-axema.svg");
     background-size: cover;
     text-indent: -500rem;
     margin: 0 !important;
