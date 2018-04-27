@@ -887,16 +887,6 @@ figure {
     padding: 8rem 0 0 0
 }
 
-.site-footer .nf-title::before {
-    content: "";
-    position: absolute;
-    background: #8CC63F;
-    width: 4.1rem;
-    height: 0.3rem;
-    bottom: -1rem;
-    left: 0
-}
-
 .site-footer .quicklinks {
     background-color: white
 }
@@ -1113,26 +1103,94 @@ figure {
     text-transform: uppercase
 }
 
-.cta-band {
+.quicklinks.ip1>.ql-list.unstyled a {
+    padding: 2rem
+}
+
+.quicklinks.ip1>.ql-list.unstyled .linkid376255 a {
+    display: none
+}
+
+.quicklinks.ip1>.ql-list.unstyled .linkid376256 a {
+    display: none
+}
+
+.quicklinks.ip1 {
+    background: #252525;
+    margin: 0;
+    padding: 5rem
+}
+
+.quicklinks.ip1 .ql-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.quicklinks.ip1 .block-title {
+    border: none;
+    font-size: 3.4rem;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0;
+    position: relative;
+    max-width: 116rem;
+    margin: 0 auto;
+    position: absolute
+}
+
+.quicklinks.ip1 .block-title::before {
+    content: "";
+    position: absolute;
+    background: #8cc63f;
+    width: 4rem;
+    height: 0.4rem;
+    bottom: -1rem
+}
+
+.quicklinks.ip1 .ql-item a.btn-primary {
+    background: white;
+    border: none;
+    color: black;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 0 15px 15px -10px #000000;
+    box-shadow: 0 15px 15px -10px #000000;
+    font-size: 1.7rem
+}
+
+.nf-title::before {
+    content: "";
+    position: absolute;
+    background: #8CC63F;
+    width: 4.1rem;
+    height: 0.3rem;
+    bottom: -1rem;
+    left: 0
+}
+
+.quicklinks.ip2 {
+    display: block;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    padding: 6.7rem 0
+    padding: 0
 }
 
-.cta-band .block-title {
+.quicklinks.ip2 .block-title {
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     color: white;
     font-size: 3.4rem;
     position: relative
 }
 
-.cta-band .block-title::before {
+.quicklinks.ip2 .block-title::before {
     content: "";
     position: absolute;
     background: white;
@@ -1142,21 +1200,111 @@ figure {
     left: 0
 }
 
-.cta-band .btn-primary {
+.quicklinks.ip2 .ql-list {
+    display: block
+}
+
+.quicklinks.ip2 .ql-list .ql-item a.btn-primary {
     background: white;
     border: none;
     font-size: 2rem;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
+    margin: 0;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    -webkit-box-shadow: none;
+    box-shadow: none
 }
 
-.cta-band.cta-appli {
+.quicklinks.ip2.cta-appli {
     background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-appli.jpg");
     background-repeat: no-repeat;
     background-size: cover
 }
 
-.cta-band.cta-appli .btn-primary {
+.quicklinks.ip2.cta-appli .btn-primary {
     color: #C94F77
+}
+
+.list-articles .inside {
+    background: #F4F4F4;
+    padding-bottom: 9rem
+}
+
+.list-articles .inside .main-title-with-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none
+}
+
+.list-articles .inside .main-title-with-link h2 {
+    color: black;
+    font-size: 3.4rem;
+    font-family: "Roboto-condensed-bold";
+    position: relative;
+    padding: 0;
+    margin-top: 6.7rem
+}
+
+.list-articles .inside .main-title-with-link h2::before {
+    content: "";
+    position: absolute;
+    background: #8cc63f;
+    width: 4rem;
+    height: 0.4rem;
+    bottom: -1rem
+}
+
+.list-articles .inside .main-title-with-link .link-view-all {
+    background: #8CC63F;
+    padding: 2rem 2.6rem;
+    color: white;
+    font-size: 2rem;
+    font-family: "Roboto-condensed-bold";
+    margin: 3.8rem 0 5.4rem 0
+}
+
+.list-articles .inside .main-title-with-link .link-view-all i.icon:before {
+    display: none
+}
+
+.list-articles .inside .grid-la-list {
+    max-width: 116rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.list-articles .inside .grid-la-list .gla-item {
+    margin: 0;
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+    border: none;
+    position: relative;
+    -webkit-box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.2)
+}
+
+.list-articles .inside .grid-la-list .gla-item .gla-item-title {
+    font-size: 2.3rem;
+    color: black
+}
+
+.list-articles .inside .grid-la-list .gla-item .gla-item-desc {
+    font-size: 1.5rem;
+    color: #474747
 }
 
 .chiffres-cles {
@@ -1166,7 +1314,8 @@ figure {
 .chiffres-cles+.list-articles .list-grids-with-pagin {
     background-image: url("/theme/sima2018_git_desktop/images/img-background-besoin-info.jpg");
     background-size: cover;
-    padding: 10em
+    padding: 10rem 0;
+    background-position: center
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item {
@@ -1230,59 +1379,6 @@ figure {
     color: #252525;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     margin: 0
-}
-
-.ip1,
-.ip2 {
-    background: #252525;
-    margin: 0;
-    padding: 5rem
-}
-
-.ip1 .ql-list,
-.ip2 .ql-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end
-}
-
-.ip1 .block-title,
-.ip2 .block-title {
-    border: none;
-    font-size: 3.4rem;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    color: white;
-    padding: 0;
-    position: relative;
-    max-width: 116rem;
-    margin: 0 auto;
-    position: absolute
-}
-
-.ip1 .block-title::before,
-.ip2 .block-title::before {
-    content: "";
-    position: absolute;
-    background: #8cc63f;
-    width: 4rem;
-    height: 0.4rem;
-    bottom: -1rem
-}
-
-.ip1 .ql-item a.btn-primary,
-.ip2 .ql-item a.btn-primary {
-    background: white;
-    border: none;
-    color: black;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    -webkit-box-shadow: 0 15px 15px -10px #000000;
-    box-shadow: 0 15px 15px -10px #000000;
-    font-size: 1.7rem
 }
 
 .bloc-landing-text {
@@ -1362,7 +1458,7 @@ figure {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: red;
+    background: black;
     min-width: 50%;
     margin: 0;
     border: 0;
@@ -1378,9 +1474,12 @@ figure {
 }
 
 .article-focus .btn-primary {
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-size: 2rem;
     background: #F26C4A;
     border: none;
-    padding: 2rem;
+    padding: 1.8rem 2.6rem;
     margin-top: 3rem
 }
 
@@ -1419,18 +1518,6 @@ figure {
     -ms-grid-rows: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1.2rem
-}
-
-.front .zone .block.block-small.quicklinks>.ql-list.unstyled a {
-    padding: 2rem
-}
-
-.front .zone .block.block-small.quicklinks>.ql-list.unstyled .linkid376255 a {
-    display: none
-}
-
-.front .zone .block.block-small.quicklinks>.ql-list.unstyled .linkid376256 a {
-    display: none
 }
 
 .front .zone .mosaic {
@@ -1506,89 +1593,6 @@ figure {
     -ms-grid-row-span: 2;
     grid-row: 3 / 5;
     background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-trayeuse.jpg")
-}
-
-.front .zone .list-articles .inside {
-    background: #F4F4F4;
-    padding-bottom: 9rem
-}
-
-.front .zone .list-articles .inside .main-title-with-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border: none
-}
-
-.front .zone .list-articles .inside .main-title-with-link h2 {
-    color: black;
-    font-size: 3.4rem;
-    font-family: "Roboto-condensed-bold";
-    position: relative;
-    padding: 0;
-    margin-top: 6.7rem
-}
-
-.front .zone .list-articles .inside .main-title-with-link h2::before {
-    content: "";
-    position: absolute;
-    background: #8cc63f;
-    width: 4rem;
-    height: 0.4rem;
-    bottom: -1rem
-}
-
-.front .zone .list-articles .inside .main-title-with-link .link-view-all {
-    background: #8CC63F;
-    padding: 1.5rem;
-    color: white;
-    font-size: 2rem;
-    font-family: "Roboto-condensed-bold";
-    margin: 3.8rem 0 5.4rem 0
-}
-
-.front .zone .list-articles .inside .main-title-with-link .link-view-all i.icon:before {
-    display: none
-}
-
-.front .zone .list-articles .inside .grid-la-list {
-    max-width: 116rem;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
-
-.front .zone .list-articles .inside .grid-la-list .gla-item {
-    margin: 0;
-    -ms-flex-preferred-size: 31%;
-    flex-basis: 31%;
-    border: none;
-    position: relative;
-    -webkit-box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.2)
-}
-
-.front .zone .list-articles .inside .grid-la-list .gla-item .gla-item-title {
-    font-size: 2.3rem;
-    color: black
-}
-
-.front .zone .list-articles .inside .grid-la-list .gla-item .gla-item-desc {
-    font-size: 1.5rem;
-    color: #474747
 }
 
 .front .zone .solution-agriculteur {
@@ -1761,7 +1765,8 @@ figure {
     width: 4rem;
     height: 0.4rem;
     bottom: -1rem;
-    left: 45%
+    left: 45%;
+    z-index: 2
 }
 
 .front .zone .list-articles .slider-content .slider-item {
@@ -1813,6 +1818,18 @@ figure {
     border: 0;
     margin: 0;
     padding: 0
+}
+
+.actus .main-title-with-link .la-main-title::after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #8CC63F
+}
+
+.actus .main-title-with-link .la-main-title::before {
+    display: none
 }
 
 .content374293 main .zone .background-exposant {
