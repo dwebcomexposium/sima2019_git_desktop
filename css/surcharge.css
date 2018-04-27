@@ -169,10 +169,6 @@ h2 {
     padding: 0 !important
 }
 
-.gla-item-content {
-    position: relative
-}
-
 .site-banner .global-search-form {
     display: block;
     position: absolute;
@@ -384,6 +380,63 @@ figure {
 
 .gsf-input {
     min-height: 0
+}
+
+.gla-item-content .gla-item-btn {
+    margin-top: auto;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3
+}
+
+.gla-item-content .gla-item-btn::before {
+    content: "";
+    width: 1.5rem;
+    height: 2px;
+    background-color: #8CC63F;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: 1px
+}
+
+.gla-item>a {
+    display: block;
+    color: #2b2f2f;
+    height: 100%;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.gla-btn-read-more {
+    border: 0 none;
+    background-color: transparent;
+    color: #252525;
+    text-transform: none;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    padding: 0;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s
+}
+
+.gla-item>a:hover .gla-item-content,
+.gla-item>a:focus .gla-item-content {
+    background-color: white
+}
+
+.gla-item>a:hover .gla-item-content .gla-btn-read-more,
+.gla-item>a:hover .gla-item-content .gla-item-title,
+.gla-item>a:focus .gla-item-content .gla-btn-read-more,
+.gla-item>a:focus .gla-item-content .gla-item-title {
+    color: #8CC63F !important
 }
 
 .btn {
@@ -1293,8 +1346,9 @@ figure {
     flex-basis: 31%;
     border: none;
     position: relative;
-    -webkit-box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 15px 35px -25px rgba(0, 0, 0, 0.2)
+    -webkit-box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2);
+    padding: 0
 }
 
 .list-articles .inside .grid-la-list .gla-item .gla-item-title {
@@ -1304,6 +1358,8 @@ figure {
 
 .list-articles .inside .grid-la-list .gla-item .gla-item-desc {
     font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
     color: #474747
 }
 
@@ -1314,8 +1370,14 @@ figure {
 .chiffres-cles+.list-articles .list-grids-with-pagin {
     background-image: url("/theme/sima2018_git_desktop/images/img-background-besoin-info.jpg");
     background-size: cover;
-    padding: 10rem 0;
+    padding: 12rem 0;
     background-position: center
+}
+
+.chiffres-cles+.list-articles .list-grids-with-pagin .gla-item-title {
+    font-size: 3.4rem !important;
+    text-transform: uppercase;
+    margin-top: 0
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item {
@@ -1326,13 +1388,29 @@ figure {
     height: 100%
 }
 
+.chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item a:hover .gla-btn-read-more {
+    background-color: #252525;
+    color: #fff !important
+}
+
+.chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item a:hover .gla-item-title {
+    color: #252525 !important
+}
+
 .chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item-content {
     -webkit-box-shadow: 0 22px 34px -25px rgba(0, 0, 0, 0.5);
     box-shadow: 0 22px 34px -25px rgba(0, 0, 0, 0.5);
     max-height: 50rem;
     position: relative;
-    padding: 8rem 5rem;
-    height: 100%
+    padding: 4rem 3rem;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item-content .gla-item-btn::before {
+    display: none
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item-content .gla-item-btn .gla-btn-read-more {
@@ -1340,9 +1418,14 @@ figure {
     border: none;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 2rem;
-    position: absolute;
-    bottom: 8px;
-    left: 24%
+    position: relative;
+    bottom: 0;
+    color: white;
+    padding: 1.6rem 2.5rem;
+    left: 0;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s
 }
 
 .chiffres-cles .nf-title {
@@ -1360,31 +1443,52 @@ figure {
     padding-right: 8rem
 }
 
-.chiffres-cles .item .icon-item p:nth-child(1) {
-    font-size: 4.5rem;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    margin: 0
+.chiffres-cles .item .icon-item.item-pro .number {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-pro.svg")
 }
 
-.chiffres-cles .item .icon-item p:nth-child(1).brand-green {
+.chiffres-cles .item .icon-item.item-international .number {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-network.svg")
+}
+
+.chiffres-cles .item .icon-item.item-continent .number {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-world.svg")
+}
+
+.chiffres-cles .item .icon-item.item-entreprise .number {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-building.svg")
+}
+
+.chiffres-cles .item .icon-item .number {
+    font-size: 4.5rem;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    margin-bottom: 1rem !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%
+}
+
+.chiffres-cles .item .icon-item .number.brand-green {
     color: #8CC63F
 }
 
-.chiffres-cles .item .icon-item p:nth-child(1).brand-orange {
+.chiffres-cles .item .icon-item .number.brand-orange {
     color: #F26C4A
 }
 
 .chiffres-cles .item .icon-item p:nth-child(2) {
     font-size: 1.7rem;
+    line-height: 2.4rem;
     color: #252525;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
     margin: 0
 }
 
 .temoignages-exposants.list-articles,
 .temoignages-visiteurs.list-articles {
     background: #F26C4A;
-    margin: 0
+    margin: 0;
+    padding: 6.5rem 0 7.5rem 0
 }
 
 .temoignages-exposants.list-articles .main-title-with-link,
@@ -1452,20 +1556,37 @@ figure {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 85rem
+    max-width: 65rem
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-desc,
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content .la-item-desc {
-    text-align: center
+    text-align: left;
+    font-style: italic;
+    margin: 0
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-title,
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content .la-item-title {
     font-size: 2.4rem;
     color: white;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    position: relative
+    font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    position: relative;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    opacity: .5;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    text-align: right;
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+.temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content {
+    margin-top: 1.7rem
 }
 
 .bloc-landing-text {
@@ -1683,13 +1804,13 @@ figure {
 }
 
 .front .zone .solution-agriculteur {
-    padding-bottom: 12rem;
+    padding: 10rem 0;
     max-width: 116rem;
     margin: 0 auto
 }
 
 .front .zone .solution-agriculteur .inside {
-    max-width: 50%
+    max-width: 100%
 }
 
 .front .zone .solution-agriculteur .inside h2 {
@@ -1699,27 +1820,18 @@ figure {
     line-height: 5.5rem
 }
 
-.front .zone .solution-agriculteur .inside p:nth-child(2) {
-    color: black;
+.front .zone .solution-agriculteur .inside .focus1 {
     font-size: 2.6rem;
     font-family: "Roboto-condensed-bold";
-    margin: 0
-}
-
-.front .zone .solution-agriculteur .inside p:nth-child(3) {
-    font-size: 1.8rem;
-    color: black;
-    font-family: "Roboto-condensed-bold";
-    margin: 0
+    margin: 0.8rem 0 2rem 0 !important
 }
 
 .front .zone .solution-agriculteur .inside .edito-item-btn {
     background: #A54A35;
-    padding: 1.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute
+    padding: 2rem 2.5rem;
+    display: inline-block;
+    position: relative;
+    margin-top: 3rem
 }
 
 .front .zone .solution-agriculteur .inside .edito-item-btn a {
@@ -1740,20 +1852,60 @@ figure {
     padding-bottom: 5rem
 }
 
+.front .zone .salon-innovation+.list-articles .inside {
+    padding: 6rem 0 !important
+}
+
+.front .zone .salon-innovation+.list-articles img {
+    width: 38.5rem;
+    height: 38.5rem
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item {
+    margin-right: 2rem
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item a:hover .gla-btn-read-more {
+    color: #fff !important;
+    background-color: #252525
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item a:hover .gla-item-title {
+    color: #252525 !important
+}
+
+.front .zone .salon-innovation+.list-articles .grid-la-list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
 .front .zone .salon-innovation+.list-articles .gla-item-content {
     position: relative;
-    padding: 5rem 5rem 12rem 5rem
+    padding: 1rem 3rem 4rem 3rem;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-btn::before {
+    display: none
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-btn .gla-btn-read-more {
-    position: absolute;
-    bottom: 3rem;
+    position: relative;
+    color: white;
+    bottom: 0;
     background: #C94F77;
-    left: 27%;
+    left: 0;
     border: 0;
     font-size: 2rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    padding: 2rem
+    padding: 2rem 2.5rem;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-title {
@@ -1774,7 +1926,7 @@ figure {
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-desc {
-    padding-top: 2.7rem
+    padding-top: 0
 }
 
 .front .zone .salon-innovation .inside {
@@ -1818,6 +1970,38 @@ figure {
     border: 0
 }
 
+.front .zone .rendez-vous-pro .inside ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.front .zone .rendez-vous-pro .inside ul li {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    min-width: 45%;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-left: 2.5rem
+}
+
+.front .zone .rendez-vous-pro .inside ul li::before {
+    content: "";
+    display: block;
+    background-color: #FFD531;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 100px;
+    position: absolute;
+    left: 0;
+    top: 1rem
+}
+
 .front .zone .quicklinks {
     margin: 0
 }
@@ -1828,15 +2012,49 @@ figure {
     padding: 0
 }
 
-.actus .main-title-with-link .la-main-title::after {
+.actus .inside {
+    padding: 7rem 0 9rem !important
+}
+
+.actus .inside .gla-item-content {
+    position: relative;
+    left: 0;
+    padding: 1.5rem 3rem 2.5rem;
+    right: 0;
+    text-align: left;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.actus .inside .gla-item-content .gla-item-btn {
+    text-align: right;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    position: relative;
+    padding-left: 2.5rem
+}
+
+.actus .inside .main-title-with-link .la-main-title {
+    margin-top: 0;
+    position: relative
+}
+
+.actus .inside .main-title-with-link .la-main-title::after {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: #8CC63F
+    background-color: #8CC63F;
+    content: "";
+    position: absolute;
+    width: 4rem;
+    height: 0.4rem;
+    bottom: -1rem;
+    z-index: 2
 }
 
-.actus .main-title-with-link .la-main-title::before {
+.actus .inside .main-title-with-link .la-main-title::before {
     display: none
 }
 
