@@ -11,7 +11,8 @@ li {
 }
 
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    overflow-x: hidden
 }
 
 body {
@@ -19,7 +20,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 1.6rem;
     font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
-    color: #474747
+    color: #474747;
+    overflow-x: hidden
 }
 
 a {
@@ -146,6 +148,10 @@ strong {
     flex-wrap: wrap
 }
 
+.noscroll {
+    overflow: hidden
+}
+
 .site-banner .inside,
 .header-navigation .inside,
 .site-footer .inside {
@@ -220,7 +226,9 @@ h2 {
 
 .cc-cookies .cc-cookie-accept {
     background-color: white;
-    color: #252525
+    color: #252525;
+    font-weight: normal;
+    padding: 1rem 2.5rem
 }
 
 .cc-cookies .cc-cookie-accept:hover {
@@ -469,6 +477,10 @@ figure {
     background-color: #F26C4A
 }
 
+.btn.btn-orange:hover {
+    background-color: #252525
+}
+
 .btn.btn-orange.btn-orange-color-white {
     color: white
 }
@@ -486,6 +498,84 @@ figure {
     font-size: 2rem;
     color: white;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
+}
+
+.popin {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: hidden;
+    -webkit-transition: opacity .25s ease;
+    -o-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+    opacity: 0
+}
+
+.popin.popin-open {
+    opacity: 1;
+    -webkit-transition: opacity .25s ease;
+    -o-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+    visibility: visible
+}
+
+.popin.popin-video .popin-container {
+    background-color: transparent
+}
+
+.popin.popin-video .popin-container iframe {
+    width: 90rem;
+    max-width: 100%;
+    height: 51rem
+}
+
+.popin .popin-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.9);
+    z-index: 0
+}
+
+.popin .popin-container {
+    background-color: white;
+    position: relative;
+    z-index: 1
+}
+
+.popin .popin-container .popin-close {
+    color: white;
+    font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
+    text-align: right;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-size: 1.6rem;
+    padding: 1rem 0
+}
+
+.popin .popin-container .popin-close:focus,
+.popin .popin-container .popin-close:hover {
+    color: #F26C4A
 }
 
 .site-banner {
@@ -537,7 +627,7 @@ figure {
 }
 
 .site-banner>.inside .nav-left p strong {
-    color: black;
+    color: #252525;
     font-family: "Open-sans-bold", Helvetica, Arial, sans-serif
 }
 
@@ -599,7 +689,7 @@ figure {
 .site-banner>.inside ul.ql-list.unstyled .btn-primary {
     background: none;
     border: none;
-    color: black;
+    color: #252525;
     font-size: 1.5rem;
     padding: 0;
     margin-right: 1.9rem;
@@ -629,7 +719,7 @@ figure {
 }
 
 .site-banner>.inside .not-logged a {
-    color: black
+    color: #252525
 }
 
 .site-banner>.inside .not-logged .widget-text {
@@ -686,7 +776,7 @@ figure {
 }
 
 .site-banner>.inside button.gsf-trigger.js-toggle-trigger.unstyled .icon.icon-search {
-    color: black
+    color: #252525
 }
 
 .site-banner>.inside button.gsf-trigger.js-toggle-trigger.unstyled .icon.icon-search::before {
@@ -758,12 +848,13 @@ figure {
 }
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-link .mn-link-text {
-    color: black
+    color: #252525
 }
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu {
     padding-top: 4.5rem;
-    background: #FFFFFF
+    background: #FFFFFF;
+    z-index: 0
 }
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu::after {
@@ -876,7 +967,7 @@ figure {
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-link-text {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: normal;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
 
@@ -1016,7 +1107,7 @@ figure {
 }
 
 .site-footer>.inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button {
-    background: #8CC63F;
+    background-color: #8CC63F;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     padding: 2rem 3rem;
@@ -1025,6 +1116,10 @@ figure {
     right: -43.1rem;
     top: .9rem;
     text-transform: none
+}
+
+.site-footer>.inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button:hover {
+    background-color: #252525
 }
 
 .site-footer>.inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button .icon-email {
@@ -1070,8 +1165,18 @@ figure {
     margin-right: 2rem
 }
 
+.site-footer>.inside .footer-social .reseaux-green a:hover svg use {
+    fill: #252525
+}
+
 .site-footer>.inside .footer-social .reseaux-green a svg {
     height: 3rem
+}
+
+.site-footer>.inside .footer-social .reseaux-green a svg use {
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
 }
 
 .site-footer>.inside .footer-social+.edito {
@@ -1149,7 +1254,7 @@ figure {
     padding: 0;
     border: none;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    color: black;
+    color: #252525;
     font-size: 3.4rem;
     position: relative;
     display: block;
@@ -1171,7 +1276,13 @@ figure {
 .quicklinks.ip1 {
     background: #252525;
     margin: 0;
-    padding: 5rem
+    padding: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
 .quicklinks.ip1 .ql-list {
@@ -1180,10 +1291,16 @@ figure {
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end
+    justify-content: flex-end;
+    -ms-flex-preferred-size: calc(.8 * 116rem);
+    flex-basis: calc(.8 * 116rem)
 }
 
 .quicklinks.ip1 .block-title {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -ms-flex-preferred-size: calc(.2 * 116rem);
+    flex-basis: calc(.2 * 116rem);
     border: none;
     font-size: 3.4rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
@@ -1191,29 +1308,78 @@ figure {
     padding: 0;
     position: relative;
     max-width: 116rem;
-    margin: 0 auto;
-    position: absolute
+    margin: 0;
+    position: relative
 }
 
 .quicklinks.ip1 .block-title::before {
     content: "";
     position: absolute;
-    background: #8cc63f;
+    background: #8CC63F;
     width: 4rem;
     height: 0.4rem;
     bottom: -1rem
 }
 
+.quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-tractor.svg")
+}
+
+.quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-calendar.svg")
+}
+
+.quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-map.svg")
+}
+
+.quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-app.svg")
+}
+
 .quicklinks.ip1 .ql-item a.btn-primary {
+    width: 20rem;
     background: white;
     border: none;
-    color: black;
+    color: #252525;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+    margin-bottom: 0;
     -webkit-box-shadow: 0 15px 15px -10px #000000;
     box-shadow: 0 15px 15px -10px #000000;
-    font-size: 1.7rem
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    text-transform: none;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left
+}
+
+.quicklinks.ip1 .ql-item a.btn-primary:hover .txt-btn {
+    color: #8CC63F
+}
+
+.quicklinks.ip1 .ql-item a.btn-primary .txt-btn {
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+
+.quicklinks.ip1 .ql-item a.btn-primary .icon {
+    margin-right: 1rem;
+    -ms-flex-preferred-size: 4.8rem;
+    flex-basis: 4.8rem;
+    min-width: 4.8rem;
+    height: 4.8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
 }
 
 .nf-title::before {
@@ -1297,12 +1463,12 @@ figure {
 }
 
 .list-articles .inside .main-title-with-link h2 {
-    color: black;
+    color: #252525;
     font-size: 3.4rem;
     font-family: "Roboto-condensed-bold";
     position: relative;
     padding: 0;
-    margin-top: 6.7rem
+    margin-top: 0
 }
 
 .list-articles .inside .main-title-with-link h2::before {
@@ -1315,12 +1481,16 @@ figure {
 }
 
 .list-articles .inside .main-title-with-link .link-view-all {
-    background: #8CC63F;
+    background-color: #8CC63F;
     padding: 2rem 2.6rem;
     color: white;
     font-size: 2rem;
     font-family: "Roboto-condensed-bold";
     margin: 3.8rem 0 5.4rem 0
+}
+
+.list-articles .inside .main-title-with-link .link-view-all:hover {
+    background-color: #252525
 }
 
 .list-articles .inside .main-title-with-link .link-view-all i.icon:before {
@@ -1353,7 +1523,8 @@ figure {
 
 .list-articles .inside .grid-la-list .gla-item .gla-item-title {
     font-size: 2.3rem;
-    color: black
+    color: #252525;
+    font-weight: normal
 }
 
 .list-articles .inside .grid-la-list .gla-item .gla-item-desc {
@@ -1364,7 +1535,8 @@ figure {
 }
 
 .chiffres-cles {
-    margin: 10rem auto
+    padding: 8rem 0;
+    margin: 0 auto
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin {
@@ -1430,6 +1602,14 @@ figure {
 
 .chiffres-cles .nf-title {
     padding-right: 8rem
+}
+
+.chiffres-cles .nf-title.line-orange::before {
+    background-color: #F26C4A
+}
+
+.chiffres-cles .nf-title.line-green::before {
+    background-color: #8CC63F
 }
 
 .chiffres-cles .item {
@@ -1600,7 +1780,16 @@ figure {
 }
 
 .bloc-landing-text .bloc-one-btn .btn {
-    margin-right: 1.5rem
+    margin-right: 1.5rem;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.bloc-landing-text .bloc-one-btn .btn:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03)
 }
 
 .bloc-landing-text h1 {
@@ -1659,6 +1848,9 @@ figure {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1667,18 +1859,23 @@ figure {
     -ms-flex-direction: column;
     flex-direction: column;
     background: black;
-    min-width: 50%;
+    width: 50%;
     margin: 0;
     border: 0;
     background-image: url("/theme/sima2018_git_desktop/images/img-visiteur-pro.jpg");
     background-size: cover;
-    padding: 23rem;
-    background-position: center
+    background-position: center;
+    padding: 7rem;
+    min-height: 55rem
 }
 
 .article-focus .af-title {
     color: #F26C4A;
     font-weight: normal
+}
+
+.article-focus h4 {
+    display: none
 }
 
 .article-focus .btn-primary {
@@ -1688,7 +1885,16 @@ figure {
     background: #F26C4A;
     border: none;
     padding: 1.8rem 2.6rem;
-    margin-top: 3rem
+    margin-top: 2.5rem;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+
+.article-focus .btn-primary:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 .article-focus p {
@@ -1702,7 +1908,7 @@ figure {
 
 .article-focus+.article-focus {
     background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
-    background: cover
+    background-size: cover
 }
 
 .article-focus+.article-focus .btn-primary {
@@ -1715,6 +1921,101 @@ figure {
 
 .article-focus p {
     margin: 0
+}
+
+.vid-exposant {
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-vid.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto !important;
+    padding: 10rem 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+
+.vid-exposant .txt-video-exposant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.vid-exposant .txt-video-exposant .icon-play {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 2rem
+}
+
+.vid-exposant .txt-video-exposant .icon-play:hover .cercle {
+    -webkit-box-shadow: 0 0 0 1.2rem rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 1.2rem rgba(255, 255, 255, 0)
+}
+
+.vid-exposant .txt-video-exposant .icon-play .cercle {
+    width: 6.8rem;
+    height: 6.8rem;
+    border-radius: 50%;
+    background: white;
+    -webkit-box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.15);
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+
+.vid-exposant .txt-video-exposant .icon-play .arrow-right {
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+    border-left: 1.2rem solid #F26C4A
+}
+
+.vid-exposant .txt-video-exposant h2 {
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    color: #F26C4A;
+    font-size: 5.2rem;
+    line-height: 5.5rem;
+    text-transform: uppercase
+}
+
+.vid-exposant .txt-video-exposant p {
+    margin: 0;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    font-size: 3.1rem;
+    color: white;
+    margin-bottom: 3.9rem
+}
+
+.vid-exposant .txt-video-exposant .btn-orange:hover {
+    background-color: white;
+    color: #F26C4A
+}
+
+.vid-exposant .txt-video-exposant .btn-green:hover {
+    background-color: white;
+    color: #8CC63F
 }
 
 .wrapper-grid {
@@ -1732,7 +2033,7 @@ figure {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: calc(100vh - 17rem);
+    height: calc(100vh - 15rem);
     max-height: 100rem
 }
 
@@ -1828,41 +2129,78 @@ figure {
 
 .front .zone .solution-agriculteur .inside .edito-item-btn {
     background: #A54A35;
-    padding: 2rem 2.5rem;
     display: inline-block;
     position: relative;
-    margin-top: 3rem
+    margin-top: 3rem;
+    padding: 0
 }
 
 .front .zone .solution-agriculteur .inside .edito-item-btn a {
+    display: inline-block;
+    padding: 2rem 2.5rem;
     color: white;
     font-size: 2rem;
     font-family: "Roboto-condensed-bold"
 }
 
+.front .zone .solution-agriculteur .inside .edito-item-btn a:hover {
+    background-color: #252525
+}
+
 .front .zone .salon-innovation {
-    max-width: 116rem;
+    position: relative;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding-bottom: 5rem
+    display: block;
+    max-width: 116rem;
+    padding-bottom: 0;
+    background-color: white
+}
+
+.front .zone .salon-innovation::before {
+    content: "";
+    background-image: url("/theme/sima2018_git_desktop/images/bg-fabric.png");
+    width: 200vw;
+    height: 76rem;
+    position: absolute;
+    left: 0;
+    top: -30rem;
+    -webkit-transform: rotate(-10deg) translateX(-100vw);
+    -ms-transform: rotate(-10deg) translateX(-100vw);
+    transform: rotate(-10deg) translateX(-100vw)
 }
 
 .front .zone .salon-innovation+.list-articles .inside {
-    padding: 6rem 0 !important
+    padding: 0 0 10rem !important;
+    background-color: transparent
 }
 
 .front .zone .salon-innovation+.list-articles img {
-    width: 38.5rem;
-    height: 38.5rem
+    width: calc(.33334 * 116rem);
+    height: calc(.33334 * 116rem)
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item {
-    margin-right: 2rem
+    margin-right: 0;
+    width: 33.334%;
+    -ms-flex-preferred-size: 33.334%;
+    flex-basis: 33.334%
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item:nth-child(2) {
+    width: 66.667%;
+    -ms-flex-preferred-size: 66.667%;
+    flex-basis: 66.667%
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item:nth-child(2) a {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item:nth-child(2) a .gla-item-content {
+    border-top: 1px solid #E7E7E7
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item a:hover .gla-btn-read-more {
@@ -1877,16 +2215,29 @@ figure {
 .front .zone .salon-innovation+.list-articles .grid-la-list {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-color: white
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content {
     position: relative;
-    padding: 1rem 3rem 4rem 3rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 3rem 3.5rem 3rem 3.5rem;
     bottom: 0;
     left: 0;
     top: 0;
-    right: 0
+    right: 0;
+    height: calc(.33334 * 116rem);
+    width: calc(.33334 * 116rem)
+}
+
+.front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-btn {
+    margin-top: 0
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-btn::before {
@@ -1902,7 +2253,7 @@ figure {
     border: 0;
     font-size: 2rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 2.8rem;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s
@@ -1910,9 +2261,11 @@ figure {
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-title {
     font-size: 3.4rem;
+    line-height: 4rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     position: relative;
-    padding-bottom: 2.7rem
+    padding-bottom: 2.2rem;
+    margin: 0
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-title:before {
@@ -1926,11 +2279,28 @@ figure {
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item-content .gla-item-desc {
-    padding-top: 0
+    padding-top: 0;
+    margin-bottom: 2rem
 }
 
 .front .zone .salon-innovation .inside {
-    max-width: 50%
+    max-width: calc(.66667 * 116rem);
+    height: calc(.33334 * 116rem);
+    margin-bottom: calc(.33334 * (-116rem));
+    background-color: white;
+    padding: 5rem 7rem !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto
 }
 
 .front .zone .salon-innovation .inside h2 {
@@ -1938,11 +2308,13 @@ figure {
     color: #C94F77;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     line-height: 5.5rem;
-    text-align: right
+    text-align: right;
+    text-transform: uppercase;
+    padding-left: 8.5rem
 }
 
 .front .zone .salon-innovation .inside p:nth-child(2) {
-    color: black;
+    color: #252525;
     font-size: 2.6rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     margin: 0;
@@ -2058,11 +2430,19 @@ figure {
     display: none
 }
 
-.content374293 main .zone .background-exposant {
+.content374293 main .zone .landing-exposant {
+    padding: 0 2rem 2rem 2rem;
+    height: calc(100vh - 15rem);
+    max-height: 100rem
+}
+
+.content374293 main .zone .landing-exposant .background-exposant {
+    position: relative;
     background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant.jpg");
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 12rem);
+    overflow: hidden;
+    height: 100%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2070,7 +2450,31 @@ figure {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 15%
+    padding: 5% 8%;
+    z-index: 0
+}
+
+.content374293 main .zone .landing-exposant .background-exposant h1 {
+    text-align: right;
+    margin-bottom: 1rem
+}
+
+.content374293 main .zone .landing-exposant .background-exposant .bloc-landing-text {
+    position: relative;
+    left: 6%;
+    z-index: 1
+}
+
+.content374293 main .zone .landing-exposant .background-exposant .bloc-landing-text p.desc {
+    border-color: #F26C4A
+}
+
+.content374293 main .zone .chiffres-cles {
+    background-color: #F4F4F4
+}
+
+.content374293 main .zone .chiffres-cles .number {
+    line-height: 4rem
 }
 
 .content374293 main .zone .edito {
@@ -2082,13 +2486,14 @@ figure {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-bottom: 10rem
+    margin-bottom: 10rem;
+    margin-top: 10rem
 }
 
 .content374293 main .zone .edito .block-title {
     font-size: 5.2rem;
     color: #F26C4A;
-    font-family: "Roboto-condensed-bold";
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     text-align: center;
     line-height: 5.5rem;
     text-transform: uppercase;
@@ -2108,13 +2513,13 @@ figure {
 .content374293 main .zone .edito .focus1 {
     text-align: center;
     margin-top: 5rem;
-    color: black;
-    font-family: "Roboto-condensed-bold";
+    color: #252525;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 2.6rem
 }
 
 .content374293 main .zone .edito p:nth-child(3) {
-    font-family: "Roboto-condensed-bold";
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     color: #555555
 }
@@ -2125,95 +2530,27 @@ figure {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    margin-top: 3rem
 }
 
 .content374293 main .zone .edito .edito-item-btn .link-read-more {
     font-size: 2rem;
     color: white;
-    font-family: "Roboto-condensed-bold";
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     background: #F26C4A;
-    padding: 1.5rem
+    padding: 1.8rem 3.2rem
 }
 
-.content374293 main .zone .vid-exposant {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-vid.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 56.4rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center
-}
-
-.content374293 main .zone .vid-exposant .txt-video-exposant {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.content374293 main .zone .vid-exposant .txt-video-exposant .icon-play {
-    margin-bottom: 1rem;
-    position: relative;
-    cursor: pointer
-}
-
-.content374293 main .zone .vid-exposant .txt-video-exposant .icon-play .cercle {
-    width: 6.8rem;
-    height: 6.8rem;
-    border-radius: 50%;
-    background: white
-}
-
-.content374293 main .zone .vid-exposant .txt-video-exposant .icon-play .arrow-right {
-    position: absolute;
-    left: 55%;
-    top: 37%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-top: 1rem solid transparent;
-    border-bottom: 1rem solid transparent;
-    border-left: 1.6rem solid #F26C4A
-}
-
-.content374293 main .zone .vid-exposant .txt-video-exposant h2 {
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    color: #F26C4A;
-    font-size: 5.2rem;
-    line-height: 5.5rem;
-    text-transform: uppercase
-}
-
-.content374293 main .zone .vid-exposant .txt-video-exposant p {
-    margin: 0;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    font-size: 3.1rem;
-    color: white;
-    margin-bottom: 3.9rem
+.content374293 main .zone .edito .edito-item-btn .link-read-more:hover {
+    background-color: #252525
 }
 
 .content374293 main .zone .soyez-present {
     background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-present.jpg");
     background-size: cover;
     background-position: center;
-    padding-bottom: 67rem
+    padding-bottom: 13rem
 }
 
 .content374293 main .zone .soyez-present .txt-exposant {
@@ -2232,15 +2569,15 @@ figure {
 .content374293 main .zone .soyez-present .txt-exposant h2 {
     color: #F26C4A;
     font-size: 5.2rem;
-    font-family: "Roboto-condensed-bold";
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     margin-top: 13.4rem
 }
 
 .content374293 main .zone .soyez-present .txt-exposant p:nth-child(2) {
     font-size: 2.6rem;
-    color: black;
+    color: #252525;
     text-align: center;
-    margin: 0 0 4rem 0;
+    margin: 0 0 -3rem 0;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
 
@@ -2264,19 +2601,19 @@ figure {
 .content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-txt {
     font-size: 1.9rem;
     line-height: 2.5rem;
-    width: 33rem;
+    width: 40rem;
     text-align: right;
-    margin-right: 1.7rem
+    margin-right: 2rem
 }
 
 .content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar {
     color: white;
     position: relative;
     background-color: transparent;
-    font-family: "Roboto-slab-bold", sans-serif;
-    font-size: 3.2rem;
-    line-height: 4.5rem;
-    width: 33rem;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    width: 40rem;
     text-align: left;
     padding-left: 1.2rem
 }
@@ -2290,7 +2627,7 @@ figure {
 .content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .chart-row-percent {
     z-index: 0;
     background-color: #F26C4A;
-    height: 5.5rem;
+    height: 4.7rem;
     margin-top: -0.5rem;
     position: absolute;
     left: 0;
@@ -2323,7 +2660,7 @@ figure {
 
 .content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
     font-size: 4.2rem;
-    font-family: "Roboto-slab-bold", sans-serif;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     color: #252525;
     position: absolute;
     top: 4rem;
@@ -2368,7 +2705,7 @@ figure {
 .content374293 main .zone .inscription .txt-inscription h2 {
     color: #F26C4A;
     font-size: 5.2rem;
-    font-family: "Roboto-condensed-bold";
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     max-width: 32rem;
     line-height: 5.5rem;
     margin-bottom: 3rem;
@@ -2378,8 +2715,8 @@ figure {
 
 .content374293 main .zone .inscription .txt-inscription p:nth-child(2) {
     font-size: 2.6rem;
-    color: black;
-    font-family: "Roboto-condensed-bold";
+    color: #252525;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     margin-bottom: 3rem
 }
 
@@ -2426,9 +2763,83 @@ figure {
 .content374293 main .zone .article-focus h4 {
     font-size: 5.4rem;
     color: white;
-    font-family: "Roboto-condensed-bold";
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     text-align: center;
     margin: 0
+}
+
+.content374293 main .inscription {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin: 8rem 0 8rem 0;
+    padding: 11rem 0 7rem 40%;
+    width: 200%;
+    background-image: url("/theme/sima2018_git_desktop/images/bg-fabric.png");
+    -webkit-transform: translateX(-35%) rotate(-10deg);
+    -ms-transform: translateX(-35%) rotate(-10deg);
+    transform: translateX(-35%) rotate(-10deg)
+}
+
+.content374293 main .inscription .inside {
+    max-width: 116rem;
+    margin: 0 auto
+}
+
+.content374293 main .inscription .inside .txt-inscription {
+    width: 50%;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg)
+}
+
+.content374293 main .inscription .inside .txt-inscription .btn {
+    margin-top: 3rem
+}
+
+.content374293 main .inscription .inside .txt-inscription h2 {
+    color: #F26C4A;
+    font-size: 5.2rem;
+    line-height: 5.6rem;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+
+.content374293 main .inscription .inside .txt-inscription h4 {
+    color: #252525;
+    font-size: 2.6rem;
+    margin: 1rem 0
+}
+
+.content374293 main .inscription .inside .txt-inscription p {
+    line-height: 3.6rem
+}
+
+.content374293 main .inscription .deco-img {
+    position: absolute;
+    background-color: red;
+    width: 40%;
+    height: 250%;
+    top: 50%;
+    right: 3%;
+    -webkit-transform: rotate(35deg) translateX(0%) translateY(-30%);
+    -ms-transform: rotate(35deg) translateX(0%) translateY(-30%);
+    transform: rotate(35deg) translateX(0%) translateY(-30%);
+    overflow: hidden
+}
+
+.content374293 main .inscription .deco-img .img {
+    width: 60vw;
+    height: 100%;
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    background-image: url(/theme/sima2018_git_desktop/images/img-inscription.jpg);
+    background-size: cover;
+    background-position: center;
+    left: -20%;
+    position: absolute;
+    top: 0
 }
 
 .content374293 main .article-focus {
@@ -2439,18 +2850,23 @@ figure {
 }
 
 .content374293 main .list-articles {
-    max-width: 116rem;
-    margin: 0 auto
+    max-width: none;
+    margin: 0 auto;
+    position: relative
 }
 
 .content374293 main .list-articles>.inside {
-    width: 100%
+    width: 100%;
+    padding: 10rem 0 !important;
+    background: transparent
 }
 
 .content374293 main .list-articles>.inside h2.la-main-title {
     font-size: 5.2rem;
     color: #F26C4A;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
+    text-align: left;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    margin-bottom: 10rem
 }
 
 .content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list {
@@ -2460,7 +2876,156 @@ figure {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
+    max-width: 105rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item {
+    position: relative;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item::before {
+    content: "";
+    display: block;
+    z-index: 0;
+    position: absolute;
+    left: -3rem;
+    top: -3rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #F26C4A
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even)::before {
+    left: auto;
+    right: -3rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a .gla-item-content {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a img {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: relative
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a img {
+    min-width: 45rem;
+    width: 45rem;
+    -ms-flex-preferred-size: 45rem;
+    flex-basis: 45rem;
+    height: 34.8rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    bottom: auto;
+    left: 0;
+    top: 0;
+    right: auto;
+    padding: 0 6rem;
+    text-align: left
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-title {
+    font-size: 3.6rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
+    font-size: 1.8rem;
+    line-height: 3.2rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
+    margin-top: 0
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn::before {
+    display: none
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more {
+    font-size: 2rem;
+    border: 2px solid #E7E7E7;
+    padding: 1.8rem 3.5rem
+}
+
+.content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more:hover {
+    background-color: transparent;
+    color: #252525
+}
+
+.content374293 .quicklinks.ip1 .block-title::before {
+    background-color: #F26C4A
+}
+
+.content374293 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-tractor-orange.svg")
+}
+
+.content374293 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-calendar-orange.svg")
+}
+
+.content374293 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-map-orange.svg")
+}
+
+.content374293 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
+    background-image: url("/theme/sima2018_git_desktop/images/icon-app-orange.svg")
+}
+
+.content374293 .quicklinks.ip1 .ql-item a:hover .txt-btn {
+    color: #F26C4A
+}
+
+.content374293 .list-articles .inside .main-title-with-link h2::before,
+.content374293 .nf-title::before,
+.content374293 .site-footer>.inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button {
+    background-color: #F26C4A !important
+}
+
+.content374293 .site-footer>.inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button:hover {
+    background-color: #252525 !important
+}
+
+.content374293 .site-footer>.inside .footer-social .reseaux-green a:hover svg use {
+    fill: #252525
+}
+
+.content374293 .site-footer>.inside .footer-social .reseaux-green a svg use {
+    fill: #F26C4A;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.content374293 .gla-item>a:hover .gla-item-content .gla-btn-read-more,
+.content374293 .gla-item>a:hover .gla-item-content .gla-item-title,
+.content374293 .gla-item>a:focus .gla-item-content .gla-btn-read-more,
+.content374293 .gla-item>a:focus .gla-item-content .gla-item-title {
+    color: #F26C4A !important
 }
 
 .content228663 {
@@ -3343,7 +3908,7 @@ figure {
 }
 
 .content228663 .mod-catal .catal-ex-item-title a {
-    color: black;
+    color: #252525;
     font-size: 4rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
