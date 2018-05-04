@@ -2210,6 +2210,79 @@ figure {
     color: #8CC63F
 }
 
+.international .inside {
+    max-width: 116rem;
+    margin: 0 auto;
+    padding: 8rem 0 !important;
+    background-image: url("/theme/sima2018_git_desktop/images/sima-map.png");
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.international .inside .title {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.international .inside .title h3 {
+    font-size: 5.2rem;
+    line-height: 5.2rem;
+    color: #8CC63F;
+    text-transform: uppercase;
+    margin: 0
+}
+
+.international .inside .title h3::after {
+    display: inline-block;
+    background-color: #8CC63F;
+    width: 5rem;
+    height: .5rem;
+    margin-left: 2rem;
+    content: "";
+    vertical-align: middle
+}
+
+.international .inside .title .subtitle {
+    font-size: 2.6rem;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    color: #252525;
+    margin: 0
+}
+
+.international .inside .sima-list {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.international .inside .sima-list a {
+    display: inline-block;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+
+.international .inside .sima-list a:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03)
+}
+
 .wrapper-grid {
     padding: 0 2rem 2rem 2rem;
     display: -ms-grid;
@@ -2881,43 +2954,6 @@ figure {
     text-transform: uppercase
 }
 
-.content374293 main .zone .inscription {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-inscription.png");
-    background-size: cover;
-    background-position: center;
-    height: 110rem
-}
-
-.content374293 main .zone .inscription .txt-inscription {
-    padding-top: 45rem;
-    max-width: 116rem;
-    margin: 0 auto
-}
-
-.content374293 main .zone .inscription .txt-inscription h2 {
-    color: #F26C4A;
-    font-size: 5.2rem;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    max-width: 32rem;
-    line-height: 5.5rem;
-    margin-bottom: 3rem;
-    text-transform: uppercase;
-    position: relative
-}
-
-.content374293 main .zone .inscription .txt-inscription p:nth-child(2) {
-    font-size: 2.6rem;
-    color: #252525;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
-    margin-bottom: 3rem
-}
-
-.content374293 main .zone .inscription .txt-inscription p:nth-child(3) {
-    margin: 0;
-    max-width: 54.3rem;
-    margin-bottom: 3rem
-}
-
 .content374293 main .zone .article-focus {
     background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
     background-size: cover;
@@ -2942,13 +2978,13 @@ figure {
 }
 
 .content374293 main .zone .article-focus .af-title {
-    color: white;
+    color: #F26C4A;
     text-align: center
 }
 
 .content374293 main .zone .article-focus p {
-    font-size: 2.1rem;
-    color: #F26C4A;
+    font-size: 5.4rem;
+    color: white;
     text-align: center
 }
 
@@ -3218,6 +3254,14 @@ figure {
 .content374293 .gla-item>a:focus .gla-item-content .gla-btn-read-more,
 .content374293 .gla-item>a:focus .gla-item-content .gla-item-title {
     color: #F26C4A !important
+}
+
+.content374293 .international .inside .title h3 {
+    color: #F26C4A
+}
+
+.content374293 .international .inside .title h3::after {
+    background-color: #F26C4A
 }
 
 .content228663 {
