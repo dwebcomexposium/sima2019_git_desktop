@@ -401,11 +401,11 @@ figure {
 }
 
 .article_list #main::before {
-    display: none
+    display: none !important
 }
 
 .article_list .gla-item {
-    margin-bottom: 5rem
+    margin-bottom: 5rem !important
 }
 
 .article_list .list-articles .inside {
@@ -414,7 +414,8 @@ figure {
 
 .article_list .list-articles .inside .main-title {
     margin-bottom: 0.5rem;
-    color: #8CC63F
+    color: #8CC63F;
+    font-size: 5.2rem
 }
 
 .article_list .list-articles .inside .intro {
@@ -423,7 +424,11 @@ figure {
 
 .article_list .list-articles .inside .intro p {
     margin-top: 0.5rem;
-    margin-bottom: 3rem
+    margin-bottom: 4rem
+}
+
+.article_list .list-articles .inside .intro p:first-child {
+    margin-bottom: 0
 }
 
 .article_list .list-articles .inside .intro p a {
