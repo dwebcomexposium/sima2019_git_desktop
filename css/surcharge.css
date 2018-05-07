@@ -396,6 +396,65 @@ figure {
     min-height: 0
 }
 
+.article_list #main {
+    background-color: #f4f4f4
+}
+
+.article_list #main::before {
+    display: none
+}
+
+.article_list .gla-item {
+    margin-bottom: 5rem
+}
+
+.article_list .list-articles .inside {
+    background-color: transparent
+}
+
+.article_list .list-articles .inside .main-title {
+    margin-bottom: 0.5rem;
+    color: #8CC63F
+}
+
+.article_list .list-articles .inside .intro {
+    text-align: center
+}
+
+.article_list .list-articles .inside .intro p {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem
+}
+
+.article_list .list-articles .inside .intro p a {
+    color: #8CC63F;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    display: inline-block
+}
+
+.article_list .list-articles .inside .intro p a:hover {
+    opacity: 1
+}
+
+.gla-item-content {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 0rem;
+    height: 100%
+}
+
+.gla-item-content .gla-item-btn::before {
+    display: none
+}
+
 .gla-item-content .gla-item-btn {
     margin-top: auto;
     -webkit-box-ordinal-group: 4;
@@ -531,6 +590,10 @@ figure {
 
 .mod-catal .icon-catal-long-arrow-right:before {
     content: ""
+}
+
+.an-item-publication {
+    display: none
 }
 
 .btn {
@@ -5420,6 +5483,14 @@ figure {
     color: black
 }
 
+h1.main-title {
+    font-size: 5.2rem;
+    margin-top: 5rem;
+    color: white;
+    line-height: 5.6rem;
+    margin-bottom: 2.5rem
+}
+
 .body-corpo:not(.front):not(.content374293):not(.exposant) #main::before {
     content: "";
     display: block;
@@ -5478,15 +5549,17 @@ figure {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content a.externe {
-    background: #8CC63F;
-    padding: 1.4rem 2.8rem;
-    color: white;
+    background: transparent;
+    padding: 0;
+    color: #8CC63F;
     margin-top: 0.5rem;
-    display: inline-block
+    display: inline;
+    text-decoration: underline
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content a.externe:hover {
-    background-color: #252525
+    background-color: transparent;
+    text-decoration: none
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content h2 {
@@ -5658,12 +5731,14 @@ figure {
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a {
     color: white;
     background: #8CC63F;
-    padding: 1.4rem 2.8rem
+    padding: 1.4rem 2.8rem;
+    text-decoration: none
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a:focus,
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover {
-    text-decoration: none
+    text-decoration: none;
+    background-color: #252525
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus2 {
@@ -5905,7 +5980,7 @@ figure {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
-    max-width: 40rem;
+    max-width: none;
     max-height: 26.4rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5919,11 +5994,14 @@ figure {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a .an-item-content {
     width: 100%;
-    background: #8CC63F;
+    padding: 1.5rem 2rem;
+    background: rgba(140, 198, 33, 0.9);
     font-size: 2.1rem;
     color: white;
     position: absolute;
-    bottom: 0
+    bottom: 0;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a img {
@@ -5932,10 +6010,10 @@ figure {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-previous a .an-item-content {
     text-align: left;
-    padding-left: 4.3rem
+    padding-left: 2rem
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-next a .an-item-content {
     text-align: right;
-    padding-right: 4.3rem
+    padding-right: 2rem
 }
