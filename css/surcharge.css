@@ -457,7 +457,7 @@ figure {
 }
 
 .gla-item-content .gla-item-btn::before {
-    display: none
+    display: none !important
 }
 
 .gla-item-content .gla-item-btn {
