@@ -3214,6 +3214,12 @@ figure {
     border-top: 1px solid #E7E7E7
 }
 
+.front .zone .salon-innovation+.list-articles .gla-item a:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
 .front .zone .salon-innovation+.list-articles .gla-item a:hover .gla-btn-read-more {
     color: #fff !important;
     background-position: 0 100%
