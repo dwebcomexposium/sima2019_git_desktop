@@ -601,6 +601,11 @@ figure {
     display: none
 }
 
+.at-publication,
+.at-illust+.at-content>.at-theme {
+    display: none
+}
+
 .btn {
     padding: 2rem 3rem;
     min-width: 16rem;
@@ -1474,21 +1479,23 @@ figure {
     margin: 0 auto
 }
 
-.site-footer>.inside .quicklinks .ql-list .linkid385396 {
+.site-footer>.inside .quicklinks .ql-list .linkid385396 a {
     background-image: url("/theme/sima2018_git_desktop/images/logo-comexposium.svg");
     text-indent: -500rem;
     width: 17.9rem;
     height: 4.9rem;
-    margin: 0 0 0 auto
+    margin: 0 0 0 auto;
+    display: block
 }
 
-.site-footer>.inside .quicklinks .ql-list .linkid385403 {
+.site-footer>.inside .quicklinks .ql-list .linkid385403 a {
     background-image: url("/theme/sima2018_git_desktop/images/logo-axema.svg");
     background-size: cover;
     text-indent: -500rem;
     margin: 0 !important;
     width: 12rem;
-    height: 8.5rem
+    height: 8.5rem;
+    display: block
 }
 
 .site-footer>.inside .quicklinks .ql-list .ql-item a.btn-primary {
@@ -2610,6 +2617,35 @@ figure {
     margin: 0 auto
 }
 
+.breadcrumb-nav {
+    margin-bottom: 0;
+    padding-top: 5rem
+}
+
+.breadcrumb-nav .bn-item:last-child::after {
+    display: none
+}
+
+.breadcrumb-nav .bn-item::after {
+    content: "/";
+    margin: 0 0.3rem;
+    font-size: 1.4rem;
+    color: white
+}
+
+.breadcrumb-nav .bn-item .icon {
+    display: none
+}
+
+.breadcrumb-nav .bn-item .bn-item-link {
+    color: white;
+    font-size: 1.2rem
+}
+
+.breadcrumb-nav .bn-item .bn-item-link:hover {
+    text-decoration: underline
+}
+
 .wrapper-grid {
     padding: 0 2rem 2rem 2rem;
     display: -ms-grid;
@@ -3626,7 +3662,34 @@ figure {
 }
 
 .content228663 {
-    background: #f4f4f4
+    background: transparent
+}
+
+.content228663 #main::before {
+    content: "";
+    display: block;
+    background-color: black;
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+    position: absolute;
+    left: 0;
+    height: 53.5rem;
+    background-image: url(/theme/sima2018_git_desktop/images/bg-general.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.content228663 #main .site-wrapper.wrapper {
+    background: transparent
+}
+
+.content228663 h1 {
+    font-size: 5.2rem;
+    color: white;
+    line-height: 5.6rem;
+    max-width: 116rem;
+    margin: 5rem auto 2.5rem auto;
+    padding-top: 6.8rem
 }
 
 .content229148 .layout-2-col {
@@ -3635,7 +3698,7 @@ figure {
 }
 
 .mod-catal .esf-form-zone {
-    max-width: 108rem;
+    max-width: 116rem;
     margin: 0 auto;
     margin-bottom: 4rem;
     border: 0 none;
@@ -3694,8 +3757,8 @@ figure {
 }
 
 .mod-catal .esf-search-line .form-select select.is-small {
-    font-size: 2rem;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
     color: #6e6e6e;
     cursor: pointer
 }
@@ -4139,8 +4202,8 @@ figure {
 }
 
 .mod-catal .catal-ex-item-img {
-    width: 296px;
-    background-color: #F4F4F4
+    width: 226px;
+    background-color: transparent
 }
 
 .mod-catal .catal-ex-item-title {
@@ -4220,7 +4283,7 @@ figure {
 .mod-catal .catal-ex-item {
     border-bottom: 1px solid #e2e2e2;
     margin: 0px 0px;
-    padding: 12rem 3.5rem;
+    padding: 5rem;
     background: white
 }
 
@@ -4242,7 +4305,20 @@ figure {
 .mod-catal .catal-ex-item:nth-child(2) {
     background: white;
     border: 0.2rem solid #F26C4A;
-    color: #6e6e6e
+    color: #6e6e6e;
+    position: relative
+}
+
+.mod-catal .catal-ex-item:nth-child(2)::after {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    background-color: #F26C4A;
+    content: "EXPOSANT SPONSORISÉ";
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    color: white
 }
 
 .mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-country {
@@ -4265,9 +4341,10 @@ figure {
 }
 
 .mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-txt {
-    font-size: 2.3rem;
-    font-family: "Roboto-condensed-regular", Helvetica, Arial, sans-serif;
-    line-height: 2.7rem
+    font-size: 1.7rem;
+    font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
+    line-height: 3rem;
+    color: #252525
 }
 
 .mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-stand-title {
@@ -4674,7 +4751,7 @@ figure {
 .mod-catal .catal-ex-item.is-premium .mod-catal .catal-ex-item {
     border-bottom: 1px solid #e2e2e2;
     margin: 0px 0px;
-    padding: 12rem 3.5rem;
+    padding: 5rem;
     background: white
 }
 
@@ -5164,7 +5241,7 @@ figure {
 .mod-catal .esf-results-zone {
     border-bottom: 0 none;
     background: #F26C4A;
-    max-width: 1200px;
+    max-width: 116rem;
     margin: 0 auto
 }
 
@@ -5691,10 +5768,10 @@ h1.main-title {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-title>.inside h1 {
     font-size: 5.2rem;
-    margin-top: 5rem;
+    margin-top: 0;
     color: white;
     line-height: 5.6rem;
-    margin-bottom: 2.5rem
+    margin-bottom: 3rem
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content p.important1:nth-child(2) {
@@ -5823,6 +5900,7 @@ h1.main-title {
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content figure.fr small {
     position: absolute;
     bottom: -2rem;
+    left: 0;
     opacity: 0.6;
     font-size: 1rem;
     font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
@@ -5884,15 +5962,19 @@ h1.main-title {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a {
     color: white;
-    background: #8CC63F;
-    padding: 1.4rem 2.8rem;
-    text-decoration: none
+    padding: 1.8rem 2.8rem;
+    text-decoration: none;
+    background-size: 100% 200%;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8CC63F), color-stop(50%, #252525));
+    background-image: -webkit-linear-gradient(top, #8CC63F 50%, #252525 50%);
+    background-image: -o-linear-gradient(top, #8CC63F 50%, #252525 50%);
+    background-image: linear-gradient(to bottom, #8CC63F 50%, #252525 50%)
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a:focus,
-.body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover {
-    text-decoration: none;
-    background-color: #252525
+.body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover,
+.body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus1 a:focus {
+    background-position: 0 100%;
+    text-decoration: none
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus2 {
@@ -5901,7 +5983,7 @@ h1.main-title {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2,
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe {
-    padding: 1.4rem 2.8rem;
+    padding: 1.8rem 2.8rem;
     font-size: 1.3rem;
     color: black;
     border: 3px solid #e4e4e4;
@@ -5935,17 +6017,10 @@ h1.main-title {
     color: white;
     text-transform: none;
     text-decoration: none;
-    border: 0 none
-}
-
-.body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip::before {
-    content: "";
-    background: url("/theme/sima2018_git_desktop/images/icon-pdf.svg");
-    position: absolute;
-    width: 2.5rem;
-    height: 2.5rem;
-    top: 2rem;
-    left: 2.6rem
+    border: 0 none;
+    margin-top: 2rem;
+    display: inline-block;
+    position: relative
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus,
@@ -5966,16 +6041,21 @@ h1.main-title {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
+    font-size: 1.6rem;
     color: #000;
     text-decoration: none;
     position: relative;
-    border: 2px solid #e4e4e4;
-    padding: 2rem 3rem 2rem 6rem
+    border: 3px solid #e4e4e4;
+    padding: 2rem 3rem 2rem 6rem;
+    background-image: url("/theme/sima2018_git_desktop/images/icon-pdf.svg");
+    background-repeat: no-repeat;
+    background-position: left 2.5rem center
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:focus,
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
-    background: #e4e4e4
+    background-color: #e4e4e4;
+    background-position: left 2.5rem center
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant) .site-wrapper .zone .article-content ul li::before {
@@ -6281,4 +6361,79 @@ h1.main-title {
 
 .stands .stand.premium .stand-content ul li::before {
     background-color: #F26C4A !important
+}
+
+.content384937 .site-wrapper {
+    max-width: 116rem !important
+}
+
+.content384937 .site-wrapper .main-title-with-link h2 {
+    color: #252525;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3rem;
+    float: none
+}
+
+.content384937 .site-wrapper .main-title-with-link h2::after {
+    content: "";
+    background-color: #F26C4A;
+    width: 4rem;
+    height: .3rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -2rem;
+    bottom: -1rem
+}
+
+.content384937 .site-wrapper .partner {
+    padding: 6rem 0;
+    background-color: #F4F4F4
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group {
+    text-align: center
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item {
+    width: 21%;
+    border-bottom: 0 none;
+    margin: 1.5% 1.5%
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item .pg-item-link {
+    background: white;
+    display: block;
+    padding: 4rem;
+    -webkit-box-shadow: inset 0 0 20px rgba(242, 108, 74, 0), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 20px rgba(242, 108, 74, 0), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
+    outline: 2px solid;
+    outline-color: rgba(242, 108, 74, 0);
+    outline-offset: 0rem;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    border: 2px solid rgba(242, 108, 74, 0)
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
+    -webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
+    outline-color: rgba(242, 108, 74, 0.4);
+    outline-offset: 1.4rem;
+    border: 2px solid #f26c4a
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust {
+    height: auto;
+    margin-bottom: 0
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img {
+    max-height: none;
+    max-width: 100%
+}
+
+.content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
+    display: none
 }
