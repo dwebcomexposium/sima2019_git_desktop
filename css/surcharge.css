@@ -691,7 +691,7 @@ figure {
     position: relative
 }
 
-.content229148 .mod-catal.catal-other-ex h2 {
+.exhibitor-details .mod-catal.catal-other-ex h2 {
     border: 0
 }
 
@@ -3042,7 +3042,8 @@ figure {
 }
 
 .breadcrumb-nav {
-    margin-bottom: 0;
+    max-width: 116rem;
+    margin: 0 auto;
     padding-top: 5rem
 }
 
@@ -4278,7 +4279,7 @@ body.exposer #main .site-wrapper {
     margin: 0 2rem;
     position: absolute;
     left: 0;
-    height: 53.5rem;
+    height: 35rem;
     background-image: url(/theme/sima2018_git_desktop/images/bg-general.jpg);
     background-size: cover;
     background-position: center
@@ -4294,10 +4295,10 @@ body.exposer #main .site-wrapper {
     line-height: 5.6rem;
     max-width: 116rem;
     margin: 5rem auto 2.5rem auto;
-    padding-top: 6.8rem
+    padding-top: 1rem
 }
 
-.content229148 .layout-2-col {
+.exhibitor-details .layout-2-col {
     max-width: 116rem;
     margin: 0 auto
 }
@@ -4920,14 +4921,14 @@ body.exposer #main .site-wrapper {
     font-family: "Roboto-condensed-regular", Helvetica, Arial, sans-serif
 }
 
-.mod-catal .catal-ex-item:nth-child(2) {
+.mod-catal .catal-ex-item.is-premium {
     background: white;
     border: 0.2rem solid #F26C4A;
     color: #6e6e6e;
     position: relative
 }
 
-.mod-catal .catal-ex-item:nth-child(2)::after {
+.mod-catal .catal-ex-item.is-premium::after {
     position: absolute;
     display: block;
     right: 0;
@@ -4939,38 +4940,38 @@ body.exposer #main .site-wrapper {
     color: white
 }
 
-.mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-country {
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-country {
     color: #6e6e6e
 }
 
-.mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-stand-title {
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-title {
     color: #6e6e6e
 }
 
-.mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-title a {
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
     font-size: 5.2rem;
     color: #F26C4A;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
 
-.mod-catal .catal-ex-item:nth-child(2) p {
+.mod-catal .catal-ex-item.is-premium p {
     font-size: 2.3rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
 
-.mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-txt {
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-txt {
     font-size: 1.7rem;
     font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
     line-height: 3rem;
     color: #252525
 }
 
-.mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-stand-title {
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-title {
     font-size: 1.8rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
 
-.mod-catal .catal-ex-item:nth-child(2) .catal-ex-item-stand-item {
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-item {
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     color: #F26C4A
@@ -6140,11 +6141,27 @@ body.exposer #main .site-wrapper {
     background: transparent
 }
 
-.content229148 {
-    background: white !important
+.exhibitor-details {
+    background: #f4f4f4 !important
 }
 
-.content229148 .catal-ed-group-title h2 {
+.exhibitor-details .site-wrapper.wrapper::before {
+    content: "";
+    display: block;
+    background-color: black;
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 36rem;
+    background-image: url(/theme/sima2018_git_desktop/images/bg-min-1.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1
+}
+
+.exhibitor-details .catal-ed-group-title h2 {
     color: #F26C4A;
     font-size: 4.4rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
@@ -6152,7 +6169,7 @@ body.exposer #main .site-wrapper {
     padding-left: 6.2rem
 }
 
-.content229148 .catal-ed-group-title h2::before {
+.exhibitor-details .catal-ed-group-title h2::before {
     content: "";
     position: absolute;
     background: #F26C4A;
@@ -6162,45 +6179,45 @@ body.exposer #main .site-wrapper {
     left: 0%
 }
 
-.content229148 .mod-catal.catal-nav-affix {
+.exhibitor-details .mod-catal.catal-nav-affix {
     margin-top: -0.9rem;
     border: 1px solid #e3e9ea
 }
 
-.content229148 .mod-catal .catal-ed-activity .catal-ed-activity-link:focus,
-.content229148 .mod-catal .catal-ed-activity .catal-ed-activity-link:active,
-.content229148 .mod-catal .catal-ed-activity .catal-ed-activity-link:hover {
+.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:focus,
+.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:active,
+.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hover {
     background-color: #A54A35;
     color: white
 }
 
-.content229148 .mod-catal.catal-nav-affix .catal-nav-affix-link:focus:before,
-.content229148 .mod-catal.catal-nav-affix .catal-nav-affix-link:hover:before,
-.content229148 .mod-catal.catal-nav-affix .current .catal-nav-affix-link:before,
-.content229148 .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before,
-.content229148 .mod-catal.catal-nav-affix .catal-nav-affix-link:focus:after,
-.content229148 .mod-catal.catal-nav-affix .catal-nav-affix-link:hover:after,
-.content229148 .mod-catal.catal-nav-affix .current .catal-nav-affix-link:after,
-.content229148 .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after {
+.exhibitor-details .mod-catal.catal-nav-affix .catal-nav-affix-link:focus:before,
+.exhibitor-details .mod-catal.catal-nav-affix .catal-nav-affix-link:hover:before,
+.exhibitor-details .mod-catal.catal-nav-affix .current .catal-nav-affix-link:before,
+.exhibitor-details .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before,
+.exhibitor-details .mod-catal.catal-nav-affix .catal-nav-affix-link:focus:after,
+.exhibitor-details .mod-catal.catal-nav-affix .catal-nav-affix-link:hover:after,
+.exhibitor-details .mod-catal.catal-nav-affix .current .catal-nav-affix-link:after,
+.exhibitor-details .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after {
     border: 7px solid transparent;
     margin-top: -7px
 }
 
-.content229148 .mod-catal.catal-nav-ex .btn-primary {
+.exhibitor-details .mod-catal.catal-nav-ex .btn-primary {
     padding: 1.3rem 2rem 1.3rem 2rem;
     -webkit-box-shadow: none;
     box-shadow: none
 }
 
-.content229148 .mod-catal.catal-nav-ex .btn-primary::after {
+.exhibitor-details .mod-catal.catal-nav-ex .btn-primary::after {
     display: none
 }
 
-.content229148 .mod-catal.catal-ex-details {
+.exhibitor-details .mod-catal.catal-ex-details {
     width: 100% !important
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main {
     border: 2px solid #F26C4A;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6214,37 +6231,37 @@ body.exposer #main .site-wrapper {
     padding: 1.5rem
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand {
     margin: 0;
     background: #F4F4F4;
     width: 93%;
     margin: 0 auto
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand h2 {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand h2 {
     font-size: 2.9rem;
     color: #252525
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-main-address {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-main-address {
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 2.3rem;
     color: #6e6e6e
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url {
     font-size: 2.3rem
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url span {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url span {
     color: #F26C4A !important
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name {
     margin-top: 4.5rem
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name a {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name a {
     color: white;
     font-size: 1.6rem;
     font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
@@ -6252,17 +6269,17 @@ body.exposer #main .site-wrapper {
     padding: 1rem
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-activity-group h3 {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group h3 {
     margin-right: 15.5rem
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-title {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-title {
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 2.9rem;
     color: black
 }
 
-.content229148 .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-link {
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-link {
     color: white;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
@@ -6270,31 +6287,31 @@ body.exposer #main .site-wrapper {
     border-radius: 0
 }
 
-.content229148 #zone3 .catal-nav-affix {
+.exhibitor-details #zone3 .catal-nav-affix {
     background: white
 }
 
-.content229148 #zone3 .catal-nav-affix .catal-nav-affix-list:nth-child(2) .catal-nav-affix-item {
+.exhibitor-details #zone3 .catal-nav-affix .catal-nav-affix-list:nth-child(2) .catal-nav-affix-item {
     background: red
 }
 
-.content229148 .mod-catal.catal-other-ex {
+.exhibitor-details .mod-catal.catal-other-ex {
     max-width: 116rem !important;
     margin: 0 auto !important
 }
 
-.content229148 .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary {
+.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary {
     border: 0
 }
 
-.content229148 .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary span {
+.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary span {
     color: black;
     font-size: 1.6rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     position: relative
 }
 
-.content229148 .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary span::before {
+.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary span::before {
     content: '';
     position: absolute;
     background: #8CC63F;
@@ -6304,7 +6321,7 @@ body.exposer #main .site-wrapper {
     left: -1.7rem
 }
 
-.content229148 .mod-catal.catal-other-ex h2 {
+.exhibitor-details .mod-catal.catal-other-ex h2 {
     color: #F26C4A;
     font-size: 4.4rem;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
@@ -6312,7 +6329,7 @@ body.exposer #main .site-wrapper {
     padding-left: 6.2rem
 }
 
-.content229148 .mod-catal.catal-other-ex h2::before {
+.exhibitor-details .mod-catal.catal-other-ex h2::before {
     content: "";
     position: absolute;
     background: #F26C4A;
@@ -6322,12 +6339,12 @@ body.exposer #main .site-wrapper {
     left: 0%
 }
 
-.content229148 .mod-catal.catal-other-ex .catal-other-ex-list .catal-other-ex-item a.catal-other-ex-link .catal-other-ex-txt {
+.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-list .catal-other-ex-item a.catal-other-ex-link .catal-other-ex-txt {
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
     -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.09);
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.09);
-    height: 24.5rem;
+    height: 0;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     color: black
 }
@@ -6960,7 +6977,8 @@ h1.main-title {
 
 .body-corpo.sima.content384937 #main::before {
     background-color: #F4F4F4 !important;
-    height: 100% !important
+    height: 100% !important;
+    background-image: none !important
 }
 
 .body-corpo.sima.content384937 #main .breadcrumb-nav .bn-item::after {
