@@ -493,7 +493,19 @@ figure {
 .article_list .list-articles .inside .main-title-with-link {
     -webkit-box-align: start;
     -ms-flex-align: start;
-    align-items: flex-start
+    align-items: flex-start;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 26rem !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.article_list .list-articles .inside .main-title-with-link+.intro {
+    margin-top: -26rem
 }
 
 .article_list .list-articles .inside .intro {
@@ -715,6 +727,98 @@ figure {
 .widgetFirstname,
 .widgetFirstnameText {
     display: none
+}
+
+.slider-pagin {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.slider-pagin .slider-pagin-nb {
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 5rem
+}
+
+.slider-pagin .slider-pagin-nb .slider-pagin-item {
+    border-radius: 50px;
+    border: 0 none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #B1472C;
+    margin: 0 .5rem;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.slider-pagin .slider-pagin-nb .slider-pagin-item:hover,
+.slider-pagin .slider-pagin-nb .slider-pagin-item:focus,
+.slider-pagin .slider-pagin-nb .slider-pagin-item.is-active {
+    background-color: white
+}
+
+.slider-pagin .slider-pagin-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    max-width: 116rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.slider-pagin .slider-pagin-btn .slider-btn-prev,
+.slider-pagin .slider-pagin-btn .slider-btn-next {
+    width: 3.6rem;
+    height: 3.6rem;
+    min-width: 3.6rem;
+    padding: 0;
+    border: 0;
+    border-radius: 100px;
+    background-color: white;
+    background-image: url("/theme/sima2018_git_desktop/images/arrow-slides.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none
+}
+
+.slider-pagin .slider-pagin-btn .slider-btn-prev {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.slider-pagin .slider-pagin-btn .slider-btn-prev:hover {
+    padding-right: .5rem
+}
+
+.slider-pagin .slider-pagin-btn .slider-btn-next {
+    margin-left: auto
+}
+
+.slider-pagin .slider-pagin-btn .slider-btn-next:hover {
+    padding-left: .5rem
+}
+
+.slider .slider-play-btn {
+    display: none
+}
+
+.la-slider.slider {
+    max-width: 116rem;
+    margin: 0 auto
 }
 
 .btn {
@@ -2165,6 +2269,7 @@ figure {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8CC63F), color-stop(50%, #252525));
     background-image: -webkit-linear-gradient(top, #8CC63F 50%, #252525 50%);
     background-image: -o-linear-gradient(top, #8CC63F 50%, #252525 50%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8CC63F), color-stop(50%, #252525));
     background-image: linear-gradient(to bottom, #8CC63F 50%, #252525 50%)
 }
 
@@ -2303,6 +2408,7 @@ figure {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8CC63F), color-stop(50%, #252525));
     background-image: -webkit-linear-gradient(top, #8CC63F 50%, #252525 50%);
     background-image: -o-linear-gradient(top, #8CC63F 50%, #252525 50%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8CC63F), color-stop(50%, #252525));
     background-image: linear-gradient(to bottom, #8CC63F 50%, #252525 50%)
 }
 
@@ -2380,7 +2486,8 @@ figure {
 .temoignages-visiteurs.list-articles {
     background: #F26C4A;
     margin: 0;
-    padding: 6.5rem 0 7.5rem 0
+    padding: 6.5rem 0 7.5rem 0;
+    position: relative
 }
 
 .temoignages-exposants.list-articles .main-title-with-link,
@@ -2439,7 +2546,7 @@ figure {
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-img,
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-img {
-    border-radius: 100px;
+    border-radius: 150px;
     margin-right: 2.5rem
 }
 
@@ -2516,8 +2623,8 @@ figure {
 }
 
 .bloc-landing-text .bloc-one-btn .btn {
-    margin-left: 1.5rem;
-    margin-right: 0;
+    margin-right: 1.5rem;
+    margin-left: 0;
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease
@@ -6846,8 +6953,26 @@ h1.main-title {
     background-image: url("/theme/sima2018_git_desktop/images/bg-6.jpg") !important
 }
 
+.body-corpo.sima.content384937 #main {
+    background-color: #F4F4F4 !important;
+    border-bottom: 1px solid #e2e2e2
+}
+
+.body-corpo.sima.content384937 #main::before {
+    background-color: #F4F4F4 !important;
+    height: 100% !important
+}
+
+.body-corpo.sima.content384937 #main .breadcrumb-nav .bn-item::after {
+    color: #252525
+}
+
+.body-corpo.sima.content384937 #main .breadcrumb-nav .bn-item .bn-item-link {
+    color: #252525
+}
+
 .body-corpo.simagena #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-8.jpg") !important
+    background-image: url("/theme/sima2018_git_desktop/images/bg-13.jpg") !important
 }
 
 .body-corpo.visiter #main::before {
