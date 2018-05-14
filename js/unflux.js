@@ -5,6 +5,7 @@
         init : function(){
 
             this.popin();
+            this.addLang();
 
         },
         
@@ -21,6 +22,10 @@
                 $("#"+ videoName +' iframe').attr("src", $("#"+ videoName +' iframe').attr("src"));
                 $("html").removeClass('noscroll');
             });
+        },
+
+        addLang : function() {
+            $(".js .ls-lang-list").append('<li class="ls-lang-item ls-lang-es"><a class="ls-lang-link" href="#"><abbr title="Español">es</abbr></a></li> <li class="ls-lang-item ls-lang-it"><a class="ls-lang-link" href="#"><abbr title="Italiano">it</abbr></a></li>');
         }
 
     }
