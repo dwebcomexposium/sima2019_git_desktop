@@ -404,11 +404,56 @@ figure {
 }
 
 .article_list #main {
-    background-color: #f4f4f4 !important
+    background-color: #f4f4f4
 }
 
-.article_list #main::before {
-    display: none !important
+.article_list #main .site-wrapper.wrapper {
+    background: #f4f4f4
+}
+
+.article_list #main .site-wrapper.wrapper::before {
+    content: "";
+    display: block;
+    background-color: black;
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 36rem;
+    background-image: url(/theme/sima2018_git_desktop/images/bg-min-1.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1
+}
+
+.article_list #main .site-wrapper.wrapper::after {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 38rem;
+    z-index: 0
+}
+
+.article_list #main .site-wrapper.wrapper #zone1 {
+    z-index: 2;
+    position: relative;
+    max-width: 116rem;
+    margin: 0 auto
+}
+
+.article_list #main .site-wrapper.wrapper #zone1 .breadcrumb-nav {
+    padding-top: 7.5rem
+}
+
+.article_list #main .site-wrapper.wrapper .layout-2-col {
+    position: relative;
+    z-index: 2
 }
 
 .article_list .gla-item {
@@ -416,22 +461,50 @@ figure {
 }
 
 .article_list .list-articles .inside {
-    background-color: transparent
+    background-color: transparent;
+    max-width: 116rem;
+    margin: 0 auto
 }
 
 .article_list .list-articles .inside .main-title {
     margin-bottom: 0.5rem;
-    color: #8CC63F;
-    font-size: 5.2rem
+    color: white;
+    font-size: 5.2rem;
+    float: none;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 0;
+    position: relative
+}
+
+.article_list .list-articles .inside .main-title::after {
+    display: block;
+    right: -5.5rem;
+    top: 50%;
+    margin-top: -1px;
+    position: absolute;
+    content: "";
+    width: 3.5rem;
+    height: 3px;
+    background-color: white
+}
+
+.article_list .list-articles .inside .main-title-with-link {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
 }
 
 .article_list .list-articles .inside .intro {
-    text-align: center
+    text-align: left;
+    margin-bottom: 12rem
 }
 
 .article_list .list-articles .inside .intro p {
     margin-top: 0.5rem;
-    margin-bottom: 4rem
+    margin-bottom: 4rem;
+    color: white
 }
 
 .article_list .list-articles .inside .intro p:first-child {
@@ -439,18 +512,20 @@ figure {
 }
 
 .article_list .list-articles .inside .intro p a {
-    color: #8CC63F;
-    opacity: 0.7;
-    font-size: 1.5rem;
-    background-color: white;
-    border-radius: 50px;
-    padding: 0.5rem 2rem;
+    color: white;
+    opacity: 1;
+    font-size: 1.6rem;
+    background-color: #8CC63F;
+    border-radius: 0;
+    padding: 1.5rem 2rem;
     margin-top: 1rem;
-    display: inline-block
+    display: inline-block;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif
 }
 
 .article_list .list-articles .inside .intro p a:hover {
-    opacity: 1
+    color: #8CC63F;
+    background-color: white
 }
 
 .gla-item-content {
@@ -634,6 +709,11 @@ figure {
 
 .at-publication,
 .at-illust+.at-content>.at-theme {
+    display: none
+}
+
+.widgetFirstname,
+.widgetFirstnameText {
     display: none
 }
 
@@ -965,6 +1045,7 @@ figure {
     vertical-align: text-top
 }
 
+.site-banner>.inside .logged,
 .site-banner>.inside .not-logged {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -977,20 +1058,44 @@ figure {
     right: 5.3rem
 }
 
+.site-banner>.inside .logged a,
 .site-banner>.inside .not-logged a {
     color: #252525
 }
 
+.site-banner>.inside .logged .openCapTrigger,
+.site-banner>.inside .not-logged .openCapTrigger {
+    color: #252525
+}
+
+.site-banner>.inside .logged .openCapTrigger:hover,
+.site-banner>.inside .not-logged .openCapTrigger:hover {
+    color: #8CC63F
+}
+
+.site-banner>.inside .logged .widgetCapLogout,
+.site-banner>.inside .not-logged .widgetCapLogout {
+    color: #252525
+}
+
+.site-banner>.inside .logged .widgetCapLogout:hover,
+.site-banner>.inside .not-logged .widgetCapLogout:hover {
+    color: #8CC63F
+}
+
+.site-banner>.inside .logged .widget-text,
 .site-banner>.inside .not-logged .widget-text {
     padding-top: 0 !important;
     height: auto
 }
 
+.site-banner>.inside .logged .widget-text .openCapTrigger,
 .site-banner>.inside .not-logged .widget-text .openCapTrigger {
     padding-right: 1.2rem;
     font-family: "Roboto-condensed-regular", Helvetica, Arial, sans-serif
 }
 
+.site-banner>.inside .logged .widget-text .openCapTrigger .cap-icon-user-circle-o:before,
 .site-banner>.inside .not-logged .widget-text .openCapTrigger .cap-icon-user-circle-o:before {
     content: "";
     background-image: url("/theme/sima2018_git_desktop/images/account.svg");
@@ -1001,6 +1106,7 @@ figure {
     display: inline-block
 }
 
+.site-banner>.inside .logged .cap-icon-shopping_basket,
 .site-banner>.inside .not-logged .cap-icon-shopping_basket {
     padding-right: 2rem
 }
@@ -2173,7 +2279,8 @@ figure {
     height: 100%;
     left: 0;
     right: 0;
-    bottom: 0
+    bottom: 0;
+    text-align: center
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin .grid-la-list .gla-item-content .gla-item-btn::before {
@@ -3189,7 +3296,7 @@ figure {
 }
 
 .front .zone .salon-innovation+.list-articles .gla-item {
-    margin-right: 0;
+    margin: 0;
     width: 33.334%;
     -ms-flex-preferred-size: 33.334%;
     flex-basis: 33.334%
@@ -6153,7 +6260,7 @@ h1.main-title {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col {
-    padding-top: 6rem
+    padding-top: 0
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside h1 {
@@ -6736,27 +6843,27 @@ h1.main-title {
 }
 
 .body-corpo.sima #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-6.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/bg-6.jpg") !important
 }
 
 .body-corpo.simagena #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-8.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/bg-8.jpg") !important
 }
 
 .body-corpo.visiter #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-12.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/bg-12.jpg") !important
 }
 
 .body-corpo.evts #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-2.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/bg-2.jpg") !important
 }
 
 .body-corpo.worldwide #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-10.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/bg-10.jpg") !important
 }
 
 .body-corpo.infos #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-5.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/bg-5.jpg") !important
 }
 
 .stands {
