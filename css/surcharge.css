@@ -421,7 +421,7 @@ figure {
     left: 0;
     top: 0;
     height: 36rem;
-    background-image: url(/theme/sima2018_git_desktop/images/bg-5.jpg);
+    background-image: url(/theme/sima2018_git_desktop/images/bg-6.jpg);
     background-size: cover;
     background-position: center;
     z-index: 1
@@ -2551,7 +2551,8 @@ figure {
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-img,
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-img {
     border-radius: 150px;
-    margin-right: 2.5rem
+    margin-right: 2.5rem;
+    max-width: 22rem
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content,
@@ -4297,9 +4298,9 @@ body.exposer #main .site-wrapper {
     margin: 0;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 14.5rem;
     height: 38rem;
-    z-index: 0
+    z-index: -1
 }
 
 .content228663 #main .site-wrapper.wrapper {
@@ -6194,13 +6195,13 @@ body.exposer #main .site-wrapper {
 
 .exhibitor-details .site-wrapper.wrapper .layout-2-col h1 {
     color: white;
-    font-size: 4.8rem;
-    line-height: 5.2rem;
+    font-size: 4.5rem;
+    line-height: 4.8rem;
     margin-top: 2.5rem;
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
-    margin-bottom: 0
+    margin-bottom: 1rem
 }
 
 .exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex {
@@ -7088,6 +7089,14 @@ h1.main-title {
 
 .body-corpo.simagena #main::before {
     background-image: url("/theme/sima2018_git_desktop/images/bg-13.jpg") !important
+}
+
+.body-corpo.exposer #main::before {
+    background-image: url("/theme/sima2018_git_desktop/images/bg-11.jpg") !important
+}
+
+.body-corpo.exposer .article_list #main .site-wrapper.wrapper::before {
+    background-image: url("/theme/sima2018_git_desktop/images/bg-11.jpg") !important
 }
 
 .body-corpo.visiter #main::before {
