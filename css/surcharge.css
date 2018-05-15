@@ -7397,6 +7397,11 @@ h1.main-title {
     background-color: white
 }
 
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 {
+    height: 21rem
+}
+
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside {
     display: -webkit-box;
     display: -ms-flexbox;
