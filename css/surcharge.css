@@ -1208,8 +1208,9 @@ figure {
 
 .site-banner>.inside .logged .widget-text,
 .site-banner>.inside .not-logged .widget-text {
-    padding-top: 0 !important;
-    height: auto
+    padding-top: 1px !important;
+    height: auto;
+    margin-right: 1.2rem
 }
 
 .site-banner>.inside .logged .widget-text .openCapTrigger,
