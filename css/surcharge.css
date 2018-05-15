@@ -7341,6 +7341,8 @@ h1.main-title {
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
 .body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
 .body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before {
     height: 33.5rem;
     background-image: url(/theme/sima2018_git_desktop/images/bg-2.jpg)
@@ -7348,12 +7350,16 @@ h1.main-title {
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
 .body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
 .body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper {
     margin-bottom: 8rem
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 {
     margin: 0 0 8rem 0;
     height: 31rem;
@@ -7369,12 +7375,16 @@ h1.main-title {
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
 .body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
 .body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span {
     position: relative
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
 .body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
 .body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after {
     display: block;
     right: -5.5rem;
