@@ -322,9 +322,17 @@ abbr[title] {
     font-size: 1.4rem !important
 }
 
+#cxpmClientAccountWidget .widgetCapLogout {
+    font-size: 1.2rem !important
+}
+
 #cxpmClientAccountWidget .widget-text span a:focus,
 #cxpmClientAccountWidget .widget-text span a:hover {
     color: #8CC63F !important
+}
+
+#cxpmClientAccountWidget .openCapTrigger {
+    padding-right: 0
 }
 
 .cap-icon-shopping_basket::before {
@@ -724,11 +732,6 @@ figure {
     display: none
 }
 
-.widgetFirstname,
-.widgetFirstnameText {
-    display: none
-}
-
 .slider-pagin {
     background: transparent;
     position: absolute;
@@ -823,6 +826,18 @@ figure {
 
 .mod-catal.catal-nav-ex .catal-nav-ex-link {
     vertical-align: top
+}
+
+#cap-wrap-logged~.global-wrapper .site-banner .global-search-form {
+    right: 34rem
+}
+
+#cap-wrap-logged~.global-wrapper .site-banner>.inside ul.ql-list.unstyled {
+    right: 37rem
+}
+
+#widgetFirstnameText {
+    margin-right: 0.3rem
 }
 
 .btn {
@@ -6447,7 +6462,8 @@ h1.main-title {
     height: 53.5rem;
     background-image: url("/theme/sima2018_git_desktop/images/bg-general.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+    z-index: 1
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .block.block-page.social-sharing {
@@ -6459,7 +6475,8 @@ h1.main-title {
     margin: 15rem auto 0 auto;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: transparent
+    background: transparent;
+    z-index: 2
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col {
@@ -7319,6 +7336,130 @@ h1.main-title {
     width: .8rem;
     height: .8rem;
     background-color: #A54A35
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
+.body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before {
+    height: 33.5rem;
+    background-image: url(/theme/sima2018_git_desktop/images/bg-2.jpg)
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper {
+    margin-bottom: 8rem
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 {
+    margin: 0 0 8rem 0;
+    height: 31rem;
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span {
+    position: relative
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.content365891:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after {
+    display: block;
+    right: -5.5rem;
+    top: 50%;
+    margin-top: -1px;
+    position: absolute;
+    content: "";
+    width: 3.5rem;
+    height: 3px;
+    background-color: white
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-form {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-term {
+    margin-left: 1rem;
+    color: #8CC63F
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-nb-result {
+    font-size: 2.2rem;
+    color: white;
+    margin-left: .5rem
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-nb-result::before {
+    display: none
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group:first-child .sr-group-title {
+    margin-top: 3rem
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group .sr-group-title {
+    color: #252525;
+    font-size: 5rem;
+    margin: 8rem 0 2rem
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-title a {
+    color: #252525;
+    font-size: 3.2rem
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-title a:hover {
+    color: #8CC63F;
+    text-decoration: none
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .gsf-fields {
+    padding: 1px;
+    background: #E7E7E7
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .gsf-submit-btn {
+    background-color: #252525;
+    min-height: 7.2rem;
+    padding: 0 2.6rem
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .gsf-submit-btn:hover {
+    background-color: #8CC63F
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .gsf-input {
+    padding: 2.5rem
 }
 
 .content384937 .site-wrapper {
