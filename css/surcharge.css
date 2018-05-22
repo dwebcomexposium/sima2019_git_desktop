@@ -7054,6 +7054,7 @@ h1.main-title {
     color: white;
     position: absolute;
     bottom: 0;
+    left: 0;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     -webkit-transition: all 0.2s ease;
@@ -7113,7 +7114,7 @@ h1.main-title {
     background-image: url("/theme/sima2018_git_desktop/images/bg-11.jpg") !important
 }
 
-.body-corpo.exposer .article_list #main .site-wrapper.wrapper::before {
+.body-corpo.exposer.article_list #main .site-wrapper.wrapper::before {
     background-image: url("/theme/sima2018_git_desktop/images/bg-11.jpg") !important
 }
 
@@ -7122,6 +7123,10 @@ h1.main-title {
 }
 
 .body-corpo.evts #main::before {
+    background-image: url("/theme/sima2018_git_desktop/images/bg-2.jpg") !important
+}
+
+.body-corpo.evts.article_list #main .site-wrapper.wrapper::before {
     background-image: url("/theme/sima2018_git_desktop/images/bg-2.jpg") !important
 }
 
