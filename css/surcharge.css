@@ -1655,7 +1655,7 @@ figure {
     background: #F4F4F4;
     position: relative;
     margin: 0;
-    padding: 8rem 0 0 0
+    padding: 5rem 0 0 0
 }
 
 .site-footer .quicklinks {
@@ -1774,7 +1774,8 @@ figure {
     -ms-flex-preferred-size: calc(.3 * 116rem);
     flex-basis: calc(.3 * 116rem);
     min-width: calc(.3 * 116rem);
-    position: relative
+    position: relative;
+    margin-bottom: 7rem
 }
 
 .site-footer>.inside .footer-social .reseaux-green {
@@ -1810,7 +1811,7 @@ figure {
     color: #555555;
     width: 100%;
     font-size: 1.3rem;
-    margin: 7.6rem 0 0 0;
+    margin: -1rem 0 0 0;
     padding-bottom: 0;
     background-color: white
 }
@@ -1908,7 +1909,7 @@ figure {
     display: block;
     background-color: white;
     width: 100vw;
-    height: 20rem;
+    height: 11rem;
     position: absolute;
     left: 0;
     z-index: -1;
@@ -2084,7 +2085,7 @@ figure {
 }
 
 .article-focus.large {
-    padding: 5rem 2rem;
+    padding: 5rem 2rem !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
@@ -2138,7 +2139,7 @@ figure {
 }
 
 .article-focus.large .inside .af-content p:last-child {
-    margin-left: auto
+    margin: 0 0 0 auto !important
 }
 
 .article-focus.large .inside .af-content p:last-child a.btn-primary {
@@ -2177,7 +2178,7 @@ figure {
 }
 
 .article-focus.large.appli {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-appli.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-appli.jpg") !important
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary {
@@ -2193,7 +2194,7 @@ figure {
 }
 
 .article-focus.large.plan {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-plan.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-plan.jpg") !important
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary {
@@ -2209,7 +2210,7 @@ figure {
 }
 
 .article-focus.large.calendrier {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-calendrier.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-calendrier.jpg") !important
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary {
@@ -2225,7 +2226,7 @@ figure {
 }
 
 .article-focus.large.cata {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-catalogue.jpg")
+    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-catalogue.jpg") !important
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary {
@@ -2568,7 +2569,8 @@ figure {
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-img {
     border-radius: 150px;
     margin-right: 2.5rem;
-    max-width: 22rem
+    max-width: 22rem;
+    background-color: white
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content,
@@ -3017,8 +3019,8 @@ figure {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%
+    -ms-flex-preferred-size: 55%;
+    flex-basis: 55%
 }
 
 @media screen and (max-width: 1199px) {
@@ -6553,6 +6555,7 @@ h1.main-title {
     background: transparent
 }
 
+.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a,
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a.externe {
     background: transparent;
     padding: 0;
@@ -6562,6 +6565,7 @@ h1.main-title {
     text-decoration: underline
 }
 
+.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a:hover,
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a.externe:hover {
     background-color: transparent;
     text-decoration: none
@@ -6826,7 +6830,8 @@ h1.main-title {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 {
-    margin-bottom: 2rem
+    margin-bottom: 4rem;
+    margin-top: 4rem
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
