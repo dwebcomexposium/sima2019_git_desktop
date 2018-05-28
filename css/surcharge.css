@@ -1871,10 +1871,12 @@ figure {
 .site-footer>.inside .quicklinks .ql-list .ql-item.linkid385396 a.btn-primary {
     background-image: url("/theme/sima2018_git_desktop/images/logo-comexposium.svg");
     text-indent: -500rem;
-    width: 17.9rem;
-    height: 4.9rem;
+    width: 21rem;
+    height: 7rem;
+    background-size: 100%;
     margin: 0 0 0 auto;
-    display: block
+    display: block;
+    background-position: center
 }
 
 .site-footer>.inside .quicklinks .ql-list .ql-item.linkid385403 a.btn-primary {
@@ -1882,8 +1884,8 @@ figure {
     background-size: cover;
     text-indent: -500rem;
     margin: 0 !important;
-    width: 12rem;
-    height: 8.5rem;
+    width: 17rem;
+    height: 11.5rem;
     display: block
 }
 
@@ -1909,7 +1911,7 @@ figure {
     display: block;
     background-color: white;
     width: 100vw;
-    height: 11rem;
+    height: 14rem;
     position: absolute;
     left: 0;
     z-index: -1;
@@ -2084,8 +2086,12 @@ figure {
     left: 0
 }
 
+.article-wrapper .article-focus.large {
+    margin-top: 2rem !important
+}
+
 .article-focus.large {
-    padding: 5rem 2rem !important;
+    padding: 5rem 5rem !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
@@ -2111,7 +2117,8 @@ figure {
     color: white;
     font-size: 3.4rem;
     position: relative;
-    line-height: 4rem
+    line-height: 4rem;
+    padding-left: 6rem
 }
 
 .article-focus.large .inside .af-content .af-title::before {
@@ -2135,7 +2142,7 @@ figure {
     width: 4.1rem;
     height: 0.3rem;
     bottom: -1.1rem;
-    left: 0
+    left: 6rem
 }
 
 .article-focus.large .inside .af-content p:last-child {
@@ -2149,10 +2156,12 @@ figure {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: white;
+    background: #fff !important;
     border: none;
+    line-height: 4.2rem;
     font-size: 2rem;
-    padding: 2rem 3.2rem;
+    padding: 2.2rem 2.8rem !important;
+    text-decoration: none !important;
     margin: 0;
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     -webkit-box-shadow: none;
@@ -2173,6 +2182,7 @@ figure {
     margin-right: 1rem;
     width: 4rem;
     height: 4rem;
+    vertical-align: bottom;
     background-position: center;
     background-repeat: no-repeat
 }
@@ -2182,7 +2192,7 @@ figure {
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary {
-    color: #C94F77
+    color: #C94F77 !important
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary .icon {
@@ -2198,7 +2208,7 @@ figure {
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary {
-    color: #8CC63F
+    color: #8CC63F !important
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary .icon {
@@ -2214,7 +2224,7 @@ figure {
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary {
-    color: #A54A35
+    color: #A54A35 !important
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary .icon {
@@ -2230,7 +2240,7 @@ figure {
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary {
-    color: #F26C4A
+    color: #F26C4A !important
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary .icon {
@@ -2569,7 +2579,8 @@ figure {
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-img {
     border-radius: 150px;
     margin-right: 2.5rem;
-    max-width: 22rem;
+    max-width: 18rem;
+    padding: 2.5rem;
     background-color: white
 }
 
