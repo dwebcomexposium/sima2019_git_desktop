@@ -216,7 +216,7 @@ h2 {
 }
 
 .site-wrapper .block:not(:first-child) {
-    margin-top: 0;
+    margin-top: 5rem;
 }
 
 .page-rubric main .zone .list-articles {
@@ -869,93 +869,26 @@ figure {
     background: #F26C4A;
 }
 
+.content378801 i.icon:before {
+    background-image: url(/theme/sima2018_git_desktop/images/icon-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+    content: "";
+    display: block;
+    width: 0.7rem;
+    height: 2rem;
+    bottom: 4.2rem;
+    position: absolute;
+}
+
+.pagination .pagin-item {
+    padding: 0 !important;
+}
+
 .content378801 .pagination .pagin-item a {
     color: black !important;
-}
-
-.content378801 i.icon:before {
-    color: black;
-}
-
-.content378801 i.icon:before:hover {
-    color: white;
-}
-
-
-/*PARTAGER*/
-
-.social-sharing {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    border: none;
-    padding: 3rem;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: relative;
-    padding: 3rem;
-}
-
-.social-sharing:before {
-    content: "Partager";
-    position: absolute;
-    top: 0;
-}
-
-.sr-item {
-    border: none;
-}
-
-.sr-item .sr-item-txt {
-    font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
-}
-
-.sr-item .sr-link-facebook {
-    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.sr-item .sr-link-twitter {
-    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.sr-item .sr-link-linkedin {
-    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.sr-item .sr-link-gplus {
-    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.sr-item .sr-link-mail {
-    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.sr-item .icon-facebook:before,
-.sr-item .icon-email:before,
-.sr-item .icon-twitter:before,
-.sr-item .icon-linkedin:before {
-    content: "";
-}
-
-.sr-item .sr-item-txt {
-    display: none;
-}
-
-.content387430 .sr-list.unstyled {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    padding: 1rem 2rem !important;
 }
 
 
@@ -2076,6 +2009,20 @@ figure {
     fill: #252525;
 }
 
+.site-footer>.inside .optin-container {
+    position: absolute;
+    top: 82px;
+}
+
+.site-footer>.inside .optin-container .nf-form-input {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.site-footer>.inside .optin-container .nf-form-input input {
+    margin-right: .6rem;
+}
+
 
 /*END-SITE-FOOTER*/
 
@@ -2961,7 +2908,7 @@ figure {
 
 .article-focus:not(.large) .txtright:hover .btn-primary {
     background-color: white !important;
-    color: #F26C4A;
+    color: #8CC63F !important;
 }
 
 .article-focus:not(.large) .txtright::before {
@@ -2971,7 +2918,7 @@ figure {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #F26C4A;
+    background-color: #8CC63F !important;
     opacity: 0;
     pointer-events: none;
     z-index: 0;
@@ -2981,7 +2928,7 @@ figure {
 }
 
 .article-focus:not(.large) .af-title {
-    color: #F26C4A;
+    color: #8CC63F;
     font-weight: normal;
     z-index: 1;
     position: relative;
@@ -2997,7 +2944,7 @@ figure {
     font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-size: 2rem;
-    background: #F26C4A;
+    background: #8CC63F;
     border: none;
     padding: 1.8rem 2.6rem;
     margin-top: 0;
@@ -3029,20 +2976,20 @@ figure {
 }
 
 .article-focus:not(.large)+.article-focus:not(.large) .txtright::before {
-    background-color: #8CC63F;
+    background-color: #F26C4A !important;
 }
 
 .article-focus:not(.large)+.article-focus:not(.large) .txtright:hover .btn-primary {
     background-color: white;
-    color: #8CC63F;
+    color: #F26C4A !important;
 }
 
 .article-focus:not(.large)+.article-focus:not(.large) .btn-primary {
-    background: #8CC63F;
+    background: #F26C4A;
 }
 
 .article-focus:not(.large)+.article-focus:not(.large) .af-title {
-    color: #8CC63F;
+    color: #F26C4A;
 }
 
 .article-focus:not(.large) p {
@@ -3452,6 +3399,86 @@ figure {
     font-size: 1.8rem;
     font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
     color: #252525;
+}
+
+
+/*PARTAGER*/
+
+.social-sharing {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    border: none;
+    padding: 3rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    padding: 3rem;
+    position: relative;
+}
+
+.social-sharing .inside {
+    margin-top: 3rem;
+}
+
+.social-sharing .inside .unstyled:before {
+    content: "Partager";
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    font-size: 3.4rem;
+    color: #252525;
+    letter-spacing: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sr-item {
+    border: none;
+}
+
+.sr-item .sr-item-txt {
+    font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
+}
+
+.sr-item .sr-link-facebook {
+    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sr-item .sr-link-twitter {
+    background-image: url("/theme/sima2018_git_desktop/images/twitter.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sr-item .sr-link-linkedin {
+    background-image: url("/theme/sima2018_git_desktop/images/linkedin.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sr-item .sr-link-gplus {
+    background-image: url("/theme/sima2018_git_desktop/images/google-plus.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sr-item .sr-link-mail {
+    background-image: url("/theme/sima2018_git_desktop/images/mail.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content387430 .sr-list.unstyled {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 
@@ -6376,20 +6403,10 @@ body.exposer #main .site-wrapper {
 .pagination .pagin-item {
     background: white;
     border: 0.1rem solid #e2e2e2;
-    padding: 0.3rem 0.8rem !important;
-}
-
-.pagination .pagin-item a {
-    width: 100%;
-    height: 100%;
 }
 
 .pagination .pagin-item:hover {
     background: #F26C4A;
-}
-
-.pagination .pagin-item:hover a {
-    color: white;
 }
 
 .pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-stand-title {
@@ -7329,7 +7346,7 @@ h1.main-title {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside {
-    margin: 10rem 0;
+    margin: 3rem 0;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
