@@ -78,6 +78,14 @@ h1 {
     line-height: 5.6rem;
 }
 
+.break {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
 @font-face {
     font-family: 'Roboto-condensed-bold';
     src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf");
@@ -891,6 +899,58 @@ figure {
     padding: 1rem 2rem !important;
 }
 
+.tt-dropdown-menu {
+    margin-top: 0;
+    padding: 2rem 2.5rem;
+    right: 0;
+}
+
+.tt-dropdown-menu::before {
+    display: none;
+}
+
+.tt-dropdown-menu::after {
+    display: none;
+}
+
+.tt-text-intro {
+    font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
+    color: #252525;
+    font-weight: normal;
+    font-size: 1.3rem;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+.tt-suggestion p {
+    text-decoration: none;
+}
+
+.tt-suggestion a {
+    text-decoration: none;
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+}
+
+.typeahead-section-name {
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    color: #252525;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    font-family: "Open-sans-bold", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.tt-suggestion a:focus,
+.tt-suggestion a:hover {
+    background-color: #F26C4A;
+    color: white;
+}
+
 
 /* Components */
 
@@ -1170,7 +1230,8 @@ figure {
 }
 
 .site-banner>.inside .nav-left .nav-social li {
-    margin-right: 1.5rem;
+    margin-right: 1.2rem;
+    width: 1.8rem;
 }
 
 .site-banner>.inside .nav-left .nav-social li a svg {
@@ -3192,6 +3253,13 @@ figure {
     }
 }
 
+.international .inside .sima-list li {
+    -ms-flex-preferred-size: 27%;
+    flex-basis: 27%;
+    min-width: 27%;
+    margin: 0 2%;
+}
+
 .international .inside .sima-list a {
     display: inline-block;
     -webkit-transition: all 0.2s ease;
@@ -3408,6 +3476,7 @@ figure {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    margin-bottom: -3rem;
     border: none;
     padding: 3rem;
     -webkit-box-pack: center;
@@ -3423,7 +3492,7 @@ figure {
 }
 
 .social-sharing .inside .unstyled:before {
-    content: "Partager";
+    content: "Partager cette page";
     position: absolute;
     top: 0;
     z-index: 10;
@@ -3432,53 +3501,86 @@ figure {
     color: #252525;
     letter-spacing: 0;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
 }
 
-.sr-item {
+.social-sharing .inside .unstyled::after {
+    content: "";
+    position: absolute;
+    top: 3.5rem;
+    height: 4px;
+    width: 5rem;
+    background-color: #8CC63F;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.sr-list.unstyled {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.sr-list.unstyled .sr-item {
     border: none;
+    text-indent: -99999px;
 }
 
-.sr-item .sr-item-txt {
+.sr-list.unstyled .sr-item a {
+    display: block;
+    width: 6rem;
+    height: 4rem;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.sr-list.unstyled .sr-item a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.sr-list.unstyled .sr-item .sr-item-txt {
     font-family: "Open-sans-regular", Helvetica, Arial, sans-serif;
 }
 
-.sr-item .sr-link-facebook {
+.sr-list.unstyled .sr-item .sr-link-facebook {
     background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.sr-item .sr-link-twitter {
+.sr-list.unstyled .sr-item .sr-link-twitter {
     background-image: url("/theme/sima2018_git_desktop/images/twitter.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.sr-item .sr-link-linkedin {
+.sr-list.unstyled .sr-item .sr-link-linkedin {
     background-image: url("/theme/sima2018_git_desktop/images/linkedin.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.sr-item .sr-link-gplus {
+.sr-list.unstyled .sr-item .sr-link-gplus {
     background-image: url("/theme/sima2018_git_desktop/images/google-plus.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.sr-item .sr-link-mail {
+.sr-list.unstyled .sr-item .sr-link-mail {
     background-image: url("/theme/sima2018_git_desktop/images/mail.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.content387430 .sr-list.unstyled {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.sr-list.unstyled .sr-item .icon {
+    display: none;
 }
 
 
@@ -3616,8 +3718,22 @@ figure {
 
 @media screen and (max-width: 1199px) {
     .front .zone .solution-agriculteur {
-        padding: 15rem 0;
+        padding: 15rem calc(.5 * 116rem) 15rem 0;
     }
+}
+
+.front .zone .solution-agriculteur+.list-picto.list-vertical {
+    margin: -46rem auto 10rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .front .zone .solution-agriculteur+.list-picto.list-vertical {
+        margin: -62.5rem auto 10rem;
+    }
+}
+
+.front .zone .solution-agriculteur+.list-picto.list-vertical ul {
+    display: block;
 }
 
 .front .zone .solution-agriculteur .inside {
@@ -3683,6 +3799,10 @@ figure {
     -webkit-transform: rotate(-10deg) translateX(-100vw);
     -ms-transform: rotate(-10deg) translateX(-100vw);
     transform: rotate(-10deg) translateX(-100vw);
+}
+
+.front .zone .salon-innovation+.list-articles {
+    margin-top: 0;
 }
 
 .front .zone .salon-innovation+.list-articles .inside {
@@ -6384,29 +6504,76 @@ body.exposer #main .site-wrapper {
 
 /*pagination*/
 
+.pagination .icon::before {
+    content: "";
+    background-image: url(/theme/sima2018_git_desktop/images/arrow-slides.svg);
+    width: 0.8rem;
+    height: 1.2rem;
+    display: block;
+    background-size: 0.9rem auto;
+}
+
+.pagination .pagin-prev a,
+.pagination .pagin-next a {
+    color: #474d4e;
+}
+
+.pagination .pagin-prev a:hover,
 .pagination .pagin-next a:hover {
     background: transparent;
 }
 
+.pagination .pagin-prev:hover,
 .pagination .pagin-next:hover {
     background: #F26C4A;
 }
 
-.pagination .pagin-item:nth-child(1) {
-    background: #F26C4A;
+.pagination .pagin-prev:hover .icon::before,
+.pagination .pagin-next:hover .icon::before {
+    background-image: url(/theme/sima2018_git_desktop/images/arrow-allinone.svg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-size: 0.8rem auto;
 }
 
-.pagination .pagin-item:nth-child(1) a {
-    color: white;
+.pagination .pagin-prev a .icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .pagination .pagin-item {
     background: white;
-    border: 0.1rem solid #e2e2e2;
+    border: none;
+    padding: 0.3rem 0.8rem !important;
+    -webkit-box-shadow: 0 1rem 2rem -0.8rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1rem 2rem -0.8rem rgba(0, 0, 0, 0.15);
+    color: #474d4e;
+    font-size: 1.7rem;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.pagination .pagin-item.is-active {
+    background: #F26C4A;
+}
+
+.pagination .pagin-item a {
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
 }
 
 .pagination .pagin-item:hover {
     background: #F26C4A;
+}
+
+.pagination .pagin-item:hover a {
+    color: white;
 }
 
 .pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-stand-title {
@@ -6777,7 +6944,9 @@ h1.main-title {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .block.block-page.social-sharing {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper {
@@ -7345,6 +7514,10 @@ h1.main-title {
     color: black;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation {
+    margin-bottom: 10rem;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside {
     margin: 3rem 0;
 }
@@ -7455,6 +7628,10 @@ h1.main-title {
 }
 
 .body-corpo.infos #main::before {
+    background-image: url("/theme/sima2018_git_desktop/images/bg-5.jpg") !important;
+}
+
+.body-corpo.infos.article_list #main .site-wrapper.wrapper::before {
     background-image: url("/theme/sima2018_git_desktop/images/bg-5.jpg") !important;
 }
 
