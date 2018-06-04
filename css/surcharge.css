@@ -951,6 +951,16 @@ figure {
     color: white;
 }
 
+:not(.gm-style) img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.site-footer .inside>* {
+    display: inline-block;
+}
+
 
 /* Components */
 
@@ -2421,6 +2431,10 @@ figure {
     /*END INSIDE*/
 }
 
+.list-articles.actus .inside .grid-la-list .gla-item {
+    min-height: 59rem;
+}
+
 .list-articles .inside {
     background: #F4F4F4;
     padding-bottom: 9rem;
@@ -3500,7 +3514,7 @@ figure {
     font-size: 3.4rem;
     color: #252525;
     letter-spacing: 0;
-    left: 50%;
+    left: 0;
     text-align: center;
     width: 100%;
 }
@@ -3508,7 +3522,7 @@ figure {
 .social-sharing .inside .unstyled::after {
     content: "";
     position: absolute;
-    top: 3.5rem;
+    top: 5.7rem;
     height: 4px;
     width: 5rem;
     background-color: #8CC63F;
