@@ -1938,7 +1938,7 @@ figure {
     transition: all .2s ease;
 }
 
-.site-footer>.inside .footer-social+.edito {
+.site-footer>.inside .footer-social+.break+.edito {
     color: #555555;
     width: 100%;
     font-size: 1.3rem;
@@ -1947,18 +1947,18 @@ figure {
     background-color: white;
 }
 
-.site-footer>.inside .footer-social+.edito>.inside {
+.site-footer>.inside .footer-social+.break+.edito>.inside {
     width: 100%;
     border-bottom: .01rem solid #E7E7E7;
     max-width: 116rem;
     padding: 4rem 0 !important;
 }
 
-.site-footer>.inside .footer-social+.edito>.inside p {
+.site-footer>.inside .footer-social+.break+.edito>.inside p {
     font-size: 1.3rem;
 }
 
-.site-footer>.inside .footer-social+.edito>.inside .block-title {
+.site-footer>.inside .footer-social+.break+.edito>.inside .block-title {
     display: none;
 }
 
