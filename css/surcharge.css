@@ -789,8 +789,11 @@ figure {
     position: absolute;
     top: 50%;
     right: 0;
-    left: 0;
-    max-width: 116rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    max-width: calc(116rem + 10rem);
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -810,12 +813,15 @@ figure {
     background-position: center;
     background-repeat: no-repeat;
     outline: none;
+    -webkit-transform: translateX(-5rem);
+    -ms-transform: translateX(-5rem);
+    transform: translateX(-5rem);
 }
 
 .slider-pagin .slider-pagin-btn .slider-btn-prev {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg) translateX(5rem);
+    -ms-transform: rotate(180deg) translateX(5rem);
+    transform: rotate(180deg) translateX(5rem);
 }
 
 .slider-pagin .slider-pagin-btn .slider-btn-prev:hover {
@@ -2802,7 +2808,7 @@ figure {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 63rem;
+    max-width: 58rem;
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-desc,
@@ -2812,6 +2818,7 @@ figure {
     margin: 0;
     padding: 2.8rem 0 0rem 4rem;
     position: relative;
+    max-width: 47rem;
 }
 
 .temoignages-exposants.list-articles .slider-content .slider-item .la-item-content .la-item-desc::before,
@@ -3723,6 +3730,7 @@ figure {
 }
 
 .front .zone .solution-agriculteur {
+    min-height: 53rem;
     padding: 10rem calc(.5 * 116rem) 10rem 0;
     max-width: 116rem;
     margin: 0 auto;
@@ -4555,6 +4563,7 @@ figure {
     -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: 10rem;
+    min-height: 34rem;
 }
 
 .content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item::before {
@@ -4584,6 +4593,7 @@ figure {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+    margin-left: auto;
 }
 
 .content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a {
@@ -4592,6 +4602,7 @@ figure {
     -ms-flex-direction: row;
     flex-direction: row;
     position: relative;
+    background-color: transparent;
 }
 
 .content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a img {
@@ -4613,6 +4624,7 @@ figure {
     right: auto;
     padding: 0 6rem;
     text-align: left;
+    max-width: 58rem;
 }
 
 .content374293 main .list-articles>.inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-title {
