@@ -1935,6 +1935,10 @@ figure {
     margin-top: 6rem;
 }
 
+.site-footer>.inside .footer-social .reseaux-green li:last-child a {
+    margin-right: 0;
+}
+
 .site-footer>.inside .footer-social .reseaux-green a {
     display: block;
     margin-right: 2rem;
@@ -3512,24 +3516,18 @@ figure {
     margin-top: 3rem;
 }
 
-.social-sharing .inside .unstyled:before {
-    content: "Partager cette page";
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+.social-sharing .inside .sr-title {
     font-size: 3.4rem;
     color: #252525;
-    letter-spacing: 0;
-    left: 0;
     text-align: center;
-    width: 100%;
+    font-family: "Roboto-condensed-bold", Helvetica, Arial, sans-serif;
+    position: relative;
 }
 
-.social-sharing .inside .unstyled::after {
+.social-sharing .inside .sr-title::after {
     content: "";
     position: absolute;
-    top: 5.7rem;
+    bottom: -1.5rem;
     height: 4px;
     width: 5rem;
     background-color: #8CC63F;
@@ -3543,7 +3541,7 @@ figure {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .sr-list.unstyled .sr-item {
@@ -3553,11 +3551,12 @@ figure {
 
 .sr-list.unstyled .sr-item a {
     display: block;
-    width: 6rem;
-    height: 4rem;
+    width: 6.5rem;
+    height: 3.5rem;
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
+    padding: 0;
 }
 
 .sr-list.unstyled .sr-item a:hover {
