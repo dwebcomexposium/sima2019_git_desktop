@@ -1,1 +1,44 @@
 
+.catalogue.exposant {
+    background: transparent;
+}
+
+.catalogue.exposant #main::before {
+    content: "";
+    display: block;
+    background-color: black;
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+    position: absolute;
+    left: 0;
+    height: 35rem;
+    background-image: url(/theme/sima2018_git_desktop/images/bg-12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.catalogue.exposant #main::after {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 14.5rem;
+    height: 38rem;
+    z-index: -1;
+}
+
+.catalogue.exposant #main .site-wrapper.wrapper {
+    background: transparent;
+}
+
+.catalogue.exposant h1 {
+    font-size: 5.2rem;
+    color: white;
+    line-height: 5.6rem;
+    max-width: 116rem;
+    margin: 5rem auto 2.5rem auto;
+    padding-top: 1rem;
+}
