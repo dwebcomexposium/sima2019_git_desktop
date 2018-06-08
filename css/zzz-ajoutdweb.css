@@ -42,3 +42,7 @@
     margin: 5rem auto 2.5rem auto;
     padding-top: 1rem;
 }
+
+.inside.ep-form-wrap {
+    display: none;
+}
