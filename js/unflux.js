@@ -70,6 +70,12 @@
                     //Animate pro number
                     $('#figure-enterprise').animateNumber({ number: 1770, easing: 'easeOutQuart' }, 2000);
 
+                    //Animate pro number
+                    $('#figure-europe').animateNumber({ number: 200, easing: 'easeOutQuart' }, 2000);
+
+                    //Animate pro number
+                    $('#figure-press').animateNumber({ number: 600, easing: 'easeOutQuart' }, 2000);
+
                     //Animate continent number
                     $('#figure-continent').animateNumber({ number: 5, easing: 'easeOutQuart' }, 2000);
 
