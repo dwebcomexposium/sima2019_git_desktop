@@ -67,19 +67,19 @@
                     //Animate visite number
                     $('#figure-visit').animateNumber({ number: 23, easing: 'easeOutQuart' }, 2000);
 
-                    //Animate pro number
+                    //Animate enterprise number
                     $('#figure-enterprise').animateNumber({ number: 1770, easing: 'easeOutQuart' }, 2000);
 
-                    //Animate pro number
+                    //Animate europe number
                     $('#figure-europe').animateNumber({ number: 200, easing: 'easeOutQuart' }, 2000);
 
-                    //Animate pro number
+                    //Animate press number
                     $('#figure-press').animateNumber({ number: 600, easing: 'easeOutQuart' }, 2000);
 
                     //Animate continent number
                     $('#figure-continent').animateNumber({ number: 5, easing: 'easeOutQuart' }, 2000);
 
-                    //Animate visite number
+                    //Animate pro number
                     var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ')
                     $('#figure-pro').animateNumber(
                     {
