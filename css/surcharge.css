@@ -84,22 +84,22 @@ h1 {
 
 @font-face {
     font-family: 'Roboto-condensed-bold';
-    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
+    src: url("/theme/sima2019_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf")
 }
 
 @font-face {
     font-family: 'Roboto-condensed-regular';
-    src: url("/theme/sima2018_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
+    src: url("/theme/sima2019_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf")
 }
 
 @font-face {
     font-family: 'Open-sans-bold';
-    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
+    src: url("/theme/sima2019_git_desktop/fonts/open-sans/opensans-bold-webfont.woff")
 }
 
 @font-face {
     font-family: 'Open-sans-regular';
-    src: url("/theme/sima2018_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
+    src: url("/theme/sima2019_git_desktop/fonts/open-sans/opensans-regular-webfont.woff")
 }
 
 .v-align {
@@ -344,7 +344,7 @@ abbr[title] {
 }
 
 .cap-icon-shopping_basket::before {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-bag.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/icon-bag.svg");
     background-repeat: no-repeat;
     content: "" !important;
     display: block;
@@ -437,7 +437,7 @@ figure {
     left: 0;
     top: 0;
     height: 36rem;
-    background-image: url(/theme/sima2018_git_desktop/images/bg-6.jpg);
+    background-image: url(/theme/sima2019_git_desktop/images/bg-6.jpg);
     background-size: cover;
     background-position: center;
     z-index: 1
@@ -802,7 +802,7 @@ figure {
     border: 0;
     border-radius: 100px;
     background-color: white;
-    background-image: url("/theme/sima2018_git_desktop/images/arrow-slides.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/arrow-slides.svg");
     background-position: center;
     background-repeat: no-repeat;
     outline: none;
@@ -877,7 +877,7 @@ figure {
 }
 
 .content378801 i.icon:before {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-arrow.svg);
+    background-image: url(/theme/sima2019_git_desktop/images/icon-arrow.svg);
     background-position: center;
     background-repeat: no-repeat;
     z-index: 5;
@@ -1343,7 +1343,7 @@ figure {
 .site-banner>.inside .logged .widget-text .openCapTrigger .cap-icon-user-circle-o:before,
 .site-banner>.inside .not-logged .widget-text .openCapTrigger .cap-icon-user-circle-o:before {
     content: "";
-    background-image: url("/theme/sima2018_git_desktop/images/account.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/account.svg");
     width: 1.2rem;
     height: 1.2rem;
     margin-right: 0.7rem;
@@ -1391,7 +1391,7 @@ figure {
 
 .site-banner>.inside button.gsf-trigger.js-toggle-trigger.unstyled .icon.icon-search::before {
     content: "";
-    background-image: url("/theme/sima2018_git_desktop/images/icon-search.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/icon-search.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.5rem;
@@ -1663,7 +1663,7 @@ figure {
 
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 {
     text-indent: -100rem;
-    background-image: url("/theme/sima2018_git_desktop/images/sima.png");
+    background-image: url("/theme/sima2019_git_desktop/images/sima.png");
     background-size: 16.6rem auto;
     background-repeat: no-repeat;
     width: 16.6rem;
@@ -1756,7 +1756,7 @@ figure {
     margin-left: auto;
     -webkit-box-shadow: 0 1.5rem 2rem -1rem rgba(196, 84, 55, 0.35);
             box-shadow: 0 1.5rem 2rem -1rem rgba(196, 84, 55, 0.35);
-    background-image: url("/theme/sima2018_git_desktop/images/icon-card.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-card.svg")
 }
 
 @media screen and (max-width: 1400px) {
@@ -1769,7 +1769,7 @@ figure {
     background-color: #8CC63F;
     -webkit-box-shadow: 0 1.5rem 2rem -1rem rgba(104, 148, 47, 0.35);
             box-shadow: 0 1.5rem 2rem -1rem rgba(104, 148, 47, 0.35);
-    background-image: url("/theme/sima2018_git_desktop/images/icon-ticket.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-ticket.svg")
 }
 
 .site-footer {
@@ -1810,7 +1810,7 @@ figure {
 }
 
 .site-footer>.inside .newsletter-form .box-dark>.inside {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-newsletter.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/icon-newsletter.svg");
     background-repeat: no-repeat;
     background-position: center right 20rem;
     background-size: 8.9rem auto
@@ -1994,7 +1994,7 @@ figure {
 }
 
 .site-footer>.inside .quicklinks .ql-list .ql-item.linkid385396 a.btn-primary {
-    background-image: url("/theme/sima2018_git_desktop/images/logo-comexposium.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/logo-comexposium.svg");
     text-indent: -500rem;
     width: 21rem;
     height: 7rem;
@@ -2005,7 +2005,7 @@ figure {
 }
 
 .site-footer>.inside .quicklinks .ql-list .ql-item.linkid385403 a.btn-primary {
-    background-image: url("/theme/sima2018_git_desktop/images/logo-axema.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/logo-axema.svg");
     background-size: cover;
     text-indent: -500rem;
     margin: 0 !important;
@@ -2146,19 +2146,19 @@ figure {
 }
 
 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-tractor.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-tractor.svg")
 }
 
 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-calendar.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-calendar.svg")
 }
 
 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-map.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-map.svg")
 }
 
 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-app.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-app.svg")
 }
 
 .quicklinks.ip1 .ql-item a.btn-primary {
@@ -2327,7 +2327,7 @@ figure {
 }
 
 .article-focus.large.appli {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-appli.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-appli.jpg") !important
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary {
@@ -2335,15 +2335,15 @@ figure {
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary .icon {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-app-pink.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-app-pink.svg)
 }
 
 .article-focus.large.appli .inside .af-content .af-title::before {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-app-white.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-app-white.svg)
 }
 
 .article-focus.large.plan {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-plan.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-plan.jpg") !important
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary {
@@ -2351,15 +2351,15 @@ figure {
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary .icon {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-map-green.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-map-green.svg)
 }
 
 .article-focus.large.plan .inside .af-content .af-title::before {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-map-white.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-map-white.svg)
 }
 
 .article-focus.large.calendrier {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-calendrier.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-calendrier.jpg") !important
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary {
@@ -2367,15 +2367,15 @@ figure {
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary .icon {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-calendar-brown.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-calendar-brown.svg)
 }
 
 .article-focus.large.calendrier .inside .af-content .af-title::before {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-calendar-white.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-calendar-white.svg)
 }
 
 .article-focus.large.cata {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-cta-catalogue.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-catalogue.jpg") !important
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary {
@@ -2383,11 +2383,11 @@ figure {
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary .icon {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-tractor-orange.svg)
+    background-image: url(/theme/sima2019_git_desktop/images/icon-tractor-orange.svg)
 }
 
 .article-focus.large.cata .inside .af-content .af-title::before {
-    background-image: url(/theme/sima2018_git_desktop/images/icon-tractor-white.svg);
+    background-image: url(/theme/sima2019_git_desktop/images/icon-tractor-white.svg);
     background-size: 4.8rem 4.8rem
 }
 
@@ -2505,7 +2505,7 @@ figure {
 }
 
 .chiffres-cles+.list-articles .list-grids-with-pagin {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-besoin-info.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-besoin-info.jpg");
     background-size: cover;
     padding: 12rem 0;
     background-position: center
@@ -2630,19 +2630,19 @@ figure {
 }
 
 .chiffres-cles .item .icon-item.item-pro .number {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-pro.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-pro.svg")
 }
 
 .chiffres-cles .item .icon-item.item-international .number {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-network.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-network.svg")
 }
 
 .chiffres-cles .item .icon-item.item-continent .number {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-world.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-world.svg")
 }
 
 .chiffres-cles .item .icon-item.item-entreprise .number {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-building.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-building.svg")
 }
 
 .chiffres-cles .item .icon-item .number {
@@ -2775,7 +2775,7 @@ figure {
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url("/theme/sima2018_git_desktop/images/apostrophes-orange.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/apostrophes-orange.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%
@@ -2904,7 +2904,7 @@ figure {
     width: 50%;
     margin: 0;
     border: 0;
-    background-image: url("/theme/sima2018_git_desktop/images/img-visiteur-pro.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-visiteur-pro.jpg");
     background-size: cover;
     background-position: center;
     padding: 7rem;
@@ -2989,7 +2989,7 @@ figure {
 }
 
 .article-focus:not(.large)+.article-focus:not(.large) {
-    background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
     background-size: cover
 }
 
@@ -3035,11 +3035,11 @@ figure {
 }
 
 .vid-exposant.img-exposant {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-vid.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-vid.jpg")
 }
 
 .vid-exposant.img-home {
-    background-image: url("/theme/sima2018_git_desktop/images/img-home-rdv.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-home-rdv.jpg")
 }
 
 .vid-exposant.img-home .txt-video-exposant {
@@ -3136,7 +3136,7 @@ figure {
     max-width: 116rem;
     margin: 0 auto;
     padding: 8rem 0 !important;
-    background-image: url("/theme/sima2018_git_desktop/images/sima-map.png");
+    background-image: url("/theme/sima2019_git_desktop/images/sima-map.png");
     background-size: 90rem;
     background-repeat: no-repeat;
     background-position: center right;
@@ -3281,7 +3281,7 @@ figure {
 
 .list-picto.list-horizontal::before {
     content: "";
-    background-image: url(/theme/sima2018_git_desktop/images/bg-fabric.png);
+    background-image: url(/theme/sima2019_git_desktop/images/bg-fabric.png);
     width: 200vw;
     height: 60rem;
     position: absolute;
@@ -3481,31 +3481,31 @@ figure {
 }
 
 .sr-list.unstyled .sr-item .sr-link-facebook {
-    background-image: url("/theme/sima2018_git_desktop/images/facebook.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/facebook.svg");
     background-position: center;
     background-repeat: no-repeat
 }
 
 .sr-list.unstyled .sr-item .sr-link-twitter {
-    background-image: url("/theme/sima2018_git_desktop/images/twitter.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/twitter.svg");
     background-position: center;
     background-repeat: no-repeat
 }
 
 .sr-list.unstyled .sr-item .sr-link-linkedin {
-    background-image: url("/theme/sima2018_git_desktop/images/linkedin.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/linkedin.svg");
     background-position: center;
     background-repeat: no-repeat
 }
 
 .sr-list.unstyled .sr-item .sr-link-gplus {
-    background-image: url("/theme/sima2018_git_desktop/images/google-plus.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/google-plus.svg");
     background-position: center;
     background-repeat: no-repeat
 }
 
 .sr-list.unstyled .sr-item .sr-link-mail {
-    background-image: url("/theme/sima2018_git_desktop/images/mail.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/mail.svg");
     background-position: center;
     background-repeat: no-repeat
 }
@@ -3582,7 +3582,7 @@ figure {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / 3;
-    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-tracteur.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-mosaic-tracteur.jpg")
 }
 
 .front .zone .mosaic div.three {
@@ -3591,7 +3591,7 @@ figure {
     -ms-grid-row: 3;
     -ms-grid-row-span: 2;
     grid-row: 3 / 5;
-    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-bois.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-mosaic-bois.jpg")
 }
 
 .front .zone .mosaic div.four {
@@ -3599,7 +3599,7 @@ figure {
     grid-column: 3;
     -ms-grid-row: 1;
     grid-row: 1;
-    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-ipad.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-mosaic-ipad.jpg")
 }
 
 .front .zone .mosaic div.five {
@@ -3607,7 +3607,7 @@ figure {
     grid-column: 3;
     -ms-grid-row: 2;
     grid-row: 2;
-    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-drone.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-mosaic-drone.jpg")
 }
 
 .front .zone .mosaic div.six {
@@ -3616,7 +3616,7 @@ figure {
     -ms-grid-row: 3;
     -ms-grid-row-span: 2;
     grid-row: 3 / 5;
-    background-image: url("/theme/sima2018_git_desktop/images/img-mosaic-trayeuse.jpg")
+    background-image: url("/theme/sima2019_git_desktop/images/img-mosaic-trayeuse.jpg")
 }
 
 .front .zone .solution-agriculteur {
@@ -3702,7 +3702,7 @@ figure {
 
 .front .zone .salon-innovation::before {
     content: "";
-    background-image: url("/theme/sima2018_git_desktop/images/bg-fabric.png");
+    background-image: url("/theme/sima2019_git_desktop/images/bg-fabric.png");
     width: 200vw;
     height: 76rem;
     position: absolute;
@@ -3889,7 +3889,7 @@ figure {
 }
 
 .front .zone .rendez-vous-pro {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-rdv-des-pros.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-rdv-des-pros.jpg");
     background-size: cover;
     background-origin: center;
     padding: 8rem 0
@@ -4005,7 +4005,7 @@ figure {
 
 .content374293 main .zone .landing-exposant .background-exposant {
     position: relative;
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -4129,7 +4129,7 @@ figure {
 }
 
 .content374293 main .zone .soyez-present {
-    background-image: url("/theme/sima2018_git_desktop/images/img-background-exposant-present.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-present.jpg");
     background-size: cover;
     background-position: center;
     padding-bottom: 13rem
@@ -4278,7 +4278,7 @@ figure {
 }
 
 .content374293 main .zone .article-focus {
-    background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -4326,7 +4326,7 @@ figure {
     margin: 5rem 0 8rem 0;
     padding: 11rem 0 7rem 40%;
     width: 200%;
-    background-image: url("/theme/sima2018_git_desktop/images/bg-fabric.png");
+    background-image: url("/theme/sima2019_git_desktop/images/bg-fabric.png");
     -webkit-transform: translateX(-35%) rotate(-10deg);
         -ms-transform: translateX(-35%) rotate(-10deg);
             transform: translateX(-35%) rotate(-10deg)
@@ -4385,7 +4385,7 @@ figure {
     -webkit-transform: rotate(-25deg);
         -ms-transform: rotate(-25deg);
             transform: rotate(-25deg);
-    background-image: url(/theme/sima2018_git_desktop/images/img-inscription.jpg);
+    background-image: url(/theme/sima2019_git_desktop/images/img-inscription.jpg);
     background-size: cover;
     background-position: center;
     left: -20%;
@@ -4394,7 +4394,7 @@ figure {
 }
 
 .content374293 main .article-focus {
-    background-image: url("/theme/sima2018_git_desktop/images/img-exposant.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
     background-size: cover;
     background-position: center;
     width: 100%
@@ -4536,19 +4536,19 @@ figure {
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-tractor-orange.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-tractor-orange.svg")
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-calendar-orange.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-calendar-orange.svg")
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-map-orange.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-map-orange.svg")
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
-    background-image: url("/theme/sima2018_git_desktop/images/icon-app-orange.svg")
+    background-image: url("/theme/sima2019_git_desktop/images/icon-app-orange.svg")
 }
 
 .content374293 .quicklinks.ip1 .ql-item a:hover .txt-btn {
@@ -4608,7 +4608,7 @@ body.exposer #main .site-wrapper {
     position: absolute;
     left: 0;
     height: 35rem;
-    background-image: url(/theme/sima2018_git_desktop/images/bg-12.jpg);
+    background-image: url(/theme/sima2019_git_desktop/images/bg-12.jpg);
     background-size: cover;
     background-position: center
 }
@@ -5102,7 +5102,7 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .esf-tree .esf-has-sub-items>.esf-choice-container .esf-next-lvl::after {
     content: "";
-    background-image: url("/theme/sima2018_git_desktop/images/arrow-slides.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/arrow-slides.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 1.2rem !important;
@@ -6377,7 +6377,7 @@ body.exposer #main .site-wrapper {
 
 .pagination .icon::before {
     content: "";
-    background-image: url(/theme/sima2018_git_desktop/images/arrow-slides.svg);
+    background-image: url(/theme/sima2019_git_desktop/images/arrow-slides.svg);
     width: 0.8rem;
     height: 1.2rem;
     display: block;
@@ -6401,7 +6401,7 @@ body.exposer #main .site-wrapper {
 
 .pagination .pagin-prev:hover .icon::before,
 .pagination .pagin-next:hover .icon::before {
-    background-image: url(/theme/sima2018_git_desktop/images/arrow-allinone.svg);
+    background-image: url(/theme/sima2019_git_desktop/images/arrow-allinone.svg);
     -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
@@ -6537,7 +6537,7 @@ body.exposer #main .site-wrapper {
     left: 0;
     top: 0;
     height: 36rem;
-    background-image: url(/theme/sima2018_git_desktop/images/bg-12.jpg);
+    background-image: url(/theme/sima2019_git_desktop/images/bg-12.jpg);
     background-size: cover;
     background-position: center;
     z-index: 0
@@ -6805,7 +6805,7 @@ h1.main-title {
     position: absolute;
     left: 0;
     height: 53.5rem;
-    background-image: url("/theme/sima2018_git_desktop/images/bg-general.jpg");
+    background-image: url("/theme/sima2019_git_desktop/images/bg-general.jpg");
     background-size: cover;
     background-position: center;
     z-index: 1
@@ -6964,7 +6964,7 @@ h1.main-title {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
     content: "";
-    background: url("/theme/sima2018_git_desktop/images/apostrophes.svg");
+    background: url("/theme/sima2019_git_desktop/images/apostrophes.svg");
     position: absolute;
     width: 4.2rem;
     height: 2.7rem;
@@ -7185,7 +7185,7 @@ h1.main-title {
     position: relative;
     border: 3px solid #e4e4e4;
     padding: 2rem 3rem 2rem 6rem;
-    background-image: url("/theme/sima2018_git_desktop/images/icon-pdf.svg");
+    background-image: url("/theme/sima2019_git_desktop/images/icon-pdf.svg");
     background-repeat: no-repeat;
     background-position: left 2.5rem center;
     margin: -1rem 0;
@@ -7432,7 +7432,7 @@ h1.main-title {
 }
 
 .body-corpo.sima #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-6.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-6.jpg") !important
 }
 
 .body-corpo.sima.content384937 #main {
@@ -7462,39 +7462,39 @@ h1.main-title {
 }
 
 .body-corpo.simagena #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-13.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-13.jpg") !important
 }
 
 .body-corpo.exposer #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-11.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-11.jpg") !important
 }
 
 .body-corpo.exposer.article_list #main .site-wrapper.wrapper::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-11.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-11.jpg") !important
 }
 
 .body-corpo.visiter #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-12.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-12.jpg") !important
 }
 
 .body-corpo.evts #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-2.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-2.jpg") !important
 }
 
 .body-corpo.evts.article_list #main .site-wrapper.wrapper::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-2.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-2.jpg") !important
 }
 
 .body-corpo.worldwide #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-10.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-10.jpg") !important
 }
 
 .body-corpo.infos #main::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-5.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-5.jpg") !important
 }
 
 .body-corpo.infos.article_list #main .site-wrapper.wrapper::before {
-    background-image: url("/theme/sima2018_git_desktop/images/bg-5.jpg") !important
+    background-image: url("/theme/sima2019_git_desktop/images/bg-5.jpg") !important
 }
 
 .stands {
@@ -7709,7 +7709,7 @@ h1.main-title {
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before {
     height: 33.5rem;
-    background-image: url(/theme/sima2018_git_desktop/images/bg-2.jpg)
+    background-image: url(/theme/sima2019_git_desktop/images/bg-2.jpg)
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
