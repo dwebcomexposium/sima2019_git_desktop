@@ -47,5 +47,5 @@
     display: none;
 }
 #cxpmClientAccountWidget, #cxpm-connect-sso-dropdown {
-    position: initial;
+    position: initial !important;
 }
