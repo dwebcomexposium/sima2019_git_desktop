@@ -46,3 +46,6 @@
 .inside.ep-form-wrap {
     display: none;
 }
+#cxpmClientAccountWidget, #cxpm-connect-sso-dropdown {
+    position: initial;
+}
