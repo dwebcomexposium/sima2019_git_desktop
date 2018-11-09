@@ -960,6 +960,59 @@ figure {
     display: inline-block
 }
 
+.mod-catal .catal-ex-item.is-premium {
+    border-top: 0 none;
+    border-right: 0 none;
+    border-left: 0 none;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: transparent
+}
+
+.mod-catal .catal-ex-item.is-premium::after {
+    display: none
+}
+
+.mod-catal .catal-ex-item.is-premium p {
+    font-family: roboto-condensed-regular, Helvetica, Arial, sans-serif
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-title {
+    font-family: Gudea, Helvetica, Arial, sans-serif
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-item {
+    color: #6e6e6e;
+    font-family: roboto-condensed-regular, Helvetica, Arial, sans-serif
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
+    color: #f26c4a
+}
+
+.block-page.faq>.inside:nth-child(1) ol li i {
+    display: none !important
+}
+
+.block-page.faq div {
+    margin: 0
+}
+
+.block-page.faq ol.faq-summary {
+    margin: 0;
+    padding: 0;
+    border-bottom: none
+}
+
+.block-page.faq h1 {
+    border-bottom: none;
+    margin-bottom: 0 !important
+}
+
+.block-page.faq .fc-title {
+    background: #fefefe;
+    border-bottom: none
+}
+
 .btn {
     padding: 2rem 3rem;
     min-width: 16rem;
@@ -7917,31 +7970,132 @@ h1.main-title {
     display: none
 }
 
-.mod-catal .catal-ex-item.is-premium {
-    border-top: 0 none;
-    border-right: 0 none;
-    border-left: 0 none;
-    border-bottom: 1px solid #e2e2e2;
-    background-color: transparent;
+.block-page.faq .faq-content h3 i {
+    width: 18px;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #8CC63F
 }
 
-.mod-catal .catal-ex-item.is-premium::after {
-    display:none;
+.block-page.faq .faq-content {
+    -webkit-box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2)
 }
 
-.mod-catal .catal-ex-item.is-premium p {
-    font-family: roboto-condensed-regular,Helvetica,Arial,sans-serif;
+.block-page.faq h2.fc-title {
+    background: #8CC63F;
+    color: #fff;
+    padding: 0
 }
 
-.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-title {
-    font-family: Gudea,Helvetica,Arial,sans-serif;
+.block-page.faq h2.fc-title span.fc-item-nb {
+    padding: .8rem 1.3rem;
+    background: #8CC63F;
+    color: #fff;
+    margin: 0 !important
 }
 
-.mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-item {
-    color: #6e6e6e;
-    font-family: roboto-condensed-regular,Helvetica,Arial,sans-serif;
+.block-page.faq h3.fc-item-title:hover .fc-item-link {
+    color: #8CC63F !important
 }
 
-.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
-    color: #f26c4a;
+.block-page.faq h3.fc-item-title .fc-item-link {
+    padding: 2rem;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #252525 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
+}
+
+.block-page.faq .fc-item-content {
+    padding: 0px 1.5rem 3.5rem 2.2rem;
+    font-size: 1.5rem
+}
+
+.block-page.faq .fc-item-content p {
+    margin: 0 !important;
+    font-size: 1.5rem;
+    padding-top: 5px
+}
+
+.block-page.faq .fc-item-content p a {
+    font-weight: 700;
+    color: black;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.block-page.faq .fc-item-content p a:hover {
+    color: #8CC63F
+}
+
+.block-page.faq .fc-item-content li {
+    font-size: 1.5rem
+}
+
+.block-page.faq .faq-content {
+    margin-bottom: 5rem !important
+}
+
+.block-page.faq .fc-item-link {
+    color: #474d4e !important
+}
+
+.block-page.faq .fc-item-link:hover {
+    text-decoration: none;
+    color: green
+}
+
+.block-page.faq>.inside:nth-child(1) h1 {
+    color: #fff !important
+}
+
+.block-page.faq>.inside:nth-child(1) .intro {
+    padding: 1.5rem 1.5rem 0 1.5rem
+}
+
+.block-page.faq>.inside:nth-child(1) .faq-sub-title {
+    padding: 0 0 0 1.5rem
+}
+
+.block-page.faq>.inside:nth-child(1) p,
+.block-page.faq>.inside:nth-child(1) ol,
+.block-page.faq>.inside:nth-child(1) div,
+.block-page.faq>.inside:nth-child(1) li,
+.block-page.faq>.inside:nth-child(1) h2 {
+    background-color: #fff;
+    color: #252525
+}
+
+.block-page.faq>.inside:nth-child(1) ol {
+    margin-bottom: 5rem;
+    padding: 2.5rem 4rem 3rem 4rem
+}
+
+.block-page.faq>.inside:nth-child(1) ol span.fs-item-nb {
+    background: #8CC63F;
+    padding: .8rem 1.3rem
+}
+
+.block-page.faq>.inside:nth-child(1) .fs-item-link .fs-item-title {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #252525
+}
+
+.block-page.faq>.inside:nth-child(1) .fs-item-link:hover {
+    text-decoration: none
+}
+
+.block-page.faq>.inside:nth-child(1) .fs-item-link:hover .fs-item-title {
+    color: #8CC63F
 }
