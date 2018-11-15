@@ -993,6 +993,14 @@ figure {
     display: none !important
 }
 
+.block-page.faq h2.fc-title {
+    padding: 0
+}
+
+.block-page.faq h2.fc-title span.fc-item-nb {
+    margin: 0 !important
+}
+
 .block-page.faq div {
     margin: 0
 }
@@ -1000,7 +1008,8 @@ figure {
 .block-page.faq ol.faq-summary {
     margin: 0;
     padding: 0;
-    border-bottom: none
+    border-bottom: none;
+    margin-bottom: 2rem !important
 }
 
 .block-page.faq h1 {
@@ -7985,15 +7994,13 @@ h1.main-title {
 
 .block-page.faq h2.fc-title {
     background: #8CC63F;
-    color: #fff;
-    padding: 0
+    color: #fff
 }
 
 .block-page.faq h2.fc-title span.fc-item-nb {
     padding: .8rem 1.3rem;
     background: #8CC63F;
-    color: #fff;
-    margin: 0 !important
+    color: #fff
 }
 
 .block-page.faq h3.fc-item-title:hover .fc-item-link {
@@ -8015,7 +8022,7 @@ h1.main-title {
 }
 
 .block-page.faq .fc-item-content {
-    padding: 0px 1.5rem 3.5rem 2.2rem;
+    padding: 0 5.5rem 3.5rem 5.5rem;
     font-size: 1.5rem
 }
 
@@ -8026,15 +8033,14 @@ h1.main-title {
 }
 
 .block-page.faq .fc-item-content p a {
-    font-weight: 700;
-    color: black;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+    font-weight: 150 !important;
+    color: #8CC63F;
+    text-decoration: underline
 }
 
 .block-page.faq .fc-item-content p a:hover {
-    color: #8CC63F
+    color: #8CC63F;
+    text-decoration: none
 }
 
 .block-page.faq .fc-item-content li {
@@ -8058,12 +8064,26 @@ h1.main-title {
     color: #fff !important
 }
 
+.block-page.faq>.inside:nth-child(1) h1::after {
+    content: '';
+    margin-top: 2rem;
+    display: block;
+    height: 43rem;
+    width: 100%;
+    background: url(https://sima.cms-cxpm.com/var/comexposium/storage/images/media/sima-medias/images/sima-asean/sima-asean-exhibitors-01/306561-1-fre-FR/faq_visiteurs.jpg);
+    background-position: bottom
+}
+
 .block-page.faq>.inside:nth-child(1) .intro {
-    padding: 1.5rem 1.5rem 0 1.5rem
+    padding: 1.5rem 1.5rem 0 0;
+    font-family: 'Roboto-condensed-regular'
 }
 
 .block-page.faq>.inside:nth-child(1) .faq-sub-title {
-    padding: 0 0 0 1.5rem
+    padding: 0;
+    font-family: 'Roboto-condensed-bold';
+    color: #8CC63F;
+    font-size: 44px
 }
 
 .block-page.faq>.inside:nth-child(1) p,
@@ -8076,8 +8096,7 @@ h1.main-title {
 }
 
 .block-page.faq>.inside:nth-child(1) ol {
-    margin-bottom: 5rem;
-    padding: 2.5rem 4rem 3rem 4rem
+    padding: 2.5rem 4rem 3rem 0
 }
 
 .block-page.faq>.inside:nth-child(1) ol span.fs-item-nb {
@@ -8089,7 +8108,8 @@ h1.main-title {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    color: #252525
+    color: #252525;
+    font-family: 'Roboto-condensed-bold'
 }
 
 .block-page.faq>.inside:nth-child(1) .fs-item-link:hover {
