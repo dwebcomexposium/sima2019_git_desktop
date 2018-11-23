@@ -7979,6 +7979,15 @@ h1.main-title {
     display: none
 }
 
+.block-page.faq .fc-item-content ul {
+    list-style-type: disc;
+    padding-left: 1em
+}
+
+.block-page.faq .fc-item-content ul li {
+    list-style-type: disc
+}
+
 .block-page.faq .faq-content h3 i {
     width: 18px;
     font-size: 11px;
@@ -8023,7 +8032,10 @@ h1.main-title {
 
 .block-page.faq .fc-item-content {
     padding: 0 5.5rem 3.5rem 5.5rem;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    -webkit-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out
 }
 
 .block-page.faq .fc-item-content p {
