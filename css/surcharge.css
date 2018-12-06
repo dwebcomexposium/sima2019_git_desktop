@@ -7945,5 +7945,8 @@ h1.main-title {
 .exposant .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
     color: #f26c4a;
 }
-
+.mod-catal .catal-ex-item.is-premium {
+    background-color: #ffff;
+    border: 1px solid #fff;
+}
 
