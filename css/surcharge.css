@@ -8530,7 +8530,8 @@ h1.main-title {
 
 .parent691061 .catal-nav-ex .catal-nav-ex-more-link,
 .parent691061 .catal-nav-ex .catal-nav-ex-link {
-    margin: 0 !important
+    margin: 0 !important;
+    display: inline-block !important
 }
 
 .parent691061 .catal-nav-ex .catal-nav-ex-more-link i.icon-catal::before,
@@ -8827,4 +8828,8 @@ h1.main-title {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center
+}
+
+.parent691061 #downloads .event-ed-pr-list {
+    margin: 0 !important
 }
