@@ -8563,7 +8563,8 @@ h1.main-title {
     background-size: cover;
     background-position: center;
     z-index: 1;
-    margin-top: 1.5rem
+    margin-top: 1.5rem;
+    background-image: url(/theme/sima2019_git_desktop/images/evenements.jpg)
 }
 
 .parent691061 .catal-nav-ex {
