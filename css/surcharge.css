@@ -7382,7 +7382,8 @@ h1.main-title {
         align-self: flex-start;
     min-height: 15rem;
     margin-right: -15rem;
-    z-index: 1
+    z-index: 1;
+    padding: 0 !important
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust img {
@@ -8178,6 +8179,28 @@ h1.main-title {
     color: #8CC63F
 }
 
+.content453797 .catal-results-selectboxes .catal-results-number .crn-select::after {
+    right: 188px !important
+}
+
+.content453797 .esf-p-like {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+
+.content453797 .esf-choice-container label {
+    color: #000 !important
+}
+
+.content453797 .checkbox-title {
+    color: #000 !important
+}
+
+.content453797 #front_search_suggest_event {
+    padding: 11px 26px
+}
+
 .content453797 .esf-as-list-filters .current a {
     background: #8CC63F !important
 }
@@ -8399,7 +8422,13 @@ h1.main-title {
 }
 
 .parent691061 {
+    margin-top: 3rem;
     font-family: 'Roboto-condensed-regular'
+}
+
+.parent691061 img {
+    margin-top: 2.5rem !important;
+    margin-bottom: 5.5rem !important
 }
 
 .parent691061 .catal-ed-activity-link {
@@ -8417,7 +8446,7 @@ h1.main-title {
 
 .parent691061 .catal-edp-content.catal-edp-content:nth-child(1) .catal-edp-brand {
     font-size: 1.8rem;
-    color: #4A4A4A
+    line-height: 2rem
 }
 
 .parent691061 .mod-catal .icon-catal-long-arrow-right:before {
@@ -8428,20 +8457,16 @@ h1.main-title {
     background: red !important
 }
 
-.parent691061 #persons {
-    margin-top: 3rem
-}
-
-.parent691061 #persons p.catal-edp-brand {
+.parent691061 p.catal-edp-brand {
     line-height: 2rem
 }
 
-.parent691061 #persons p.catal-edp-brand span:nth-child(1) {
+.parent691061 p.catal-edp-brand span:nth-child(1) {
     font-size: 1.8rem;
     color: #4A4A4A
 }
 
-.parent691061 #persons p.catal-edp-brand span:nth-child(3) {
+.parent691061 p.catal-edp-brand span:nth-child(3) {
     font-size: 1.8rem;
     color: #9B9B9B
 }
@@ -8456,7 +8481,16 @@ h1.main-title {
 }
 
 .parent691061 .catal-ed-activity-group {
-    margin-bottom: 0 !important
+    margin-bottom: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 0.5rem 0 0.5rem 0 !important
 }
 
 .parent691061 .catal-ed-group-title {
@@ -8469,7 +8503,7 @@ h1.main-title {
 }
 
 .parent691061 .catal-ed-main p:nth-child(1) {
-    margin-left: 3%
+    margin-left: 6.5%
 }
 
 .parent691061 .catal-ed-main-media {
@@ -8479,12 +8513,12 @@ h1.main-title {
 }
 
 .parent691061 .catal-ed-activity-link {
-    margin-left: 3%
+    margin-left: 6.8%
 }
 
 .parent691061 .catal-ed-main-address {
     margin-top: 0;
-    margin-left: 3%
+    margin-left: 6%
 }
 
 .parent691061 .evd-infos-type-title {
@@ -8507,7 +8541,7 @@ h1.main-title {
 
 .parent691061 .catal-ed-main-desc-title {
     position: relative;
-    margin-left: 2rem
+    margin-left: 4rem
 }
 
 .parent691061 .catal-ed-main-desc-title::before {
@@ -8526,7 +8560,6 @@ h1.main-title {
     display: block;
     background-color: #000;
     height: 53.5rem;
-    background-image: url(/theme/sima2019_git_desktop/images/evenements.jpg);
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -8704,7 +8737,7 @@ h1.main-title {
 
 .parent691061 .catal-ed-main .catal-ed-main-session {
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 3.5rem;
     -webkit-box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2);
             box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2);
     margin-bottom: 4%
@@ -8755,13 +8788,18 @@ h1.main-title {
     border-bottom: none !important
 }
 
+.parent691061 .catal-ed-activity .catal-ed-activity-list {
+    margin: 0
+}
+
 .parent691061 .catal-ed-activity .catal-ed-activity-list a.event-link-opposite {
     font-weight: 150 !important;
     color: #8CC63F;
     background: #F4F4F4;
     text-decoration: none !important;
-    padding: 1.5rem;
-    text-align: center
+    padding: 1rem;
+    text-align: center;
+    min-width: 10rem
 }
 
 .parent691061 .catal-ed-activity .catal-ed-activity-list a.event-link-opposite:hover {
@@ -8808,11 +8846,13 @@ h1.main-title {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    padding-top: 1.5rem
+    padding-top: 0.5rem
 }
 
 .parent691061 #downloads .event-ed-group-title h2 {
-    color: white
+    color: white;
+    top: 10px;
+    position: relative
 }
 
 .parent691061 #downloads .event-ed-pr-list {
