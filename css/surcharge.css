@@ -373,10 +373,6 @@ abbr[title] {
     content: ""
 }
 
-.layout-2-col [id="zone2"] {
-    font-size: 100%
-}
-
 p,
 .p-like,
 ul,
@@ -1021,6 +1017,10 @@ figure {
 .block-page.faq .fc-title {
     background: #fefefe;
     border-bottom: none
+}
+
+.layout-2-col [id="zone2"] {
+    font-size: 0
 }
 
 .btn {
@@ -6936,6 +6936,11 @@ h1.main-title {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col {
     padding-top: 0
+}
+
+.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 {
+    font-size: 100% !important;
+    font-size: 0
 }
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 h1 {
