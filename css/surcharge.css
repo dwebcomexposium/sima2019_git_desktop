@@ -8693,7 +8693,8 @@ h1.main-title {
 .parent691061 h1 {
     margin-bottom: 0 !important;
     padding: 3.5rem 3.5rem 3.5rem 0;
-    line-height: 4rem !important
+    line-height: 4rem !important;
+    text-transform: capitalize
 }
 
 .parent691061 h1 .ezstring-field {
