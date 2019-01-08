@@ -55,3 +55,9 @@
 figure img {
     padding-top: 20px;
 }
+.mod-catal .catal-ex-item.is-premium {
+    background-color: #fff;
+    border: 0px solid #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+.mod-catal .catal-ex-item.is-premium::after{display:none;}
