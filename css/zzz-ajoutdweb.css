@@ -63,7 +63,9 @@ figure img {
 .mod-catal .catal-ex-item.is-premium::after{display:none;}
 
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list):not(.article) .site-wrapper .zone .article-content p.important1:nth-child(2) {
-  border: 0; 
-  background: 0 0; 
+.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.important1 {
+    background: #f5f5f5;
+    padding: 2rem 3rem;
+    border-bottom: 3px solid #8cc63f;
+    margin-top: 1rem;
 }
