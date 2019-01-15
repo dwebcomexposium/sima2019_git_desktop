@@ -64,8 +64,8 @@ figure img {
 
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.important1 {
-    background: #f5f5f5;
+    background: #f5f5f5 !important;
     padding: 2rem 3rem;
-    border-bottom: 3px solid #8cc63f;
+    border-bottom: 3px solid #8cc63f !important;
     margin-top: 1rem;
 }
