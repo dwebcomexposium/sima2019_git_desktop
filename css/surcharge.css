@@ -8393,11 +8393,11 @@ h1.main-title {
 
 .content453797 .catal-ex-item-title a {
     font-weight: 150 !important;
-    color: #000
+    color: #8CC63F;
+    text-transform: none
 }
 
 .content453797 .catal-ex-item-title a:hover {
-    color: #252525;
     color: #8CC63F;
     text-decoration: none
 }
@@ -8431,6 +8431,25 @@ h1.main-title {
     font-family: 'Roboto-condensed-regular'
 }
 
+.parent691061 #complement .catal-edp-item .catal-edp-content .catal-edp-desc a {
+    background-color: #8cc63f;
+    display: block;
+    width: 190px;
+    color: #fff !important;
+    margin: 0;
+    padding: 23px;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase
+}
+
+.parent691061 #complement .catal-edp-item .catal-edp-content .catal-edp-desc a::after {
+    content: "S'inscrire"
+}
+
 .parent691061 img {
     margin-top: 2.5rem !important;
     margin-bottom: 5.5rem !important
@@ -8451,7 +8470,8 @@ h1.main-title {
 
 .parent691061 .catal-edp-content.catal-edp-content:nth-child(1) .catal-edp-brand {
     font-size: 1.8rem;
-    line-height: 2rem
+    line-height: 2.3rem;
+    margin-top: 5px
 }
 
 .parent691061 .mod-catal .icon-catal-long-arrow-right:before {
@@ -8500,7 +8520,9 @@ h1.main-title {
 
 .parent691061 .catal-ed-group-title {
     border-bottom: 0.1rem solid #e3e9ea;
-    line-height: 32px
+    line-height: 32px;
+    margin-top: 5px;
+    margin-bottom: 8px
 }
 
 .parent691061 .catal-edp-item {
@@ -8694,7 +8716,7 @@ h1.main-title {
     margin-bottom: 0 !important;
     padding: 3.5rem 3.5rem 3.5rem 0;
     line-height: 4rem !important;
-    text-transform: capitalize
+    text-transform: none
 }
 
 .parent691061 h1 .ezstring-field {
