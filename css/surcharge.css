@@ -1032,10 +1032,6 @@ figure {
 	display: none !important
 }
 
-.catal-ed-activity {
-	margin-top: 3rem
-}
-
 .btn {
 	padding: 2rem 3rem;
 	min-width: 16rem;
@@ -8197,10 +8193,6 @@ h1.main-title {
 	color: #8CC63F
 }
 
-.content453797 .catal-ed-main {
-	margin-bottom: 4rem !important
-}
-
 .content453797 .catal-results-selectboxes .catal-results-number .crn-select::after {
 	right: 188px !important
 }
@@ -8446,6 +8438,10 @@ h1.main-title {
 .parent691061 {
 	margin-top: 3rem;
 	font-family: 'Roboto-condensed-regular'
+}
+
+.parent691061 .catal-ed-main {
+	margin-bottom: 4rem !important
 }
 
 .parent691061 #complement .catal-edp-item .catal-edp-content .catal-edp-desc a {
