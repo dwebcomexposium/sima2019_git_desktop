@@ -1023,6 +1023,15 @@ figure {
 	font-size: 0
 }
 
+.catal-nav-ex-link.previousEvent span,
+.catal-nav-ex-link.nextEvent span {
+	display: none !important
+}
+
+.catal-nav-ex-sep {
+	display: none !important
+}
+
 .btn {
 	padding: 2rem 3rem;
 	min-width: 16rem;
@@ -8538,7 +8547,7 @@ h1.main-title {
 	border: none !important
 }
 
-.parent691061 .catal-ed-main p:nth-child(1) {
+.parent691061 .catal-ed-main p {
 	margin-left: 6.5%
 }
 
@@ -8748,7 +8757,7 @@ h1.main-title {
 	background: #F4F4F4
 }
 
-.parent691061 .catal-ed-main p:nth-child(1) {
+.parent691061 .catal-ed-main p {
 	font-size: 17px;
 	line-height: 25px;
 	text-align: justify;
@@ -8925,4 +8934,8 @@ h1.main-title {
 
 .parent691061 #downloads .event-ed-pr-list {
 	margin: 0 !important
+}
+
+.catal-ex .catal-ex-item:last-child {
+	border-bottom: none !important
 }
