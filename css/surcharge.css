@@ -8940,6 +8940,6 @@ h1.main-title {
 	margin: 0 !important
 }
 
-.block.block-page.mod-catal.catal-ex .catal-ex-item.mod-catal.type_table_ronde.topic_elevage.topic_agtech {
+.block.block-page.mod-catal.catal-ex .catal-ex-item:nth-last-child(2) {
 	border-bottom: 0 none !important
 }
