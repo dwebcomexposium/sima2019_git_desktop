@@ -1032,6 +1032,10 @@ figure {
 	display: none !important
 }
 
+.catal-ed-activity {
+	margin-top: 3rem
+}
+
 .btn {
 	padding: 2rem 3rem;
 	min-width: 16rem;
@@ -8936,6 +8940,6 @@ h1.main-title {
 	margin: 0 !important
 }
 
-.catal-ex .catal-ex-item:last-child {
-	border-bottom: none !important
+.block.block-page.mod-catal.catal-ex .catal-ex-item.mod-catal.type_table_ronde.topic_elevage.topic_agtech {
+	border-bottom: 0 none !important
 }
