@@ -63,13 +63,23 @@
             $(document).on("scroll", function () {
                 if ($elem.length > 0) {
                     if (isScrolledIntoView($elem, $window)) {
-                        console.log("now you see me");
+
+                        if ( $('html').attr('lang') == 'en' ) {
+                            var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
+                        } else {
+                            var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ')
+                        }
 
                         //Animate visite number
-                        $('#figure-visit').animateNumber({ number: 23, easing: 'easeOutQuart' }, 2000);
+                        $('#figure-visit').animateNumber({ number: 25, easing: 'easeOutQuart' }, 2000);
 
                         //Animate enterprise number
-                        $('#figure-enterprise').animateNumber({ number: 1770, easing: 'easeOutQuart' }, 2000);
+                        $('#figure-enterprise').animateNumber({
+                                number: 1800,
+                                easing: 'easeOutQuart',
+                                numberStep: comma_separator_number_step
+                            } , 2000
+                        );
 
                         //Animate europe number
                         $('#figure-europe').animateNumber({ number: 200, easing: 'easeOutQuart' }, 2000);
@@ -81,13 +91,11 @@
                         $('#figure-continent').animateNumber({ number: 5, easing: 'easeOutQuart' }, 2000);
 
                         //Animate pro number
-                        var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ')
-                        $('#figure-pro').animateNumber(
-                        {
-                            number: 232000,
-                            easing: 'easeOutQuart',
-                            numberStep: comma_separator_number_step
-                        } , 2000
+                        $('#figure-pro').animateNumber({
+                                number: 230000,
+                                easing: 'easeOutQuart',
+                                numberStep: comma_separator_number_step
+                            } , 2000
                         );
 
                         $(document).off('scroll');
