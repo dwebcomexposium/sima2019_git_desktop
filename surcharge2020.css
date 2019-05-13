@@ -745,7 +745,7 @@ figure {
   border: 0;
   border-radius: 100px;
   background-color: white;
-  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg");
   background-size: 0.9rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -2101,19 +2101,19 @@ figure {
 }
 
 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-tractor.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-tractor-v2020.svg");
 }
 
 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-calendar.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-calendar-v2020.svg");
 }
 
 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-map.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-map-v2020.svg");
 }
 
 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-bike.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-bike-v2020.svg");
 }
 
 .quicklinks.ip1 .ql-item a.btn-primary {
@@ -2260,7 +2260,7 @@ figure {
 }
 
 .article-focus.large.appli {
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-appli.jpg") !important;
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-appli-v2020.jpg") !important;
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary {
@@ -2268,7 +2268,7 @@ figure {
 }
 
 .article-focus.large.appli .inside .af-content p:last-child a.btn-primary .icon {
-  background-image: url(/theme/sima2019_git_desktop/images/icon-app.svg);
+  background-image: url(/theme/sima2019_git_desktop/images/icon-app-v2020.svg);
 }
 
 .article-focus.large.appli .inside .af-content .af-title::before {
@@ -2276,7 +2276,7 @@ figure {
 }
 
 .article-focus.large.plan {
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-plan.jpg") !important;
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-plan-v2020.jpg") !important;
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary {
@@ -2284,7 +2284,7 @@ figure {
 }
 
 .article-focus.large.plan .inside .af-content p:last-child a.btn-primary .icon {
-  background-image: url(/theme/sima2019_git_desktop/images/icon-map-green.svg);
+  background-image: url(/theme/sima2019_git_desktop/images/icon-map-green-v2020.svg);
 }
 
 .article-focus.large.plan .inside .af-content .af-title::before {
@@ -2292,7 +2292,7 @@ figure {
 }
 
 .article-focus.large.calendrier {
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-calendrier.jpg") !important;
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-calendrier-v2020.jpg") !important;
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary {
@@ -2300,7 +2300,7 @@ figure {
 }
 
 .article-focus.large.calendrier .inside .af-content p:last-child a.btn-primary .icon {
-  background-image: url(/theme/sima2019_git_desktop/images/icon-calendar-brown.svg);
+  background-image: url(/theme/sima2019_git_desktop/images/icon-calendar-brown-v2020.svg);
 }
 
 .article-focus.large.calendrier .inside .af-content .af-title::before {
@@ -2308,7 +2308,7 @@ figure {
 }
 
 .article-focus.large.cata {
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-catalogue.jpg") !important;
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-cta-catalogue-v2020.jpg") !important;
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary {
@@ -2316,7 +2316,7 @@ figure {
 }
 
 .article-focus.large.cata .inside .af-content p:last-child a.btn-primary .icon {
-  background-image: url(/theme/sima2019_git_desktop/images/icon-tractor-orange.svg);
+  background-image: url(/theme/sima2019_git_desktop/images/icon-tractor-orange-v2020.svg);
 }
 
 .article-focus.large.cata .inside .af-content .af-title::before {
@@ -2663,7 +2663,7 @@ figure {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("/theme/sima2019_git_desktop/images/apostrophes-orange.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/apostrophes-orange-v2020.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2698,7 +2698,7 @@ figure {
 }
 
 .temoignages-visiteurs.list-articles .slider-content .slider-item .la-item-content .la-item-desc::before {
-  background-image: url("/theme/sima2019_git_desktop/images/apostrophes-brown.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/apostrophes-brown-v2020.svg");
 }
 
 .temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-nb .slider-pagin-item {
@@ -2711,7 +2711,7 @@ figure {
 
 .temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-prev,
 .temoignages-visiteurs.list-articles .slider-pagin .slider-pagin-btn .slider-btn-next {
-  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-brown.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-brown-v2020.svg");
 }
 
 /*END TEMOIGNANGE EXPOSANT/VISITEURS*/
@@ -4140,7 +4140,7 @@ figure {
 
 .content374293 main .zone .landing-exposant .background-exposant {
   position: relative;
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant.jpg");
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-v2020.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -4612,15 +4612,15 @@ figure {
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-tractor-orange.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-tractor-orange-v2020.svg");
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-calendar-orange.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-calendar-orange-v2020.svg");
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-map-orange.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/icon-map-orange-v2020.svg");
 }
 
 .content374293 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
@@ -5214,7 +5214,7 @@ body.exposer #main .site-wrapper {
 > .esf-choice-container
 .esf-next-lvl::after {
   content: "";
-  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 1.2rem !important;
@@ -6467,7 +6467,7 @@ body.exposer #main .site-wrapper {
 /*pagination*/
 .pagination .icon::before {
   content: "";
-  background-image: url(/theme/sima2019_git_desktop/images/arrow-slides.svg);
+  background-image: url(/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg);
   width: 0.8rem;
   height: 1.2rem;
   display: block;
@@ -7031,7 +7031,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
   content: "";
-  background: url("/theme/sima2019_git_desktop/images/apostrophes.svg");
+  background: url("/theme/sima2019_git_desktop/images/apostrophes-v2020.svg");
   position: absolute;
   width: 4.2rem;
   height: 2.7rem;
