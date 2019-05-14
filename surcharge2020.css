@@ -5681,7 +5681,7 @@ body.exposer #main .site-wrapper {
 }
 
 .catal-ex-item-buttons .btn-primary .animation-txt {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: black;
 }
@@ -6948,7 +6948,7 @@ h1.main-title  {
   margin-bottom: 2.5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main::before {
   content: "";
   display: block;
   background-color: black;
@@ -6963,11 +6963,11 @@ h1.main-title  {
   z-index: 1;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .block.block-page.social-sharing {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .block.block-page.social-sharing {
   display: flex;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper {
   max-width: 90rem;
   margin: 15rem auto 0 auto;
   box-shadow: none;
@@ -6975,21 +6975,21 @@ h1.main-title  {
   z-index: 2;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col {
   padding-top: 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 {
   font-size: 100% !important;
   font-size: 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 h1 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 h1 {
   color: white;
   margin-bottom: 2rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside h1 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside h1 {
   font-size: 5.2rem;
   margin-top: 0;
   color: white;
@@ -6997,43 +6997,43 @@ h1.main-title  {
   margin-bottom: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .sm-item-title {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .sm-item-title {
   font-size: 2.6rem;
   color: #252525;
   margin: 3rem 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .sm-item-link {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .sm-item-link {
   color: #252525;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
   color: #0B8E36;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet > li:before {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet > li:before {
   margin-left: 0.3rem;
   border-radius: 50px;
   background-color: #0B8E36;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-title {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-title {
   margin-bottom: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-title > .inside {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-title > .inside {
   display: flex;
   flex-direction: column;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-title > .inside img {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-title > .inside img {
   width: 100%;
   height: auto;
   order: 2;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-title > .inside h1 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-title > .inside h1 {
   font-size: 5.2rem;
   margin-top: 0;
   color: white;
@@ -7041,7 +7041,7 @@ h1.main-title  {
   margin-bottom: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content {
   /* figure.fr */
   /*btn 1 et 2 */
   /*btn 3 et 4 */
@@ -7049,13 +7049,13 @@ h1.main-title  {
   /*tableau*/
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.important1:nth-child(2) {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.important1:nth-child(2) {
   border: 0;
   background: transparent;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a,
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a.externe {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a,
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a.externe {
   background: transparent;
   padding: 0;
   color: #0B8E36;
@@ -7064,13 +7064,13 @@ h1.main-title  {
   text-decoration: underline;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a:hover,
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a.externe:hover {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a:hover,
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content a.externe:hover {
   background-color: transparent;
   text-decoration: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h2 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h2 {
   font-size: 4.4rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   position: relative;
@@ -7081,7 +7081,7 @@ h1.main-title  {
   margin-bottom: 2rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h2:before {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h2:before {
   content: "";
   position: absolute;
   width: 4rem;
@@ -7093,31 +7093,31 @@ h1.main-title  {
   top: 3.6rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h3 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h3 {
   font-size: 2.6rem;
   color: #252525;
   margin: 3rem 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h4 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h4 {
   font-size: 2.6rem;
   color: black;
   margin: 3rem 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h5 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content h5 {
   margin: 2rem 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote {
   margin: 7rem 0 5rem;
   position: relative;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
   content: "";
   background: url("/theme/sima2019_git_desktop/images/apostrophes-v2020.svg");
   position: absolute;
@@ -7128,21 +7128,21 @@ h1.main-title  {
 }
 
 @media screen and (max-width: 1199px) {
-  .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
+  .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
     width: 5.8rem;
     height: 3.7rem;
     left: -1rem;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote p {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote p {
   color: black;
   font-style: italic;
   line-height: 3.6rem;
   font-size: 2.16rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote .important1 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote .important1 {
   font-size: 1.4rem;
   text-align: right;
   color: #575757;
@@ -7153,12 +7153,12 @@ h1.main-title  {
   border: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr {
   position: relative;
   margin: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr figcaption {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr figcaption {
   background: grey;
   padding: 0.5rem;
   line-height: 1.2;
@@ -7172,18 +7172,18 @@ h1.main-title  {
   font-style: italic;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr figcaption strong {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr figcaption strong {
   color: #fff;
   text-align: center;
   font-size: 1.2rem !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr figcaption p {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr figcaption p {
   text-align: center;
   font-size: 1.2rem !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr small {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.fr small {
   position: absolute;
   bottom: -2rem;
   left: 0;
@@ -7193,13 +7193,13 @@ h1.main-title  {
   color: black;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption {
   background: gray;
   padding: 0.5rem;
   line-height: 1.2;
@@ -7212,23 +7212,23 @@ h1.main-title  {
 }
 
 @media screen and (max-width: 1199px) {
-  .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption {
+  .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption {
     width: 89.5%;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption strong {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption strong {
   color: #fff;
   text-align: center;
   font-size: 1.2rem !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption p {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center figcaption p {
   text-align: center;
   font-size: 1.2rem !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center small {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content figure.center small {
   align-self: center;
   position: absolute;
   bottom: -2rem;
@@ -7241,12 +7241,12 @@ h1.main-title  {
   color: black;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 {
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 a {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 a {
   color: white;
   padding: 1.8rem 2.8rem;
   text-decoration: none;
@@ -7254,17 +7254,17 @@ h1.main-title  {
   background-image: linear-gradient(to bottom, #0B8E36 50%, #252525 50%);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 a:hover, .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 a:focus {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 a:hover, .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus1 a:focus {
   background-position: 0 100%;
   text-decoration: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 {
   margin-bottom: 5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.lien2,
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.externe {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.lien2,
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.externe {
   padding: 1.8rem 2.8rem;
   font-size: 1.3rem;
   color: black;
@@ -7275,19 +7275,19 @@ h1.main-title  {
   text-decoration: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.lien2:focus, .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.externe:focus,
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.externe:hover {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.lien2:focus, .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.externe:focus,
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .focus2 a.externe:hover {
   background-color: #0B8E36;
   border-color: #0B8E36;
   color: white;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 {
   margin-bottom: 5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 a.lien4.zip {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 a.lien4.zip {
   padding: 1.4rem 2.8rem;
   font-size: 1.3rem;
   color: gray;
@@ -7304,24 +7304,24 @@ h1.main-title  {
   position: relative;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus, .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 a.lien4.zip:hover {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus, .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style3 a.lien4.zip:hover {
   background-color: #e4e4e4;
   color: black;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.important1 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.important1 {
   background: #f5f5f5;
   padding: 2rem 3rem;
   border-bottom: 3px solid #0B8E36 !important;
   margin-top: 1rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 {
   margin-bottom: 4rem;
   margin-top: 4rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
   font-size: 1.6rem;
   color: black;
   text-decoration: none;
@@ -7335,44 +7335,44 @@ h1.main-title  {
   display: inline-block;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:focus, .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:focus, .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
   background-color: #e4e4e4;
   background-position: left 2.5rem center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content ul li::before {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content ul li::before {
   width: 6px;
   height: 6px;
   background: #0B8E36;
   border-radius: 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table tr:nth-child(1) {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table tr:nth-child(1) {
   background: #252525;
   color: white;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table tr:nth-child(1) td {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table tr:nth-child(1) td {
   border-color: #252525 !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table tr:nth-child(1) p {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table tr:nth-child(1) p {
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table td {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content table td {
   border-right: 1px solid #e2e2e2 !important;
   text-align: center;
   border-bottom: 0 none;
   border-top: 0 none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .table3 td {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .table3 td {
   border-right: 1px solid #e2e2e2;
   text-align: center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -7380,12 +7380,12 @@ h1.main-title  {
 }
 
 @media screen and (max-width: 1199px) {
-  .body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content {
+  .body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content {
     justify-content: center;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item {
   display: flex;
   flex: 0 1 100%;
   max-width: 60rem;
@@ -7394,7 +7394,7 @@ h1.main-title  {
   border: 0 none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust {
   flex-basis: 15rem;
   min-width: 15rem;
   background-color: #efefef;
@@ -7405,12 +7405,12 @@ h1.main-title  {
   padding: 0 !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust img {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust img {
   height: auto;
   width: 15rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content {
   background: white;
   border: .1rem solid #E2E2E2;
   position: relative;
@@ -7418,7 +7418,7 @@ h1.main-title  {
   flex-basis: 100%;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .h3-like {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .h3-like {
   color: #252525;
   padding-left: 14.5rem;
   font-size: 2.2rem;
@@ -7427,7 +7427,7 @@ h1.main-title  {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
   color: #6E6E6E;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
   padding-left: 14.5rem;
@@ -7440,7 +7440,7 @@ h1.main-title  {
   margin-top: 1rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle:before {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle:before {
   content: "";
   position: absolute;
   width: 2.5rem;
@@ -7450,7 +7450,7 @@ h1.main-title  {
   bottom: -1.7rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address {
   padding-top: 8.3rem;
   line-height: 2.1rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
@@ -7458,44 +7458,44 @@ h1.main-title  {
   font-size: 1.6rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address .cl-item-country {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address .cl-item-country {
   margin-top: 1rem;
   display: block;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: #252525;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-desc {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-desc {
   font-size: 1.6rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email {
   margin: 0.3rem 0 0 0;
   padding-top: 0;
   font-size: 1.5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email .label {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email .label {
   font-size: 1.5rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email span.__cf_email__ {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email span.__cf_email__ {
   font-size: 1.4rem;
   margin-left: .5rem;
   color: #0B8E36;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
   margin: 0 0 -2rem 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone .label {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone .label {
   font-size: 1.5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone span:nth-child(2) {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone span:nth-child(2) {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   margin-left: .6rem;
@@ -7503,15 +7503,15 @@ h1.main-title  {
   color: black;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation {
   margin-bottom: 10rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside {
   margin: 3rem 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
   max-width: none;
   max-height: 26.4rem;
   display: flex;
@@ -7519,11 +7519,11 @@ h1.main-title  {
   position: relative;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a:hover .an-item-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a:hover .an-item-content {
   padding-bottom: 5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a .an-item-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a .an-item-content {
   width: 100%;
   padding: 1.5rem 2rem;
   background: rgba(11, 142, 54, 0.9);
@@ -7537,16 +7537,16 @@ h1.main-title  {
   transition: all 0.2s ease;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a img {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a img {
   width: 100%;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-previous a .an-item-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-previous a .an-item-content {
   text-align: left;
   padding-left: 2rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-next a .an-item-content {
+.body-corpo:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-next a .an-item-content {
   text-align: right;
   padding-right: 2rem;
 }
@@ -7819,28 +7819,28 @@ h1.main-title  {
   background-color: #634E42;
 }
 
-.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
-.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.exposant):not(.article_list) #main::before {
+.body-corpo.search:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main::before,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main::before,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main::before,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main::before,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main::before {
   height: 33.5rem;
   background-image: url(/theme/sima2019_git_desktop/images/bg-2.jpg);
 }
 
-.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
-.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper {
+.body-corpo.search:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper {
   margin-bottom: 8rem;
 }
 
-.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
-.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 {
+.body-corpo.search:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 {
   margin: 0 0 8rem 0;
   height: 31rem;
   vertical-align: middle;
@@ -7849,19 +7849,19 @@ h1.main-title  {
   align-items: center;
 }
 
-.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
-.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span {
+.body-corpo.search:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span {
   position: relative;
 }
 
-.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.error404:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after {
+.body-corpo.search:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.error404:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.exposer):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after {
   display: block;
   right: -5.5rem;
   top: 50%;
