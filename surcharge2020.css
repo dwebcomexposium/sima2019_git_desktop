@@ -4121,33 +4121,33 @@ figure {
   display: none;
 }
 
-.content743324 main,
-.content374293 main {
+.content743324 #main,
+.content374293 #main {
   /*VISITEURS PRO/EXPOSANT*/
   /*LIST-ARTICLES*/
   /*END-LIST-ARTICLES*/
 }
 
-.content743324 main .site-wrapper,
-.content374293 main .site-wrapper {
+.content743324 #main .site-wrapper,
+.content374293 #main .site-wrapper {
   max-width: 100%;
 }
 
-.content743324 main .zone,
-.content374293 main .zone {
+.content743324 #main .zone,
+.content374293 #main .zone {
   /*solution pour tous les agriculteurs */
   /*Soyez present*/
 }
 
-.content743324 main .zone .landing-exposant,
-.content374293 main .zone .landing-exposant {
+.content743324 #main .zone .landing-exposant,
+.content374293 #main .zone .landing-exposant {
   padding: 0 2rem 2rem 2rem;
   height: calc(100vh - 15rem);
   max-height: 100rem;
 }
 
-.content743324 main .zone .landing-exposant .background-exposant,
-.content374293 main .zone .landing-exposant .background-exposant {
+.content743324 #main .zone .landing-exposant .background-exposant,
+.content374293 #main .zone .landing-exposant .background-exposant {
   position: relative;
   background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-v2020.jpg");
   background-size: cover;
@@ -4161,45 +4161,45 @@ figure {
   z-index: 0;
 }
 
-.content743324 main .zone .landing-exposant .background-exposant h1,
-.content374293 main .zone .landing-exposant .background-exposant h1 {
+.content743324 #main .zone .landing-exposant .background-exposant h1,
+.content374293 #main .zone .landing-exposant .background-exposant h1 {
   text-align: right;
   margin-bottom: 1rem;
 }
 
-.content743324 main .zone .landing-exposant .background-exposant .bloc-landing-text,
-.content374293 main .zone .landing-exposant .background-exposant .bloc-landing-text {
+.content743324 #main .zone .landing-exposant .background-exposant .bloc-landing-text,
+.content374293 #main .zone .landing-exposant .background-exposant .bloc-landing-text {
   position: relative;
   left: 6%;
   z-index: 1;
 }
 
 @media screen and (max-width: 1520px) {
-  .content743324 main .zone .landing-exposant .background-exposant .bloc-landing-text,
-  .content374293 main .zone .landing-exposant .background-exposant .bloc-landing-text {
+  .content743324 #main .zone .landing-exposant .background-exposant .bloc-landing-text,
+  .content374293 #main .zone .landing-exposant .background-exposant .bloc-landing-text {
     left: -3%;
   }
 }
 
-.content743324 main .zone .landing-exposant .background-exposant .bloc-landing-text p.desc,
-.content374293 main .zone .landing-exposant .background-exposant .bloc-landing-text p.desc {
+.content743324 #main .zone .landing-exposant .background-exposant .bloc-landing-text p.desc,
+.content374293 #main .zone .landing-exposant .background-exposant .bloc-landing-text p.desc {
   border-color: #F39200;
   width: 100%;
   text-align: right;
 }
 
-.content743324 main .zone .chiffres-cles,
-.content374293 main .zone .chiffres-cles {
+.content743324 #main .zone .chiffres-cles,
+.content374293 #main .zone .chiffres-cles {
   background-color: #F4F4F4;
 }
 
-.content743324 main .zone .chiffres-cles .number,
-.content374293 main .zone .chiffres-cles .number {
+.content743324 #main .zone .chiffres-cles .number,
+.content374293 #main .zone .chiffres-cles .number {
   line-height: 4rem;
 }
 
-.content743324 main .zone .edito,
-.content374293 main .zone .edito {
+.content743324 #main .zone .edito,
+.content374293 #main .zone .edito {
   max-width: 54.8rem;
   margin: 0 auto;
   display: flex;
@@ -4210,8 +4210,8 @@ figure {
   z-index: 1;
 }
 
-.content743324 main .zone .edito .block-title,
-.content374293 main .zone .edito .block-title {
+.content743324 #main .zone .edito .block-title,
+.content374293 #main .zone .edito .block-title {
   font-size: 5.2rem;
   color: #F39200;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
@@ -4221,8 +4221,8 @@ figure {
   position: relative;
 }
 
-.content743324 main .zone .edito .block-title::after,
-.content374293 main .zone .edito .block-title::after {
+.content743324 #main .zone .edito .block-title::after,
+.content374293 #main .zone .edito .block-title::after {
   content: "";
   position: absolute;
   background: #F39200;
@@ -4232,8 +4232,8 @@ figure {
   left: 45%;
 }
 
-.content743324 main .zone .edito .focus1,
-.content374293 main .zone .edito .focus1 {
+.content743324 #main .zone .edito .focus1,
+.content374293 #main .zone .edito .focus1 {
   text-align: center;
   margin-top: 5rem;
   color: #252525;
@@ -4241,22 +4241,22 @@ figure {
   font-size: 2.6rem;
 }
 
-.content743324 main .zone .edito p:nth-child(3),
-.content374293 main .zone .edito p:nth-child(3) {
+.content743324 #main .zone .edito p:nth-child(3),
+.content374293 #main .zone .edito p:nth-child(3) {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   color: #555555;
 }
 
-.content743324 main .zone .edito .edito-item-btn,
-.content374293 main .zone .edito .edito-item-btn {
+.content743324 #main .zone .edito .edito-item-btn,
+.content374293 #main .zone .edito .edito-item-btn {
   display: flex;
   justify-content: center;
   margin-top: 25rem;
 }
 
-.content743324 main .zone .edito .edito-item-btn .link-read-more,
-.content374293 main .zone .edito .edito-item-btn .link-read-more {
+.content743324 #main .zone .edito .edito-item-btn .link-read-more,
+.content374293 #main .zone .edito .edito-item-btn .link-read-more {
   font-size: 2rem;
   color: white;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
@@ -4266,36 +4266,36 @@ figure {
   background-image: linear-gradient(to bottom, #F39200 50%, #252525 50%);
 }
 
-.content743324 main .zone .edito .edito-item-btn .link-read-more:hover,
-.content374293 main .zone .edito .edito-item-btn .link-read-more:hover {
+.content743324 #main .zone .edito .edito-item-btn .link-read-more:hover,
+.content374293 #main .zone .edito .edito-item-btn .link-read-more:hover {
   background-position: 0 100%;
 }
 
-.content743324 main .zone .soyez-present,
-.content374293 main .zone .soyez-present {
+.content743324 #main .zone .soyez-present,
+.content374293 #main .zone .soyez-present {
   background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-present.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 13rem;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant,
-.content374293 main .zone .soyez-present .txt-exposant {
+.content743324 #main .zone .soyez-present .txt-exposant,
+.content374293 #main .zone .soyez-present .txt-exposant {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant h2,
-.content374293 main .zone .soyez-present .txt-exposant h2 {
+.content743324 #main .zone .soyez-present .txt-exposant h2,
+.content374293 #main .zone .soyez-present .txt-exposant h2 {
   color: #F39200;
   font-size: 5.2rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   margin-top: 13.4rem;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant p:nth-child(2),
-.content374293 main .zone .soyez-present .txt-exposant p:nth-child(2) {
+.content743324 #main .zone .soyez-present .txt-exposant p:nth-child(2),
+.content374293 #main .zone .soyez-present .txt-exposant p:nth-child(2) {
   font-size: 2.6rem;
   color: #252525;
   text-align: center;
@@ -4303,21 +4303,21 @@ figure {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc {
   margin: 5rem 0;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row {
   display: flex;
   justify-content: center;
   margin: 2.5rem 0;
   align-items: center;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-txt,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-txt {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-txt,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-txt {
   font-size: 1.9rem;
   line-height: 2.5rem;
   width: 40rem;
@@ -4325,8 +4325,8 @@ figure {
   margin-right: 2rem;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar {
   color: white;
   position: relative;
   background-color: transparent;
@@ -4338,15 +4338,15 @@ figure {
   padding-left: 1.2rem;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .number,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .number {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .number,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .number {
   position: relative;
   z-index: 1;
   color: #9d3920;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .chart-row-percent,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .chart-row-percent {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .chart-row-percent,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .chart-row-percent {
   z-index: 0;
   background-color: #F39200;
   height: 4.7rem;
@@ -4356,32 +4356,32 @@ figure {
   top: 0;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles {
   display: flex;
   justify-content: center;
   margin-bottom: 9rem;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card {
   text-align: center;
   position: relative;
   margin: 3rem 2rem 0;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-background,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-background {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-background,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-background {
   stroke: #e4e4e4;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-percent,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-percent {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-percent,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-percent {
   stroke: #F39200;
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
   font-size: 4.2rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: #252525;
@@ -4393,14 +4393,14 @@ figure {
 }
 
 @media screen and (max-width: 1199px) {
-  .content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number,
-  .content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
+  .content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number,
+  .content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
     top: 29%;
   }
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-bloc,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-bloc {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-bloc,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-bloc {
   -webkit-transform-origin: center;
           transform-origin: center;
   margin-left: 0.6rem;
@@ -4408,8 +4408,8 @@ figure {
           transform: rotate(-90deg);
 }
 
-.content743324 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-txt,
-.content374293 main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-txt {
+.content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-txt,
+.content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-txt {
   font-size: 2.5rem;
   line-height: 2.5rem;
   margin-top: 1rem;
@@ -4418,8 +4418,8 @@ figure {
   text-transform: uppercase;
 }
 
-.content743324 main .zone .article-focus,
-.content374293 main .zone .article-focus {
+.content743324 #main .zone .article-focus,
+.content374293 #main .zone .article-focus {
   background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -4427,34 +4427,34 @@ figure {
   padding: 17.9rem;
 }
 
-.content743324 main .zone .article-focus .txtright,
-.content374293 main .zone .article-focus .txtright {
+.content743324 #main .zone .article-focus .txtright,
+.content374293 #main .zone .article-focus .txtright {
   display: flex;
   justify-content: center;
 }
 
-.content743324 main .zone .article-focus .txtright .btn-primary,
-.content374293 main .zone .article-focus .txtright .btn-primary {
+.content743324 #main .zone .article-focus .txtright .btn-primary,
+.content374293 #main .zone .article-focus .txtright .btn-primary {
   background: #F39200;
   border: 0;
   padding: 1.8rem 2.6rem;
 }
 
-.content743324 main .zone .article-focus .af-title,
-.content374293 main .zone .article-focus .af-title {
+.content743324 #main .zone .article-focus .af-title,
+.content374293 #main .zone .article-focus .af-title {
   color: #F39200;
   text-align: center;
 }
 
-.content743324 main .zone .article-focus p,
-.content374293 main .zone .article-focus p {
+.content743324 #main .zone .article-focus p,
+.content374293 #main .zone .article-focus p {
   font-size: 5.4rem;
   color: white;
   text-align: center;
 }
 
-.content743324 main .zone .article-focus h4,
-.content374293 main .zone .article-focus h4 {
+.content743324 #main .zone .article-focus h4,
+.content374293 #main .zone .article-focus h4 {
   font-size: 5.4rem;
   color: white;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
@@ -4462,8 +4462,8 @@ figure {
   margin: 0;
 }
 
-.content743324 main .inscription,
-.content374293 main .inscription {
+.content743324 #main .inscription,
+.content374293 #main .inscription {
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -4475,26 +4475,26 @@ figure {
           transform: translateX(-35%) rotate(-10deg);
 }
 
-.content743324 main .inscription .inside,
-.content374293 main .inscription .inside {
+.content743324 #main .inscription .inside,
+.content374293 #main .inscription .inside {
   max-width: 116rem;
   margin: 0 auto;
 }
 
-.content743324 main .inscription .inside .txt-inscription,
-.content374293 main .inscription .inside .txt-inscription {
+.content743324 #main .inscription .inside .txt-inscription,
+.content374293 #main .inscription .inside .txt-inscription {
   width: 50%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
 }
 
-.content743324 main .inscription .inside .txt-inscription .btn,
-.content374293 main .inscription .inside .txt-inscription .btn {
+.content743324 #main .inscription .inside .txt-inscription .btn,
+.content374293 #main .inscription .inside .txt-inscription .btn {
   margin-top: 3rem;
 }
 
-.content743324 main .inscription .inside .txt-inscription h2,
-.content374293 main .inscription .inside .txt-inscription h2 {
+.content743324 #main .inscription .inside .txt-inscription h2,
+.content374293 #main .inscription .inside .txt-inscription h2 {
   color: #F39200;
   font-size: 5.2rem;
   line-height: 5.6rem;
@@ -4502,20 +4502,20 @@ figure {
   margin-bottom: 0;
 }
 
-.content743324 main .inscription .inside .txt-inscription h4,
-.content374293 main .inscription .inside .txt-inscription h4 {
+.content743324 #main .inscription .inside .txt-inscription h4,
+.content374293 #main .inscription .inside .txt-inscription h4 {
   color: #252525;
   font-size: 2.6rem;
   margin: 1rem 0;
 }
 
-.content743324 main .inscription .inside .txt-inscription p,
-.content374293 main .inscription .inside .txt-inscription p {
+.content743324 #main .inscription .inside .txt-inscription p,
+.content374293 #main .inscription .inside .txt-inscription p {
   line-height: 3.2rem;
 }
 
-.content743324 main .inscription .deco-img,
-.content374293 main .inscription .deco-img {
+.content743324 #main .inscription .deco-img,
+.content374293 #main .inscription .deco-img {
   position: absolute;
   background-color: transparent;
   width: 40%;
@@ -4527,8 +4527,8 @@ figure {
   overflow: hidden;
 }
 
-.content743324 main .inscription .deco-img .img,
-.content374293 main .inscription .deco-img .img {
+.content743324 #main .inscription .deco-img .img,
+.content374293 #main .inscription .deco-img .img {
   width: 60vw;
   height: 100%;
   -webkit-transform: rotate(-25deg);
@@ -4541,30 +4541,30 @@ figure {
   top: 0;
 }
 
-.content743324 main .article-focus,
-.content374293 main .article-focus {
+.content743324 #main .article-focus,
+.content374293 #main .article-focus {
   background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 
-.content743324 main .list-articles,
-.content374293 main .list-articles {
+.content743324 #main .list-articles,
+.content374293 #main .list-articles {
   max-width: none;
   margin: 0 auto;
   position: relative;
 }
 
-.content743324 main .list-articles > .inside,
-.content374293 main .list-articles > .inside {
+.content743324 #main .list-articles > .inside,
+.content374293 #main .list-articles > .inside {
   width: 100%;
   padding: 10rem 0 !important;
   background: transparent;
 }
 
-.content743324 main .list-articles > .inside h2.la-main-title,
-.content374293 main .list-articles > .inside h2.la-main-title {
+.content743324 #main .list-articles > .inside h2.la-main-title,
+.content374293 #main .list-articles > .inside h2.la-main-title {
   font-size: 5.2rem;
   color: #F39200;
   text-align: left;
@@ -4572,15 +4572,15 @@ figure {
   margin-bottom: 10rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list {
   display: flex;
   flex-direction: column;
   max-width: 105rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item {
   position: relative;
   flex-basis: 100%;
   width: 100%;
@@ -4589,8 +4589,8 @@ figure {
   min-height: 34rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item::before,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item::before {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item::before,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item::before {
   content: "";
   display: block;
   z-index: 0;
@@ -4602,40 +4602,40 @@ figure {
   background-color: #F39200;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even)::before,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even)::before {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even)::before,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even)::before {
   left: auto;
   right: -3rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a .gla-item-content,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a .gla-item-content {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a .gla-item-content,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a .gla-item-content {
   order: 0;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a img,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a img {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a img,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item:nth-child(even) a img {
   order: 1;
   margin-left: auto;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a {
   flex-direction: row;
   position: relative;
   background-color: transparent;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a img,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a img {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a img,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a img {
   min-width: 45rem;
   width: 45rem;
   flex-basis: 45rem;
   height: 34.8rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content {
   justify-content: center;
   position: relative;
   bottom: auto;
@@ -4647,37 +4647,37 @@ figure {
   max-width: 58rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-title,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-title {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-title,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-title {
   font-size: 3.6rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-desc,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-desc,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
   font-size: 1.8rem;
   line-height: 3.2rem;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
   margin-top: 0;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn::before,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn::before {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn::before,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn::before {
   display: none;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more {
   font-size: 2rem;
   border: 2px solid #E7E7E7;
   padding: 1.8rem 3.5rem;
   color: black;
 }
 
-.content743324 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more:hover,
-.content374293 main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more:hover {
+.content743324 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more:hover,
+.content374293 #main .list-articles > .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more:hover {
   background-color: transparent;
   color: #252525;
 }
