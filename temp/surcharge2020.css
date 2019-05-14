@@ -1228,7 +1228,7 @@ figure {
   margin: 0;
   font-size: 1.3rem;
   margin-left: 1rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: initial;
 }
 
 @media screen and (max-width: 1520px) {
@@ -1248,12 +1248,18 @@ figure {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
+.site-banner > .inside .nav-left p span {
+  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  line-height: 0.5;
+}
+
 .site-banner > .inside .nav-left .nav-social {
   display: flex;
   align-items: center;
   border-right: 1px solid #E7E7E7;
   padding: .2rem .4rem .2rem 0;
   margin-right: .4rem;
+  font-family: initial;
 }
 
 .site-banner > .inside .nav-left .nav-social li {
@@ -1280,6 +1286,7 @@ figure {
   position: absolute;
   top: 0;
   right: 24.8rem;
+  font-family: initial;
 }
 
 .site-banner > .inside ul.ql-list.unstyled .ql-item.linkid376055 span.txt-btn {
@@ -1425,6 +1432,7 @@ figure {
   margin: 3rem 0;
   position: relative;
   z-index: 2;
+  font-family: initial;
 }
 
 .site-banner > .inside .main-navigation + .main-navigation {
@@ -1438,6 +1446,7 @@ figure {
   background-color: #F39200;
   padding: 2rem 2rem;
   margin: 0;
+  font-family: initial;
 }
 
 .site-banner > .inside .main-navigation + .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 {
@@ -1654,6 +1663,13 @@ figure {
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 {
+  background-image: none;
+  width: auto;
+  height: auto;
+  margin-right: 0;
+}
+
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 a {
   text-indent: -100rem;
   content: url("/theme/sima2019_git_desktop/images/logo-sima.jpg");
   width: 6.4rem;
@@ -1662,7 +1678,7 @@ figure {
 }
 
 @media screen and (max-width: 1199px) {
-  .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 {
+  .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 a {
     margin: 0 !important;
     width: 6.4rem;
     height: 8.7rem;
@@ -1670,7 +1686,7 @@ figure {
 }
 
 @media screen and (max-width: 1520px) {
-  .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 {
+  .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-376319 a {
     margin: 0 !important;
     width: 6.4rem;
     height: 8.7rem;
@@ -3316,7 +3332,7 @@ figure {
 }
 
 .sr-list.unstyled .sr-item .sr-link-facebook {
-  background-image: url("/theme/sima2019_git_desktop/images/facebook.svg");
+  background-image: url("/theme/sima2019_git_desktop/images/facebook-v2020.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -3533,7 +3549,7 @@ figure {
   background-position: center;
   border: 2rem solid white;
   border-top: 0 none;
-  padding: 0 10rem;
+  padding: 0 9rem;
   display: flex;
   align-items: center;
 }
@@ -3547,7 +3563,7 @@ figure {
 .landing-video-2 .container {
   flex: 1;
   margin: 0 auto;
-  max-width: 116rem;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4342,7 +4358,7 @@ figure {
 .content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .number {
   position: relative;
   z-index: 1;
-  color: #9d3920;
+  color: #634E42;
 }
 
 .content743324 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-row .chart-row-bar .chart-row-percent,
@@ -4384,7 +4400,7 @@ figure {
 .content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
   font-size: 4.2rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  color: #252525;
+  color: #6E6E6E;
   position: absolute;
   top: 4rem;
   left: 50%;
@@ -8864,4 +8880,3 @@ h1.main-title  {
 .parent691061 #downloads .event-ed-pr-list {
   margin: 0 !important;
 }
-
