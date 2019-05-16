@@ -5110,7 +5110,7 @@ body.exposer #main .site-wrapper {
   font-size: 1.5rem;
   letter-spacing: 0;
   margin: 0 8px;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -5324,12 +5324,15 @@ body.exposer #main .site-wrapper {
 > .esf-choice-container
 .esf-next-lvl::after {
   content: "";
-  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg");
-  background-repeat: no-repeat;
+  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg") !important;
+  background-repeat: no-repeat !important;
   position: absolute;
-  width: 1.2rem !important;
-  height: 1.2rem !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
   color: #F39200;
+  border-radius: 5rem;
+  background-position: center !important;
+  background-color: transparent !important;
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-list li {
@@ -6405,13 +6408,13 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-filter li:nth-child(3) a {
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-filter .esf-results-filter-label {
   font-size: 1.8rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
   color: white;
 }
 
@@ -6423,8 +6426,9 @@ body.exposer #main .site-wrapper {
 .mod-catal .esf-results-zone .esf-results-alpha-filter .esf-results-alpha-list .current {
   color: #F39200;
   font-size: 1.8rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
   width: 6rem;
+  padding: 0.4rem 1rem;
 }
 
 /*end-est-result-zone*/
