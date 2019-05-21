@@ -5482,7 +5482,7 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .catal-ex-item .catal-ex-item-stand-item {
   color: #6e6e6e;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
 }
 
 .mod-catal .catal-ex-item.is-premium {
@@ -5767,6 +5767,14 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item-country,
 .mod-catal .catal-ex-item-stand {
   font-size: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+  .mod-catal .catal-ex-item-desc,
+  .mod-catal .catal-ex-item-country,
+  .mod-catal .catal-ex-item-stand {
+    font-size: 13px;
+  }
 }
 
 .mod-catal .catal-ex-item-title a {
@@ -6869,7 +6877,7 @@ body.exposer #main .site-wrapper {
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name a {
   color: white;
   font-size: 1.6rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
   background: #F39200;
   padding: 1rem;
 }
