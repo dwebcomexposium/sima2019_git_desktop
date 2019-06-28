@@ -5482,7 +5482,7 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .catal-ex-item .catal-ex-item-stand-item {
   color: #6e6e6e;
-  font-family: "Overpass", Helvetica, Arial, sans-serif;
+  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
 .mod-catal .catal-ex-item.is-premium {
@@ -6877,7 +6877,7 @@ body.exposer #main .site-wrapper {
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name a {
   color: white;
   font-size: 1.6rem;
-  font-family: "Overpass", Helvetica, Arial, sans-serif;
+  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
   background: #F39200;
   padding: 1rem;
 }
@@ -7472,6 +7472,7 @@ h1.main-title  {
   position: relative;
   text-transform: capitalize;
   margin-top: 1rem;
+  min-height: 2.1rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle:before {
