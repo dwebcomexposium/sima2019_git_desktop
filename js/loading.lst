@@ -7,3 +7,5 @@ vendor/imagesloaded/imagesloaded.pkgd.min.js
 cookies-warning.min.js
 modules/*
 unflux.js
+wb-countd.js
+
