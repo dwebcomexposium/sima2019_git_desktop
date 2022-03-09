@@ -136,3 +136,7 @@ figure img {
     background-size: cover;
     background-position: center;
 }
+
+li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-de {
+    display: none;
+}
