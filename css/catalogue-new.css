@@ -1,0 +1,9 @@
+/*New catalog*/
+ 
+#catalog-v2 .bgTint {
+    background-color: #f39200!important;
+}
+/*Mise en avant RS*/
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
+    background: #f39200!important;
+}
