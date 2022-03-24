@@ -1,5 +1,9 @@
 /*New catalog*/
- 
+
+/*Titre H1*/
+#catalog-v2 .textAccent h1 {
+  color: #fff;
+} 
 #catalog-v2 .bgTint {
     background-color: #0B8E36!important;
 }
