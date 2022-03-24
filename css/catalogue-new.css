@@ -1,7 +1,7 @@
 /*New catalog*/
 
 /*Titre H1*/
-#catalog-v2 h1.CatalogMainTitle.CatalogMainTitle--padded.textCenter.textAccent {
+#catalog-v2 h1 {
   color: #fff!important;
 } 
 #catalog-v2 .bgTint {
