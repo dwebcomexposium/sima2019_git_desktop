@@ -1843,10 +1843,6 @@ figure {
 	margin-left: 1rem;
 }
 
-.site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:last-child {
-	margin-left: 1rem;
-}
-
 .site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1>.mn-link {
 	min-height: 0;
 }
