@@ -1539,7 +1539,7 @@ figure {
   /*BTN EXPOSANT/BADGE*/
 }
 
-.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:nth-last-child(-n + 2) .mn-link, .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:first-child .mn-link {
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:nth-last-child(-n + 2):not(.mn-item-has-submenu) .mn-link, .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:first-child .mn-link {
   background: transparent;
   text-transform: none;
 }
