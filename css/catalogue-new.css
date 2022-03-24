@@ -8,6 +8,6 @@
     background-color: #0B8E36!important;
 }
 /*Mise en avant RS*/
-#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium, #catalog-v2 .CatalogCardLine .CatalogCard-title--premium {
     background: #f39200!important;
 }
