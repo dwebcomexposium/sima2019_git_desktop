@@ -9304,3 +9304,7 @@ h1.main-title {
 .parent691061 #downloads .event-ed-pr-list {
 	margin: 0 !important;
 }
+
+.site-banner>.inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1.mn-menu-item-376072 {
+	display:none !important;
+}
