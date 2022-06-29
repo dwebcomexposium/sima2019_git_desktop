@@ -2651,13 +2651,6 @@ figure {
 	margin: 0 auto;
 }
 
-.chiffres-cles+.list-articles .list-grids-with-pagin {
-	background-image: url("/theme/sima2019_git_desktop/images/img-background-besoin-info.jpg");
-	background-size: cover;
-	padding: 12rem 0;
-	background-position: center;
-}
-
 .chiffres-cles+.list-articles .list-grids-with-pagin .gla-item-title {
 	font-size: 3.4rem !important;
 	text-transform: uppercase;
