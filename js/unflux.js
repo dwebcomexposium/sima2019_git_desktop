@@ -12,17 +12,21 @@
         
 
         popin : function(){
-            $(".video-item").click(function(){
-                var videoName = $(this).data('videoname');
-                $("#"+videoName).addClass('popin-open');
-                $("html").addClass('noscroll');
-            });
-            $(".popin-close, .popin-overlay").click(function(){
-                var videoName = $(this).data('videoname');
-                $(".popin").removeClass('popin-open');
-                $("#"+ videoName +' iframe').attr("src", $("#"+ videoName +' iframe').attr("src"));
-                $("html").removeClass('noscroll');
-            });
+            var videoItem = $(".video-item");
+            if(videoItem.length) {
+                videoItem.click(function(){
+                    var videoName = $(this).data('videoname');
+                    $("#"+videoName).addClass('popin-open');
+                    $("#" + videoName + " > .popin-container > .popin-close").insertAfter('<iframe src="' + videoName.data('yt-url') + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" kwframeid="1"></iframe>')
+                    $("html").addClass('noscroll');
+                });
+                $(".popin-close, .popin-overlay").click(function(){
+                    var videoName = $(this).data('videoname');
+                    $(".popin").removeClass('popin-open');
+                    $("#"+ videoName +' iframe').attr("src", $("#"+ videoName +' iframe').attr("src"));
+                    $("html").removeClass('noscroll');
+                });
+            }
         },
 
         addLang : function() {
