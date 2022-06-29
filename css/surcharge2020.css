@@ -2387,7 +2387,7 @@ figure {
   max-width: 116rem;
   margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -3933,6 +3933,8 @@ html[lang="en"] .landing-video-2 {
   justify-content: center;
   align-items: flex-end;
   background-color: white;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .front .zone .salon-innovation + .list-articles .gla-item-content {
