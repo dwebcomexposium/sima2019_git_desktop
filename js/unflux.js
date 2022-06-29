@@ -17,7 +17,7 @@
                 videoItem.click(function(){
                     var videoName = $(this).data('videoname');
                     $("#"+videoName).addClass('popin-open');
-                    $("#" + videoName + " > .popin-container > .popin-close").insertAfter('<iframe src="' + videoName.data('yt-url') + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" kwframeid="1"></iframe>')
+                    $("#" + videoName + " > .popin-container > .popin-close").insertAfter('<iframe src="' + $("#"+videoName).data('yt-url') + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" kwframeid="1"></iframe>')
                     $("html").addClass('noscroll');
                 });
                 $(".popin-close, .popin-overlay").click(function(){
