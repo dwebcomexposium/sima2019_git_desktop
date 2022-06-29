@@ -71,35 +71,19 @@ h1 {
 @font-face {
   font-family: 'NeutrifStudio-bold';
   src: url("/theme/sima2019_git_desktop/fonts/NeutrifStudio-ExtraBold.woff");
+  font-display: swap
 }
 
 @font-face {
   font-family: 'NeutrifStudio-regular';
   src: url("/theme/sima2019_git_desktop/fonts/NeutrifStudio-Regular.woff");
+  font-display: swap
 }
 
-/*@font-face {
-    font-family: 'Roboto-condensed-bold';
-    src: url('/theme/sima2019_git_desktop/fonts/roboto/RobotoCondensed-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto-condensed-regular';
-    src: url('/theme/sima2019_git_desktop/fonts/roboto/RobotoCondensed-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Open-sans-bold';
-    src: url('/theme/sima2019_git_desktop/fonts/open-sans/opensans-bold-webfont.woff');
-}
-
-@font-face {
-    font-family: 'Open-sans-regular';
-    src: url('/theme/sima2019_git_desktop/fonts/open-sans/opensans-regular-webfont.woff');
-}*/
 @font-face {
   font-family: 'icon-catal';
   src: url("/theme/sima2019_git_desktop/fonts/comexposium-iconcatalogue/fonts/comexposium-iconcatalogue.woff");
+  font-display: swap
 }
 
 .v-align {
