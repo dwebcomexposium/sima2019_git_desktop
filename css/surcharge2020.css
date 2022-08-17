@@ -10505,7 +10505,7 @@ h1.main-title  {
 
 .page-events.event {
   margin-top: 3rem;
-  font-family: "Roboto-condensed-regular";
+  font-family: "Roboto-condensed-regular", Arial, Helvetica, sans-serif;
 }
 
 .page-events.event #complement .catal-edp-item .catal-edp-content .catal-edp-desc a {
