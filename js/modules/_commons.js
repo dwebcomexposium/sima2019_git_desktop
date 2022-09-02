@@ -211,7 +211,7 @@
   console.log("test")
   const datesAndPlace = document.querySelector('.nav-left > p')
   const header = document.querySelector('.main-navigation:nth-of-type(1)')
-  const logo = header.document.querySelector('.mn-menu-item-376319')
-  console.log(datesAndPlace, header, logo)
+  const afterItem = header.querySelector('.mn-menu-item-374214')
+  header.insertBefore(datesAndPlace, afterItem)
 
 }(jQuery));
