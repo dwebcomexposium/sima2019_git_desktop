@@ -10020,12 +10020,16 @@ h1.main-title  {
 
 .content384937 .site-wrapper .partner .partner-gallery .pg-item-group {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  padding: 0 24px;
 }
 
 .content384937 .site-wrapper .partner .partner-gallery .pg-item-group .pg-item {
-  width: 21%;
+  width: 100%;
   border-bottom: 0 none;
-  margin: 1.5% 1.5%;
+  margin: 0;
 }
 
 .content384937
