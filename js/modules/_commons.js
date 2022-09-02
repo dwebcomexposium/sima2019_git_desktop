@@ -208,11 +208,10 @@
   };
   $('html').ie10Detectizr();
 
-}(jQuery));
-
-(function($) {
+  console.log("test")
   const datesAndPlace = document.querySelector('.nav-left > p')
   const header = document.querySelector('.main-navigation:nth-of-type(1)')
   const logo = header.document.querySelector('.mn-menu-item-376319')
   console.log(datesAndPlace, header, logo)
-}(jQuery))
+
+}(jQuery));
