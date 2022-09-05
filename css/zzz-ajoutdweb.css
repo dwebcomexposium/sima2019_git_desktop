@@ -338,3 +338,7 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
   width: 100%; }
 
 /*Fin Test Calendrier */
+
+.cachenav header.site-banner {
+    display: none;
+}
