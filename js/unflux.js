@@ -119,6 +119,9 @@
           const header = document.querySelector('.main-navigation .mn-menu')
           const afterItem = header.querySelector('.mn-menu-item-374214')
           header.insertBefore(datesAndPlace, afterItem)
+
+          const span = datesAndPlace.querySelector('span')
+          span.innerHTML.startsWith('- ') && (span.innerHTML = span.innerHTML.replace('- ', ''))
         }
 
     }
