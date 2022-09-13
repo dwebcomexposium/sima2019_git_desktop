@@ -11019,7 +11019,162 @@ h1.main-title  {
   flex-direction: column;
 }
 
+.mn-menu > p > strong {
+  font-size: 1.7rem;
+}
+
 .mn-menu > p > span {
   font-family: neutrifstudio-regular,Helvetica,Arial,sans-serif;
   line-height: .5;
+}
+
+.landing-anniversary {
+  justify-content: center;
+  height: 62vh;
+  max-height: 62rem;
+  background-image: url("https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-fr.webp");
+  background-size: cover;
+  background-position: center;
+  border: 2rem solid white;
+  border-top: 0 none;
+  padding: 0 9rem;
+  display: flex;
+  align-items: center;
+}
+
+html[lang="en"] .landing-anniversary {
+  background-image: url("https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-en.webp");
+}
+
+@media screen and (min-width: 1920px) {
+  .landing-anniversary {
+    max-height: 68rem;
+  }
+}
+
+.landing-anniversary .container {
+  flex: 1;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.landing-anniversary .event {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.landing-anniversary .anniversary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-anniversary .anniversary p {
+  margin: 0;
+  line-height: 1;
+  color: white;
+}
+
+.landing-anniversary .anniversary .subtitle {
+  font-weight: bold;
+}
+
+.landing-anniversary .anniversary .title {
+  background-color: #0B8E36;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.landing-anniversary .anniversary .title p {
+  font-size: 12rem;
+  font-weight: bolder;
+}
+
+.landing-anniversary .anniversary .title svg {
+  position: absolute;
+  width: 9rem;
+}
+
+.landing-anniversary .anniversary .title svg g {
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+  transform-box: fill-box;
+}
+
+.landing-anniversary .anniversary .title svg:nth-of-type(1) {
+  right: 0;
+  top: 0;
+  transform: translateX(50%) translateY(-50%);
+}
+
+.landing-anniversary .anniversary .title svg:nth-of-type(2) {
+  left: 0;
+  bottom: 0;
+  transform: translateX(-50%) translateY(50%);
+}
+
+.landing-anniversary .text-wrap {
+  max-width: 46rem;
+}
+
+.landing-anniversary .text-wrap * {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.landing-anniversary .text-wrap hr {
+  margin: 2rem 0;
+  border: 2px solid white;
+}
+
+.landing-anniversary .text-wrap h1 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+}
+
+.landing-anniversary .text-wrap h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.landing-anniversary .text-wrap h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.landing-anniversary .text-wrap p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.landing-anniversary .text-wrap .btn-list {
+  margin-top: 4rem;
+}
+
+.landing-anniversary .text-wrap .btn {
+  text-transform: none;
+}
+
+.landing-anniversary .bloc-landing-text {
+  position: relative;
+  z-index: 1;
+}
+
+.landing-anniversary .countd {
+  background-color: white;
+}
+
+.landing-anniversary .countd li span {
+  color: #0B8E36;
 }
