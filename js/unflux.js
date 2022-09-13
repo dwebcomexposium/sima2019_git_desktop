@@ -112,7 +112,7 @@
                 }
             });
 
-        }
+        },
         
         headerDisplace() {
           const datesAndPlace = document.querySelector('.nav-left > p')
