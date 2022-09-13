@@ -7,6 +7,7 @@
             this.popin();
             this.addLang();
             this.animateFigures();
+            this.headerDisplace();
 
         },
         
@@ -111,6 +112,13 @@
                 }
             });
 
+        }
+        
+        headerDisplace() {
+          const datesAndPlace = document.querySelector('.nav-left > p')
+          const header = document.querySelector('.main-navigation .mn-menu')
+          const afterItem = header.querySelector('.mn-menu-item-374214')
+          header.insertBefore(datesAndPlace, afterItem)
         }
 
     }
