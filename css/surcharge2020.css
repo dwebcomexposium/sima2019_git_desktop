@@ -11008,3 +11008,19 @@ h1.main-title  {
 .page-events.event #downloads .event-ed-pr-list {
   margin: 0 !important;
 }
+
+.mn-menu > p {
+  margin: 0 2rem 0 5rem;
+  color: #6e6e6e;
+  font-size: 1.3rem;
+  font-family: initial;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.mn-menu > p > span {
+  font-family: neutrifstudio-regular,Helvetica,Arial,sans-serif;
+  line-height: .5;
+}
