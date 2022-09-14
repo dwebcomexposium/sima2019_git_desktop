@@ -345,12 +345,12 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
 
 /* Ajustement Catalogue */
 #catalog-v2 label {
-    font-size: 0.7em;
+    font-size: 0.7em !important;
 }
 #catalog-v2 .CatalogFilterBlock-name {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 #catalog-v2 .CatalogCard-title {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
