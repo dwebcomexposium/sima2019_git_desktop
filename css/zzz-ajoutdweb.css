@@ -358,3 +358,7 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
 .mod-catal .esf-tree li label {
     text-transform: initial;
 }
+.mod-catal .esf-search-line .form-select select.is-small {
+    font-family: inherit;
+    font-size: inherit;
+}
