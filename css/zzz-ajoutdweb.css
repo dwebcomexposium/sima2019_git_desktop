@@ -354,3 +354,7 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
     font-size: 16px !important;
 }
 
+/* Ajustement Calendrier */
+.mod-catal .esf-tree li label {
+    text-transform: initial;
+}
