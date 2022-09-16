@@ -342,3 +342,23 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
 .cachenav header.site-banner {
     display: none;
 }
+
+/* Ajustement Catalogue */
+#catalog-v2 label {
+    font-size: 0.7em !important;
+}
+#catalog-v2 .CatalogFilterBlock-name {
+    font-size: 16px !important;
+}
+#catalog-v2 .CatalogCard-title {
+    font-size: 16px !important;
+}
+
+/* Ajustement Calendrier */
+.mod-catal .esf-tree li label {
+    text-transform: initial;
+}
+.mod-catal .esf-search-line .form-select select.is-small {
+    font-family: inherit;
+    font-size: inherit;
+}

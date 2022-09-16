@@ -207,4 +207,5 @@
     }
   };
   $('html').ie10Detectizr();
+
 }(jQuery));
