@@ -8,6 +8,7 @@
             this.addLang();
             this.animateFigures();
             this.headerDisplace();
+            this.homeAnniversary()
 
         },
         
@@ -122,6 +123,17 @@
 
           const span = datesAndPlace.querySelector('span')
           span.innerHTML.startsWith('- ') && (span.innerHTML = span.innerHTML.replace('- ', ''))
+        },
+
+        homeAnniversary() {
+            // Safe for development
+            const baneer = document.querySelector('.anniversary-baneer')
+            if(!baneer) return
+
+            // Move baneer
+            const header = document.querySelector('.site-baneer')
+            const headerInside = header.querySelector('.site-baneer .inside')
+            header.insertBefore(baneer, headerInside)
         }
 
     }
