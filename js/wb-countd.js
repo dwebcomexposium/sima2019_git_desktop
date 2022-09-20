@@ -5,7 +5,7 @@ $(document).ready(function(){
 			if ($('html').attr('lang') == 'fr') {
 			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
 				var $this = $(this).html(event.strftime(''
-						    + '<li><span>%D</span> <span>jours!d</span></li>'
+						    + '<li><span>%D</span> <span>jour%!d</span></li>'
 						    + '<li><span>%H</span> <span>heure%!d</span></li>'
 						    + '<li><span>%M</span> <span>minute%!d</span></li>'
 					))

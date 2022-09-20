@@ -131,7 +131,7 @@
             if(!baneer) return
 
             // Move baneer
-            const header = document.querySelector('.site-baneer')
+            const header = document.querySelector('.site-banner')
             const headerInside = header.querySelector('.site-baneer .inside')
             header.insertBefore(baneer, headerInside)
         }
