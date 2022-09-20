@@ -11213,7 +11213,7 @@ html[lang="en"] .landing-anniversary {
 
 .front[data-location-path='547663,598535,1433567'] .anniversary-baneer {
   height: 93px;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(270deg, #0B8E36 66.48%, #F39200 100%);
   position: relative;
 }
@@ -11240,6 +11240,9 @@ html[lang="en"] .landing-anniversary {
 .front[data-location-path='547663,598535,1433567'] .anniversary-baneer .btn {
   height: fit-content;
   margin: auto 0;
+  padding: 0.5rem 0.5rem;
+  font-size: 20px;
+  line-height: 1;
 }
 
 .front[data-location-path='547663,598535,1433567'] .anniversary-baneer__close {
