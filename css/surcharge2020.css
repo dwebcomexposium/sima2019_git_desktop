@@ -11390,6 +11390,7 @@ html[lang="en"] .landing-anniversary {
 /* Bloc 100 ans */
 .front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) {
   background: #f4f4f4;
+  padding-bottom: 4rem;
 }
 
 .front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .inside {
@@ -11402,15 +11403,21 @@ html[lang="en"] .landing-anniversary {
   font-size: 5.2rem;
   text-align: center;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  margin: 0!important;
+  text-transform: uppercase;
+  color: #252525;
+  font-family: 'neutrifstudio-bold';
 }
 
 .front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .inside > p {
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'neutrifstudio-regular';
+  line-height: 1.2;
   font-size: 3rem;
-  color: rgba(0, 0, 0, 0.63);
+  color: rgba(0,0,0,.63);
   text-align: center;
-  margin: 0 !important;
+  margin: 0!important;
 }
 
 .front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin {
