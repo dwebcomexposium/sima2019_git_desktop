@@ -11732,4 +11732,5 @@ html[lang="en"] .landing-anniversary {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  min-height: 18rem;
 }
