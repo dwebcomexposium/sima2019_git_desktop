@@ -11368,14 +11368,12 @@ html[lang="en"] .landing-anniversary {
 .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item::before {
   content: "";
   position: absolute;
-  bottom: 0;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   margin: auto;
-  transition: border 0.3s ease-in-out;
+  transition: border 0.2s ease-in-out, transform 0.2s ease;
   z-index: 0;
   width: calc(100% + 8px);
   height: calc(100% + 8px);
@@ -11384,4 +11382,5 @@ html[lang="en"] .landing-anniversary {
 
 .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item:hover::before  {
   border: solid 4px #0b8e36;
+  transform: scale(1.02);
 }
