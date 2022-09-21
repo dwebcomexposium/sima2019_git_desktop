@@ -11266,8 +11266,16 @@ html[lang="en"] .landing-anniversary {
   display: flex;
   align-items: center;
   gap: 16px;
+  font-size: 1.2rem;
 }
 
 .front[data-location-path='547663,598535,1433567'] .anniversary-baneer__close svg{
   width: 12px;
+}
+
+.front[data-location-path='547663,598535,1433567'] .focusbadge {
+  width: 100%;
+  max-width: 116rem;
+  margin: 0 auto !important;
+  display: flex;
 }
