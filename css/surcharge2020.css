@@ -11375,15 +11375,12 @@ html[lang="en"] .landing-anniversary {
 }
 
 .front[data-location-path='547663,598535,1433567'] .block-page.list-articles.actus:not(.block) a {
-  margin-top: 0 !important;
-}
-
-.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .inside {
-  margin-bottom: 3.2rem !important;
+  margin-top: 3.2rem !important;
 }
 
 .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .inside {
   padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .front[data-location-path='547663,598535,1433567'] .block-page.list-articles.actus:not(.block) .inside {
