@@ -11219,10 +11219,13 @@ html[lang="en"] .landing-anniversary {
   width: 100%;
   background: linear-gradient(270deg, #0B8E36 66.48%, #F39200 100%);
   position: relative;
+}
+
+.site-banner {
   transition: transform 0.3s ease-in-out;
 }
 
-.anniversary-baneer.no-banner {
+.site-banner.no-banner {
   transform: translateY(-100%);
 }
 
