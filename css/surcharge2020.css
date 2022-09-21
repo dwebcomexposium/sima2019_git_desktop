@@ -11686,12 +11686,14 @@ html[lang="en"] .landing-anniversary {
   transform: scale(1.02);
 }
 
-.content905618 .edito:nth-child(3) {
+.content905618 .edito:nth-child(3) .inside {
   display: grid;
   grid-template-areas:
     'title title title'
     'subtitle subtitle subtitle'
     'cta1 cta2 cta3';
+  width: 100%;
+  margin: auto;
 }
 
 .content905618 .edito:nth-child(3) .inside > h2 {
