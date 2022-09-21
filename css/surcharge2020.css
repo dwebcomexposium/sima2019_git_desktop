@@ -11366,6 +11366,7 @@ html[lang="en"] .landing-anniversary {
   left: 0;
   margin: auto;
   background-color: #0B8E36;
+  transition: transform 0.3s ease-in-out;
 }
 
 .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item:hover::after  {
