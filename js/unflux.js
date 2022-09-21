@@ -141,6 +141,11 @@
                 baneer.classList.add('no-banner')
                 document.querySelector('.site-wrapper').classList.add('no-banner')
             })
+
+            // Infos pratiques moves
+            const ipTitle = document.querySelector('.content905618 h1')
+            const ipZone1 = document.querySelector('#zone1')
+            ipZone1.appendChild(ipTitle)
         }
 
     }
