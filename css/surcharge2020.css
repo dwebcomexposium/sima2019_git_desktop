@@ -11614,9 +11614,24 @@ html[lang="en"] .landing-anniversary {
   text-align: center;
   line-height: 1.2;
   max-width: 800px;
+  margin-right: 0 !important;
+  position: relative;
+  margin-bottom: 8.6rem;
 }
 
 .content905618 #zone2 > .block .inside > p strong {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: #252525;
+}
+
+.content905618 #zone2 > .block .inside > p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3.6rem;
+  width: 5rem;
+  height: 4px;
+  background-color: #0B8E36;
+  margin: auto;
 }
