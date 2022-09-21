@@ -11570,3 +11570,16 @@ html[lang="en"] .landing-anniversary {
   background-size: 100% 200%;
   background-image: linear-gradient(to bottom, #0b8e36 50%, #252525 50%);
 }
+
+.content905618 #zone1 {
+  height: 53.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content905618 #zone1 h1 {
+  color: white;
+  text-align: center;
+}
