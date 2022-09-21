@@ -11678,4 +11678,9 @@ html[lang="en"] .landing-anniversary {
   color: #f39200;
   font-size: 1.6rem;
   padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.find-us__left a:hover {
+  transform: scale(1.02);
 }
