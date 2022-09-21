@@ -11685,3 +11685,31 @@ html[lang="en"] .landing-anniversary {
   color: #f39200 !important;
   transform: scale(1.02);
 }
+
+.content905618 .edito:nth-child(3) {
+  display: grid;
+  grid-template-areas:
+    'title title title'
+    'subtitle subtitle subtitle'
+    'cta1 cta2 cta3';
+}
+
+.content905618 .edito:nth-child(3) .inside > h2 {
+  grid-area: title;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(2) {
+  grid-area: subtitle;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3) {
+  grid-area: cta1;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4) {
+  grid-area: cta2;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5) {
+  grid-area: cta3;
+}
