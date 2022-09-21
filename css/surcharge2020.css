@@ -11233,8 +11233,22 @@ html[lang="en"] .landing-anniversary {
 .front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content {
   height: 100%;
   display: flex;
+  gap: 0.5rem;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto 0 3.7rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content p {
+  margin: 0;
+  line-height: 1;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content p strong {
+  color: white;
+  font-size: 1.8rem;
 }
 
 .front[data-location-path='547663,598535,1433567'] .anniversary-baneer .btn {
