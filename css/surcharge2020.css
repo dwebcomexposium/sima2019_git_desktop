@@ -11609,9 +11609,14 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 #zone2 > .block .inside > p {
   font-size: 2rem;
-  font-family: "NeutrifStudio-medium";
+  font-family: "NeutrifStudio-medium", Helvetica, Arial, sans-serif;
   color: #636363;
   text-align: center;
   line-height: 1.2;
   max-width: 800px;
+}
+
+.content905618 #zone2 > .block .inside > p strong {
+  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  color: #252525;
 }
