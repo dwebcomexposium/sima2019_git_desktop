@@ -11706,18 +11706,30 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3) {
   grid-area: cta1;
+  background-color: #0B8E36;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4) {
   grid-area: cta2;
+  background-color: #F39200;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(5) {
   grid-area: cta3;
+  background-color: #f4f4f4;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3)::after,
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4)::after,
 .content905618 .edito:nth-child(3) .inside > p:nth-child(5)::after {
   content: none !important;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3),
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4),
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5) {
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
