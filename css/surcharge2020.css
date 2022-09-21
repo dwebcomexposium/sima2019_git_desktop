@@ -96,6 +96,12 @@ h1 {
 }
 
 @font-face {
+  font-family: "NeutrifStudio-medium";
+  src: url("/theme/sima2019_git_desktop/fonts/NeutrifStudio-Medium.woff2");
+  font-display: swap;
+}
+
+@font-face {
   font-family: "icon-catal";
   src: url("/theme/sima2019_git_desktop/fonts/comexposium-iconcatalogue/fonts/comexposium-iconcatalogue.woff");
   font-display: swap;
@@ -11603,7 +11609,7 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 #zone2 > .block .inside > p {
   font-size: 2rem;
-  font-weight: 500;
+  font-family: "NeutrifStudio-medium";
   color: #636363;
   text-align: center;
   line-height: 1.2;
