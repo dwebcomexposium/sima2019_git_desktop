@@ -11203,22 +11203,21 @@ html[lang="en"] .landing-anniversary {
 }
 
 /* Homepage 2022 */
-.front[data-location-path='547663,598535,1433567'] {
-  margin: 0;
-}
-
-.front[data-location-path='547663,598535,1433567'] .site-wrapper {
+.front[data-location-path='547663,598535,1433567'] .site-wrapper,
+.content905618 {
   margin-top: calc(15rem + 93px);
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer,
+.content905618 .anniversary-baneer {
   height: 93px;
   width: 100%;
   background: linear-gradient(270deg, #0B8E36 66.48%, #F39200 100%);
   position: relative;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__container {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__container,
+.content905618 .anniversary-baneer__container {
   max-width: 116rem;
   margin: 0 auto;
   height: 100%;
@@ -11226,11 +11225,13 @@ html[lang="en"] .landing-anniversary {
   justify-content: space-between;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__container > svg {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__container > svg,
+.content905618 .anniversary-baneer__container > svg {
   width: 127px;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content,
+.content905618 .anniversary-baneer__content {
   height: 100%;
   display: flex;
   gap: 0.5rem;
@@ -11239,19 +11240,22 @@ html[lang="en"] .landing-anniversary {
   margin: 0 auto 0 3.7rem;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content p {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content p,
+.content905618 .anniversary-baneer__container p strong {
   margin: 0;
   line-height: 1;
   color: white;
   font-size: 1.6rem;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content p strong {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__content p strong,
+.content905618 .anniversary-baneer__content p strong {
   color: white;
   font-size: 1.8rem;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer .btn {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer .btn,
+.content905618 .anniversary-baneer .btn {
   height: fit-content;
   margin: auto 0;
   padding: 0.5rem 2rem;
@@ -11259,7 +11263,8 @@ html[lang="en"] .landing-anniversary {
   line-height: 1;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__close {
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__close,
+.content905618 .anniversary-baneer__close {
   position: absolute;
   top: 16px;
   right: 16px;
@@ -11269,9 +11274,12 @@ html[lang="en"] .landing-anniversary {
   font-size: 1.2rem;
 }
 
-.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__close svg{
+.front[data-location-path='547663,598535,1433567'] .anniversary-baneer__close svg,
+.content905618 .anniversary-baneer__close svg{
   width: 12px;
 }
+
+/* END BANNER */
 
 .front[data-location-path='547663,598535,1433567'] .focusbadge {
   width: 100%;
