@@ -11412,3 +11412,140 @@ html[lang="en"] .landing-anniversary {
   text-align: center;
   margin: 0 !important;
 }
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin {
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-besoin-info.webp");
+  background-size: cover;
+  padding: 12rem 0;
+  background-position: center;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .gla-item-title {
+  font-size: 3.4rem !important;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .grid-la-list .gla-item {
+  max-height: 50rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles {
+  margin-top: 0 !important;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin {
+  background-image: url("/theme/sima2019_git_desktop/images/img-background-besoin-info.webp");
+  background-size: cover;
+  padding: 12rem 0;
+  background-position: center;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .gla-item-title {
+  font-size: 3.4rem !important;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .grid-la-list .gla-item {
+  max-height: 50rem;
+}
+
+@media screen and (max-width: 1199px) {
+  .front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+    + .list-articles
+    .list-grids-with-pagin
+    .grid-la-list
+    .gla-item {
+    height: auto;
+    min-height: auto;
+  }
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+  + .list-articles
+  .list-grids-with-pagin
+  .grid-la-list
+  .gla-item
+  a {
+  height: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+  .front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+    + .list-articles
+    .list-grids-with-pagin
+    .grid-la-list
+    .gla-item
+    a {
+    height: 35rem;
+    min-height: 35rem;
+  }
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+  + .list-articles
+  .list-grids-with-pagin
+  .grid-la-list
+  .gla-item
+  a:hover
+  .gla-btn-read-more {
+  background-color: #252525;
+  color: white !important;
+  background-position: 0 100%;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+  + .list-articles
+  .list-grids-with-pagin
+  .grid-la-list
+  .gla-item
+  a:hover
+  .gla-item-title {
+  color: #252525 !important;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+  + .list-articles
+  .list-grids-with-pagin
+  .grid-la-list
+  .gla-item-content {
+  box-shadow: 0 22px 34px -25px rgba(0, 0, 0, 0.5);
+  max-height: 50rem;
+  position: relative;
+  padding: 4rem 3rem;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+  + .list-articles
+  .list-grids-with-pagin
+  .grid-la-list
+  .gla-item-content
+  .gla-item-btn::before {
+  display: none;
+}
+
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
+  + .list-articles
+  .list-grids-with-pagin
+  .grid-la-list
+  .gla-item-content
+  .gla-item-btn
+  .gla-btn-read-more {
+  border: none;
+  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  position: relative;
+  bottom: 0;
+  color: white;
+  padding: 1.6rem 2.5rem;
+  left: 0;
+  transition: all 0.2s;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #0b8e36 50%, #252525 50%);
+}
