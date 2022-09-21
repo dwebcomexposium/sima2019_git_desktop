@@ -134,6 +134,14 @@
             const header = document.querySelector('.site-banner')
             const headerInside = header.querySelector('.inside')
             header.insertBefore(baneer, headerInside)
+
+            // Close banner
+            const close = document.querySelector('.anniversary-baneer__close') 
+            close.addEventListener('click', () => {
+                baneer.classList.add('hidden')
+                baneer.classList.add('hidden')
+                document.querySelector('.site-wrapper').classList.add('no-banner')
+            })
         }
 
     }
