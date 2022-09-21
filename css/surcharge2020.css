@@ -11386,3 +11386,29 @@ html[lang="en"] .landing-anniversary {
 .front[data-location-path='547663,598535,1433567'] .block-page.list-articles.actus:not(.block) .inside {
   padding-top: 0 !important;
 }
+
+/* Bloc 100 ans */
+.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) {
+  background: #f4f4f4;
+}
+
+.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .inside {
+  margin: auto;
+  max-width: 116rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .block-title {
+  font-weight: 700;
+  font-size: 5.2rem;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .inside > p {
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.63);
+  text-align: center;
+  margin: 0 !important;
+}
