@@ -11361,19 +11361,27 @@ html[lang="en"] .landing-anniversary {
   z-index: 2;
 }
 
-.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  background-color: #0B8E36;
-  transition: transform 0.3s ease-in-out;
-  z-index: 0;
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item > img {
+  z-index: 3;
 }
 
-.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item:hover::after  {
-  transform: scale(1.03);
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+  transition: border 0.3s ease-in-out;
+  z-index: 0;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  box-sizing: border-box;
+}
+
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item:hover::before  {
+  border: solid 4px #0b8e36;
 }
