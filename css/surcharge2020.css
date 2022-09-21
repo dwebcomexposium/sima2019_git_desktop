@@ -11388,17 +11388,17 @@ html[lang="en"] .landing-anniversary {
 }
 
 /* Bloc 100 ans */
-.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) {
   background: #f4f4f4;
   padding-bottom: 4rem;
 }
 
-.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .inside {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside {
   margin: auto;
   max-width: 116rem;
 }
 
-.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .block-title {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .block-title {
   font-weight: 700;
   font-size: 5.2rem;
   text-align: center;
@@ -11410,7 +11410,7 @@ html[lang="en"] .landing-anniversary {
   font-family: 'neutrifstudio-bold';
 }
 
-.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur) .inside > p {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside > p {
   font-weight: 400;
   font-family: 'neutrifstudio-regular';
   line-height: 1.2;
