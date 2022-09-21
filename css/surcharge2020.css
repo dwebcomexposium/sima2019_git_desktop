@@ -11204,7 +11204,7 @@ html[lang="en"] .landing-anniversary {
 
 /* Homepage 2022 */
 .front[data-location-path='547663,598535,1433567'] .site-wrapper,
-.content905618 {
+.content905618 .site-wrapper {
   margin-top: calc(15rem + 93px);
   transition: margin 0.3s ease-in-out;
 }
