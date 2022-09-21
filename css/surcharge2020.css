@@ -11619,7 +11619,6 @@ html[lang="en"] .landing-anniversary {
   text-align: center;
   line-height: 1.2;
   max-width: 800px;
-  margin-right: 0 !important;
   position: relative;
   margin-bottom: 8.6rem;
 }
@@ -11693,7 +11692,6 @@ html[lang="en"] .landing-anniversary {
     'subtitle subtitle subtitle'
     'cta1 cta2 cta3';
   width: 100%;
-  justify-content: center;
   margin: auto;
 }
 
@@ -11703,6 +11701,7 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(2) {
   grid-area: subtitle;
+  margin: 1.5rem auto 8.6rem auto !important;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3) {
