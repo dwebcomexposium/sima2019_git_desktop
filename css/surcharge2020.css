@@ -11693,6 +11693,7 @@ html[lang="en"] .landing-anniversary {
     'subtitle subtitle subtitle'
     'cta1 cta2 cta3';
   width: 100%;
+  justify-content: center;
   margin: auto;
 }
 
@@ -11714,4 +11715,10 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(5) {
   grid-area: cta3;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(3)::after,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(4)::after,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::after {
+  content: none !important;
 }
