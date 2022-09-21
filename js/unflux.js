@@ -138,8 +138,7 @@
             // Close banner
             const close = document.querySelector('.anniversary-baneer__close') 
             close.addEventListener('click', () => {
-                baneer.classList.add('hidden')
-                baneer.classList.add('hidden')
+                baneer.classList.add('no-banner')
                 document.querySelector('.site-wrapper').classList.add('no-banner')
             })
         }

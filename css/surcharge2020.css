@@ -11222,7 +11222,7 @@ html[lang="en"] .landing-anniversary {
   transition: height 0.3s ease-in-out;
 }
 
-.anniversary-baneer.hidden {
+.anniversary-baneer.no-banner {
   height: 0;
   pointer-events: none;
 }
