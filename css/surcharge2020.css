@@ -11674,7 +11674,7 @@ html[lang="en"] .landing-anniversary {
 }
 
 .find-us__left a {
-  background: white;
+  background: white !important;
   color: #f39200;
   font-size: 1.6rem;
   padding: 1rem;
