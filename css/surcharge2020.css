@@ -11687,7 +11687,7 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content905618 .edito:nth-child(3) .inside {
-  display: grid;
+  display: grid !important;
   grid-template-areas:
     'title title title'
     'subtitle subtitle subtitle'
