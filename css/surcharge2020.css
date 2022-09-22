@@ -11893,6 +11893,7 @@ html[lang="en"] .landing-anniversary {
 
 .salon-dates .salon-dates__day {
   grid-area: day;
+  padding-top: 0.5rem;
   font-size: 10rem;
   line-height: 1;
 }
