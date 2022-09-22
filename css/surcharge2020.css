@@ -12076,6 +12076,10 @@ html[lang="en"] .landing-anniversary {
   line-height: 1.2;
 }
 
+.content905639 .why-visit {
+
+}
+
 .content905639 .edito:nth-child(1n + 2) {
   margin-top: 18rem;
 }
@@ -12090,7 +12094,8 @@ html[lang="en"] .landing-anniversary {
   column-gap: 6rem;
 }
 
-.content905639 .edito:nth-child(1n + 2) h2 {
+.content905639 .edito:nth-child(1n + 2) h2,
+.content905639 .why-visit h2 {
   grid-area: title;
   display: flex;
   gap: 3rem;
@@ -12101,7 +12106,8 @@ html[lang="en"] .landing-anniversary {
   margin: 0 0 8rem 0;
 }
 
-.content905639 .edito:nth-child(1n + 2) h2 span {
+.content905639 .edito:nth-child(1n + 2) h2 span,
+.content905639 .why-visit h2 span {
   grid-area: title;
   line-height: 1;
   padding: 2rem;
