@@ -11952,11 +11952,11 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content905639 #main::before {
-  height: 40rem !important;
+  height: 44rem !important;
 } 
 
 .content905639 .edito:nth-child(1) {
-  height: 40rem;
+  height: 44rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11972,6 +11972,7 @@ html[lang="en"] .landing-anniversary {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   justify-content: flex-start;
   width: fit-content;
+  margin-bottom: 4rem;
 }
 
 .content905639 .edito:nth-child(1) .inside h1{
