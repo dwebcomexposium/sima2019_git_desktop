@@ -12087,7 +12087,7 @@ html[lang="en"] .landing-anniversary {
     'img content'
     'img btn';
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 6rem;
+  column-gap: 3rem;
 }
 
 .content905639 .edito:nth-child(1n + 2) h2 {
