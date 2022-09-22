@@ -12283,3 +12283,22 @@ html[lang="en"] .landing-anniversary {
 .content905639 .edito:nth-child(1n + 2):last-child {
   margin-bottom: 10rem;
 }
+
+/* A la une */
+.content374309 .cxp-pagination .grid-la-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.content374309 .cxp-pagination .grid-la-list .gla-item{
+  flex-basis: unset;
+  width: 50%;
+}
+
+.content374309 .cxp-pagination a{
+  flex-direction: column;
+}
+
+.content374309 .cxp-pagination a img{
+  width: 19rem;
+}
