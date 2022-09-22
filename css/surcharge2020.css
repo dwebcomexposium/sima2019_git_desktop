@@ -11953,15 +11953,56 @@ html[lang="en"] .landing-anniversary {
   position: relative;
 }
 
+.content905639 .edito:nth-child(1) .inside {
+  display: grid;
+  grid-template-areas:
+    'place'
+    'dates'
+    'title';
+  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.content905639 .edito:nth-child(1) .inside h1{
+  grid-area: title;
+  font-size: 6rem;
+  max-width: 55rem;
+  text-align: right;
+}
+
+.content905639 .edito:nth-child(1) .inside .date1{
+  grid-area: dates;
+  margin: 0.5rem 0 2.5rem auto;
+  background-color: #F39200;
+  color: white;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+.content905639 .edito:nth-child(1) .inside p:not(.date1){
+  grid-area: place;
+  margin-left: auto;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.content905639 .edito:nth-child(1) .inside p{
+  margin: 0;
+  line-height: 1;
+}
+
 .content905639 .edito:nth-child(1)::after {
   content: "";
   position: absolute;
   top: 0;
-  width: 100vw;
+  width: calc(100vw - 4rem);
+  height: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(calc(-50% + 0.7rem));
   background-color: #0B8E36;
   opacity: 0.6;
   clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
-  z-index: 0;
+  z-index: -1;
 }
