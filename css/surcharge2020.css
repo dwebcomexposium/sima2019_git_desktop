@@ -12296,9 +12296,26 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content374309 .cxp-pagination a{
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .content374309 .cxp-pagination a img{
   width: 19rem;
+  object-fit: cover;
+}
+
+.content374309 .cxp-pagination .gla-item-content * {
+  color: white !important;
+}
+
+.content374309 .cxp-pagination .gla-item-desc {
+  opacity: 0.7;
+}
+
+.content374309 .cxp-pagination article:nth-of-type(1) a{
+  background-color: #0b8e36;
+}
+
+.content374309 .cxp-pagination article:nth-of-type(2) a{
+  background-color: #f39200;
 }
