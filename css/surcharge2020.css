@@ -12076,8 +12076,53 @@ html[lang="en"] .landing-anniversary {
   line-height: 1.2;
 }
 
-.content905639 .why-visit {
+.content905639 .why-visit .why-visit__title {
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'NeutrifStudio-bold';
+  position: relative;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.6rem;
+  line-height: 1;
+  color: #252525;
+}
 
+.content905639 .why-visit .why-visit__title::after {
+  content: "";
+  width: 5rem;
+  height: 4px;
+  background-color: #0B8E36;
+}
+
+.content905639 .why-visit__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.content905639 .why-visit__grid > p {
+  text-align: center;
+  font-family: 'NeutrifStudio-regular';
+  color: #252525;
+  line-height: 1;
+}
+
+.content905639 .why-visit__grid > div {
+  display: grid;
+  grid-template-rows: 27rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.content905639 .why-visit__grid:nth-of-type(1) > div {
+  grid-template-columns: repeat(3, minmax(auto, 22rem));
+}
+
+.content905639 .why-visit__grid:nth-of-type(2) > div {
+  grid-template-columns: repeat(5, minmax(auto, 22rem));
 }
 
 .content905639 .edito:nth-child(1n + 2) {
