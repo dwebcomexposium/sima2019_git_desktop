@@ -154,7 +154,7 @@
                 ipDateSection.appendChild(dateSection)
                 dateSection.classList.add('salon-dates')
                 dateSection.innerHTML = `
-                <div class="salon-dates__start">
+                <div class="salon-dates__start salon-dates__part">
                     <p class="salon-dates__day">06</p>
                     <p class="salon-dates__day">novembre</p>
                     <p class="salon-dates__day">2022</p>
@@ -162,7 +162,7 @@
                         <path d="M6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333ZM6 7L46 7V5L6 5V7Z" fill="#252525"/>
                     </svg>
                 </div>
-                <div class="salon-dates__end">
+                <div class="salon-dates__end salon-dates__part">
                     <p class="salon-dates__day">10</p>
                     <p class="salon-dates__day">novembre</p>
                     <p class="salon-dates__day">2022</p>

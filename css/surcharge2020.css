@@ -11857,3 +11857,66 @@ html[lang="en"] .landing-anniversary {
   text-transform: none;
   line-height: 1.5;
 }
+
+.salon-dates {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.salon-dates .salon-dates__part {
+  position: relative;
+  padding: 3.5rem;
+  width: 50%;
+  display: grid;
+  grid-template-areas:
+  'day month'
+  'day year';
+}
+
+.salon-dates .salon-dates__part svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.salon-dates .salon-dates__day {
+  grid-area: day;
+}
+
+.salon-dates .salon-dates__month {
+  opacity: 0.5;
+  grid-area: month;
+}
+
+.salon-dates .salon-dates__year {
+  opacity: 0.3;
+  grid-area: year;
+}
+
+.salon-dates .salon-dates__start svg {
+  right: 0;
+}
+
+.salon-dates .salon-dates__start {
+  background-color: #f4f4f4;
+  color: #252525;
+}
+
+.salon-dates .salon-dates__start * {
+  color: #252525;
+}
+
+.salon-dates .salon-dates__end {
+  background-color: #0b8e36;
+  color: white;
+}
+
+.salon-dates .salon-dates__end * {
+  color: white;
+}
+
+.salon-dates .salon-dates__end svg {
+  left: 0;
+}
