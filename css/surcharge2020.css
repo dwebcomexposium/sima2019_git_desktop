@@ -12122,6 +12122,9 @@ html[lang="en"] .landing-anniversary {
   padding: 2rem;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content905639 .why-visit__grid > div a p{
@@ -12132,6 +12135,12 @@ html[lang="en"] .landing-anniversary {
   flex-direction: column;
   justify-content: space-between;
   transition: color 0.2s ease-in-out;
+  width: 100%;
+  text-align: left;
+}
+
+.content905639 .why-visit__grid a img {
+  
 }
 
 .content905639 .why-visit__grid > div a:hover {
@@ -12154,11 +12163,13 @@ html[lang="en"] .landing-anniversary {
   margin-top: 8rem;
 }
 
-.content905639 .why-visit__grid:nth-of-type(1) a:hover {
+.content905639 .why-visit__grid:nth-of-type(1) a:hover, 
+.content905639 .why-visit__grid:nth-of-type(1) a img {
   background-color: #634E42;
 }
 
-.content905639 .why-visit__grid:nth-of-type(2) a:hover {
+.content905639 .why-visit__grid:nth-of-type(2) a:hover, 
+.content905639 .why-visit__grid:nth-of-type(2) a img {
   background-color: #0b8e36;
 }
 
@@ -12185,8 +12196,6 @@ html[lang="en"] .landing-anniversary {
     'content img'
     'content img';
 }
-
-/* .content905639 .edito:nth-child(1n + 2):nth-child(odd) */
 
 .content905639 .edito:nth-child(1n + 2) h2,
 .content905639 .why-visit h2 {
@@ -12257,4 +12266,8 @@ html[lang="en"] .landing-anniversary {
   background: #0b8e36;
   color: white;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+}
+
+.content905639 .edito:nth-child(1n + 2):last-child {
+  margin-bottom: 10rem;
 }
