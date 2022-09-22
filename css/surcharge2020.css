@@ -12135,7 +12135,6 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content905639 .why-visit__grid > div a:hover {
-  background-color: #0b8e36;
   box-shadow: 0px 4px 50px 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -12153,6 +12152,14 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .why-visit__grid:nth-of-type(2) {
   margin-top: 8rem;
+}
+
+.content905639 .why-visit__grid:nth-of-type(1) a:hover {
+  background-color: #634E42;
+}
+
+.content905639 .why-visit__grid:nth-of-type(2) a:hover {
+  background-color: #0b8e36;
 }
 
 .content905639 .edito:nth-child(1n + 2) {
