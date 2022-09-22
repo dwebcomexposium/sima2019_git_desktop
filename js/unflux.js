@@ -172,6 +172,16 @@
                 </div>
                 `;
             }
+
+            const whyVisit = document.querySelector('.content905639')
+            if(whyVisit) {
+                const blocks = document.querySelectorAll('.content905639 .edito')
+                blocks.forEach((el, i) => {
+                    if(i === 0) return
+                    const title = el.querySelector('h2')
+                    title.innerHTML = `<span>#${i + 1}</span>` + title.innerHTML
+                })
+            }
         }
 
     }
