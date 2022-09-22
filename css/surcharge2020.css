@@ -11791,7 +11791,28 @@ html[lang="en"] .landing-anniversary {
 .content905618 .focusedition {
   width: 70%;
   background: none;
-  margin: 7rem 0 !important;
+  margin: 24rem 0 7rem 0 !important;
+  padding: 5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content905618 .focusedition .txtright {
+  margin: auto 0 0 0;
+}
+
+.content905618 .focusedition .af-title {
+  font-size: 4rem;
+  font-family: 'NeutrifStudio-bold';
+  color: #252525;
+}
+
+.content905618 .focusedition .af-title + p:not(:empty) {
+  line-height: 1;
+  font-family: 'NeutrifStudio-medium';
+  color: #252525;
+  font-size: 2.5rem;
+  text-transform: none;
 }
 
 .content905618 .focusedition::after {
@@ -11800,7 +11821,7 @@ html[lang="en"] .landing-anniversary {
   top: 50%;
   left: 35%;
   margin: auto;
-  height: calc(100% + 7rem);
+  height: calc(100% + 14rem);
   width: 100vw;
   transform: translateX(-35%) translateY(-50%);
   background-image: url('https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-fr.webp');
