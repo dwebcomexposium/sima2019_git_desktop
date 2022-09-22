@@ -11966,8 +11966,9 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .edito:nth-child(1) .inside h1{
   grid-area: title;
+  text-transform: none;
   font-size: 6rem;
-  max-width: 55rem;
+  max-width: 38rem;
   text-align: right;
 }
 
@@ -12003,6 +12004,6 @@ html[lang="en"] .landing-anniversary {
   transform: translateX(calc(-50% + 0.7rem));
   background-color: #0B8E36;
   opacity: 0.6;
-  clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
+  clip-path: polygon(0 0, 70% 0, 40% 100%, 0% 100%);
   z-index: -1;
 }
