@@ -11750,24 +11750,21 @@ html[lang="en"] .landing-anniversary {
   transform: translateX(50%);
   height: 80%;
   width: 20rem;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3)::before {
   background-image: url("/theme/sima2019_git_desktop/images/train-f-1.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: 90%;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4)::before {
   background-image: url("/theme/sima2019_git_desktop/images/plane-f-1.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(5)::before {
   background-image: url("/theme/sima2019_git_desktop/images/car-f-1.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3),
