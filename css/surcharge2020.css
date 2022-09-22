@@ -11797,10 +11797,10 @@ html[lang="en"] .landing-anniversary {
   content: "";
   position: absolute;
   top: 50%;
+  left: 35%;
   margin: auto;
   height: 100%;
   width: 100vw;
-  left: 35%;
   transform: translateX(-35%) translateY(-50%);
   background-image: url('https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-fr.webp');
 }
@@ -11809,11 +11809,10 @@ html[lang="en"] .landing-anniversary {
   content: "";
   position: absolute;
   top: 50%;
-  left: 50;
+  left: 50%;
   margin: auto;
   height: calc(100% + 3rem);
   width: calc(100% + 3rem);
-  left: 50%;
   transform: translateX(-50%) translateY(-50%);
   background: white;
 }
