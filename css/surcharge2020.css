@@ -11210,13 +11210,15 @@ html[lang="en"] .landing-anniversary {
 
 /* Homepage 2022 */
 .front[data-location-path='547663,598535,1433567'] .site-wrapper,
-.content905618 .site-wrapper {
+.content905618 .site-wrapper,
+.content905639 .site-wrapper {
   margin-top: calc(15rem + 93px) !important;
   transition: margin 0.3s ease-in-out;
 }
 
 .front[data-location-path='547663,598535,1433567'] .site-wrapper.no-banner,
-.content905618 .site-wrapper.no-banner {
+.content905618 .site-wrapper.no-banner,
+.content905639 .site-wrapper.no-banner {
   margin-top: 15rem !important;
 }
 
@@ -11937,4 +11939,12 @@ html[lang="en"] .landing-anniversary {
 
 .salon-dates .salon-dates__end svg {
   left: 0;
+}
+
+.content905639 #zone1 {
+  display: none;
+}
+
+.content905639 .edito:nth-child(1) {
+  height: 53.5rem;
 }
