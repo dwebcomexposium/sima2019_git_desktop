@@ -11793,7 +11793,7 @@ html[lang="en"] .landing-anniversary {
   background: none;
 }
 
-.content905618 .focusedition::before {
+.content905618 .focusedition::after {
   content: "";
   position: absolute;
   top: 50%;
