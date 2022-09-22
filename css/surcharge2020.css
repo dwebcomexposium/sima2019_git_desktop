@@ -12093,9 +12093,9 @@ html[lang="en"] .landing-anniversary {
 .content905639 .edito:nth-child(1n + 2) h2 {
   grid-area: title;
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3.4rem;
   color: #252525;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   margin: 0 0 8rem 0;
