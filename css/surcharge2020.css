@@ -12116,10 +12116,25 @@ html[lang="en"] .landing-anniversary {
   color: white;
 }
 
-.content905639 .edito:nth-child(1n + 2) .inside > img {
+.content905639 .edito:nth-child(1n + 2) .inside .img-with-cube {
   grid-area: img;
   height: 41rem;
+  position: relative;
+}
+
+.content905639 .edito:nth-child(1n + 2) .inside .img-with-cube img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
+}
+
+.content905639 .edito:nth-child(1n + 2) .inside .img-with-cube__cube {
+  position: absolute;
+  width: 22.4rem;
+  height: 22.4rem;
+  background-color: #0b8e36;
+  left: -4rem;
+  top: -4rem;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:not(:last-child) {
