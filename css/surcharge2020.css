@@ -11805,10 +11805,10 @@ html[lang="en"] .landing-anniversary {
   content: none !important;
 }
 
-.content905618 .focusedition .txtright a{
+.content905618 .focusedition .txtright:hover .btn-primary {
   background-color: #0b8e36 !important;
   color: white !important;
-}
+} 
 
 .content905618 .focusedition .af-title {
   font-size: 4rem;
