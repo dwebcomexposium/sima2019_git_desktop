@@ -12115,6 +12115,9 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:not(:last-child) {
   margin: 0 0 1rem 0;
+  font-size: 2rem;
+  font-family: 'NeutrifStudio-regular';
+  color: #474747;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:last-child {
