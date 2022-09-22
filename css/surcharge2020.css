@@ -11945,6 +11945,11 @@ html[lang="en"] .landing-anniversary {
   display: none;
 }
 
+.content905639 .site-wrapper {
+  max-width: 116rem;
+  margin: 0 auto;
+}
+
 .content905639 #main::before {
   height: 40rem !important;
 } 
