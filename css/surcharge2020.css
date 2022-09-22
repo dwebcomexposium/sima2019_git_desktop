@@ -12075,3 +12075,23 @@ html[lang="en"] .landing-anniversary {
   font-family: "Overpass", Helvetica, Arial, sans-serif;
   line-height: 1.2;
 }
+
+.content905639 .edito:nth-child(1n + 1) .inside {
+  display: grid;
+  grid-template-areas:
+    'title title'
+    'img content'
+    'img btn';
+}
+
+.content905639 .edito:nth-child(1n + 1) h2 {
+  grid-area: title;
+}
+
+.content905639 .edito:nth-child(1n + 1) .inside > img {
+  grid-area: img;
+}
+
+.content905639 .edito:nth-child(1n + 1) .inside > p:last-child {
+  grid-area: btn;
+}
