@@ -12287,17 +12287,20 @@ html[lang="en"] .landing-anniversary {
 /* A la une */
 .content374309 .cxp-pagination .grid-la-list {
   display: flex;
+  gap: 2rem;
   flex-wrap: nowrap;
 }
 
 .content374309 .cxp-pagination .grid-la-list .gla-item{
   flex-basis: unset;
   width: 50%;
+  margin-bottom: 5rem !important;
 }
 
 .content374309 .cxp-pagination a{
   flex-direction: row;
   position: relative;
+  margin: 0;
 }
 
 .content374309 .cxp-pagination a img{
