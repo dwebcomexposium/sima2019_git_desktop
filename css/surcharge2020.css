@@ -12085,9 +12085,9 @@ html[lang="en"] .landing-anniversary {
   grid-template-areas:
     'title title'
     'img content'
-    'img btn';
+    'img content';
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 3rem;
+  column-gap: 6rem;
 }
 
 .content905639 .edito:nth-child(1n + 2) h2 {
@@ -12111,6 +12111,8 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .edito:nth-child(1n + 2) .inside > img {
   grid-area: img;
+  height: 41rem;
+  object-fit: cover;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:not(:last-child) {
@@ -12118,10 +12120,11 @@ html[lang="en"] .landing-anniversary {
   font-size: 2rem;
   font-family: 'NeutrifStudio-regular';
   color: #474747;
+  grid-area: content;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:last-child {
-  grid-area: btn;
+  grid-area: content;
   margin-top: 8rem;
 }
 
