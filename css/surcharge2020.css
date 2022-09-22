@@ -12098,7 +12098,7 @@ html[lang="en"] .landing-anniversary {
   font-size: 4rem;
   color: #252525;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  margin: 0 0 10rem 0;
+  margin: 0 0 8rem 0;
 }
 
 .content905639 .edito:nth-child(1n + 2) h2 span {
@@ -12111,6 +12111,10 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .edito:nth-child(1n + 2) .inside > img {
   grid-area: img;
+}
+
+.content905639 .edito:nth-child(1n + 2) .inside > p:not(:last-child) {
+  margin: 0 0 1rem 0;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:last-child {
