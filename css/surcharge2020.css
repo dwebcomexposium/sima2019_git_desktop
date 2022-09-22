@@ -11693,6 +11693,7 @@ html[lang="en"] .landing-anniversary {
     'cta1 cta2 cta3';
   width: 100%;
   margin: auto;
+  overflow: hidden;
 }
 
 .content905618 .edito:nth-child(3) .inside > h2 {
@@ -11775,7 +11776,6 @@ html[lang="en"] .landing-anniversary {
   padding: 2rem;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
   min-height: 18rem;
   position: relative;
 }
@@ -11785,4 +11785,8 @@ html[lang="en"] .landing-anniversary {
 .content905618 .edito:nth-child(3) .inside > p:nth-child(5) a {
   text-transform: none;
   font-size: 2rem;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  z-index: 10;
 }
