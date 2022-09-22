@@ -8,7 +8,7 @@
             this.addLang();
             this.animateFigures();
             this.headerDisplace();
-            this.homeAnniversary()
+            this.rework2022()
 
         },
         
@@ -125,17 +125,17 @@
           span.innerHTML.startsWith('- ') && (span.innerHTML = span.innerHTML.replace('- ', ''))
         },
 
-        homeAnniversary() {
-            // Safe for development
+        rework2022() {
+            // Safe for dev
             const baneer = document.querySelector('.anniversary-baneer')
             if(!baneer) return
 
-            // Move baneer
+            // Move banner
             const header = document.querySelector('.site-banner')
             const headerInside = header.querySelector('.inside')
             header.insertBefore(baneer, headerInside)
 
-            // Close banner
+            // Handle close banner
             const close = document.querySelector('.anniversary-baneer__close') 
             close.addEventListener('click', () => {
                 header.classList.add('no-banner')
@@ -173,6 +173,7 @@
                 `;
             }
 
+            // Pourquoi visiter moves
             const whyVisit = document.querySelector('.content905639')
             if(whyVisit) {
                 const blocks = document.querySelectorAll('.content905639 .edito')
