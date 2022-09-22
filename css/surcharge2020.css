@@ -12304,7 +12304,8 @@ html[lang="en"] .landing-anniversary {
   object-fit: cover;
 }
 
-.content374309 .cxp-pagination .gla-item-content * {
+.content374309 .cxp-pagination .gla-item-content *,
+.content374309 .cxp-pagination a:hover * {
   color: white !important;
 }
 
