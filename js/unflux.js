@@ -152,7 +152,7 @@
                 const ipDateSection = document.querySelector('.content905618 .edito:nth-child(1) .inside')
                 const dateSection = document.createElement('div')
                 ipDateSection.appendChild(dateSection)
-                dateSection.className.add('salon-dates')
+                dateSection.classList.add('salon-dates')
                 dateSection.innerHTML = `
                 <div class="salon-dates__start">
                     <p class="salon-dates__day">06</p>
