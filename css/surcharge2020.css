@@ -12076,11 +12076,11 @@ html[lang="en"] .landing-anniversary {
   line-height: 1.2;
 }
 
-.content905639 .edito:nth-child(1n + 1) {
+.content905639 .edito:nth-child(1n + 2) {
   margin-top: 18rem;
 }
 
-.content905639 .edito:nth-child(1n + 1) .inside {
+.content905639 .edito:nth-child(1n + 2) .inside {
   display: grid;
   grid-template-areas:
     'title title'
@@ -12090,7 +12090,7 @@ html[lang="en"] .landing-anniversary {
   column-gap: 6rem;
 }
 
-.content905639 .edito:nth-child(1n + 1) h2 {
+.content905639 .edito:nth-child(1n + 2) h2 {
   grid-area: title;
   display: flex;
   gap: 5rem;
@@ -12101,7 +12101,7 @@ html[lang="en"] .landing-anniversary {
   margin: 0 0 10rem 0;
 }
 
-.content905639 .edito:nth-child(1n + 1) h2 span {
+.content905639 .edito:nth-child(1n + 2) h2 span {
   grid-area: title;
   line-height: 1;
   padding: 2rem;
@@ -12109,11 +12109,11 @@ html[lang="en"] .landing-anniversary {
   color: white;
 }
 
-.content905639 .edito:nth-child(1n + 1) .inside > img {
+.content905639 .edito:nth-child(1n + 2) .inside > img {
   grid-area: img;
 }
 
-.content905639 .edito:nth-child(1n + 1) .inside > p:last-child {
+.content905639 .edito:nth-child(1n + 2) .inside > p:last-child {
   grid-area: btn;
   margin-top: 8rem;
 }
