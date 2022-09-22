@@ -12022,7 +12022,7 @@ html[lang="en"] .landing-anniversary {
   row-gap: 0.5rem;
   justify-content: space-between;
   grid-template-areas:
-    'title button'
+    'content button'
     'content button';
   position: relative;
   padding: 3rem;
