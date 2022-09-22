@@ -12140,10 +12140,12 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content905639 .why-visit__grid a .card-img-container {
-  width: 6rem;
-  height: 6rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 100%;
   display: flex;
+  padding: 1.6rem;
+  margin: 3rem auto 0 auto;
 }
 
 .content905639 .why-visit__grid a .card-img-container img {
