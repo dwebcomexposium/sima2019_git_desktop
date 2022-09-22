@@ -11947,4 +11947,21 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .edito:nth-child(1) {
   height: 53.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.content905639 .edito:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0B8E36;
+  opacity: 0.6;
+  clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
+  z-index: 0;
 }
