@@ -11813,6 +11813,7 @@ html[lang="en"] .landing-anniversary {
   color: #252525;
   font-size: 2.5rem;
   text-transform: none;
+  margin-bottom: 4rem;
 }
 
 .content905618 .focusedition::after {
@@ -11838,4 +11839,12 @@ html[lang="en"] .landing-anniversary {
   width: 100%;
   transform: translateX(-50%) translateY(-50%);
   background: white;
+}
+
+.content905618 .focusedition p {
+    color: #636363;
+    font-family: 'NeutrifStudio-medium';
+    font-size: 2rem;
+    text-transform: none;
+    line-height: 1.5;
 }
