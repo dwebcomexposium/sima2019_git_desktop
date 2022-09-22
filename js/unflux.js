@@ -150,7 +150,6 @@
                 ipZone1.appendChild(ipTitle)
 
                 const ipDateSection = document.querySelector('.content905618 .edito:nth-child(1) .inside')
-                console.log(ipDateSection)
                 const dateSection = document.createElement('div')
                 ipDateSection.appendChild(dateSection)
                 dateSection.className.add('salon-dates')
