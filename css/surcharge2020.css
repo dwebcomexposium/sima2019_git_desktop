@@ -12112,15 +12112,15 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .why-visit__grid > div {
   display: grid;
-  grid-template-rows: 27rem;
   justify-content: center;
   gap: 2rem;
 }
 
 .content905639 .why-visit__grid > div a {
+  height: 27rem;
   border: 1px solid #D9D9D9;
   padding: 2rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
@@ -12131,6 +12131,7 @@ html[lang="en"] .landing-anniversary {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: color 0.2s ease-in-out;
 }
 
 .content905639 .why-visit__grid > div a:hover {
@@ -12148,6 +12149,10 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .why-visit__grid:nth-of-type(2) > div {
   grid-template-columns: repeat(5, minmax(auto, 22rem));
+}
+
+.content905639 .why-visit__grid:nth-of-type(2) {
+  margin-top: 8rem;
 }
 
 .content905639 .edito:nth-child(1n + 2) {
