@@ -12011,3 +12011,60 @@ html[lang="en"] .landing-anniversary {
   clip-path: polygon(0 0, 70% 0, 40% 100%, 0% 100%);
   z-index: -1;
 }
+
+.content905639 .focusbadge {
+  transform: translateY(-50%);
+  width: 100%;
+  background: #0B8E36;
+  min-height: unset;
+  display: grid;
+  column-gap: 10rem;
+  row-gap: 0.5rem;
+  justify-content: space-between;
+  grid-template-areas:
+    'title button'
+    'content button';
+  position: relative;
+  padding: 3rem;
+}
+
+.content905639 .focusbadge::after {
+  content: "";
+  width: 26rem;
+  height: 26rem;
+  position: absolute;
+  background-size: contain;
+  right: -2rem;
+  top: 1.4rem;
+  background-image: url(/theme/sima2019_git_desktop/images/icon-ticket.svg);
+}
+
+.content905639 .focusbadge .af-title,
+.content905639 .focusbadge p:empty {
+  display: none;
+}
+
+.content905639 .focusbadge .txtright {
+  color: white;
+  grid-area: button;
+  z-index: 2;
+  margin: 0;
+}
+
+.content905639 .focusbadge .txtright::before {
+  content: none !important;
+}
+
+.content905639 .focusbadge .txtright a {
+  background-color: white;
+  color: #0b8e36;
+}
+
+.content905639 .focusbadge p {
+  grid-area: content;
+  font-size: 1.8rem;
+  text-transform: none;
+  font-weight: 500;
+  font-family: "Overpass", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
