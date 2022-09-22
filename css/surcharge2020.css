@@ -11801,6 +11801,15 @@ html[lang="en"] .landing-anniversary {
   margin: auto 0 0 0;
 }
 
+.content905618 .focusedition .txtright::before {
+  content: none !important;
+}
+
+.content905618 .focusedition .txtright a{
+  background-color: #0b8e36 !important;
+  color: white !important;
+}
+
 .content905618 .focusedition .af-title {
   font-size: 4rem;
   font-family: 'NeutrifStudio-bold';
@@ -11842,9 +11851,9 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content905618 .focusedition p {
-    color: #636363;
-    font-family: 'NeutrifStudio-medium';
-    font-size: 2rem;
-    text-transform: none;
-    line-height: 1.5;
+  color: #636363;
+  font-family: 'NeutrifStudio-medium';
+  font-size: 2rem;
+  text-transform: none;
+  line-height: 1.5;
 }
