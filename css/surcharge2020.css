@@ -12294,7 +12294,7 @@ html[lang="en"] .landing-anniversary {
 .content374309 .cxp-pagination .grid-la-list .gla-item{
   flex-basis: unset;
   width: 50%;
-  margin-bottom: 5rem !important;
+  margin: 5rem 0 5rem 0 !important;
 }
 
 .content374309 .cxp-pagination a{
