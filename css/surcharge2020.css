@@ -12117,6 +12117,11 @@ html[lang="en"] .landing-anniversary {
   gap: 2rem;
 }
 
+.content905639 .why-visit__grid > div a {
+  border: 1px solid #D9D9D9;
+  padding: 2rem;
+}
+
 .content905639 .why-visit__grid:nth-of-type(1) > div {
   grid-template-columns: repeat(3, minmax(auto, 22rem));
 }
