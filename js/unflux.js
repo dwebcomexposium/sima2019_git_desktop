@@ -181,6 +181,9 @@
                     if(i === 0) return
                     const title = el.querySelector('h2')
                     title.innerHTML = `<span>#${i + 1}</span>` + title.innerHTML
+
+                    const img = el.querySelector('.at-illust')
+                    img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`
                 })
             }
         }
