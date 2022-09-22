@@ -11833,7 +11833,7 @@ html[lang="en"] .landing-anniversary {
   margin: auto;
   height: calc(100% + 14rem);
   width: 100vw;
-  transform: translateX(-35%) translateY(-50%);
+  transform: translateX(-36%) translateY(-50%);
   background-image: url('https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-fr.webp');
   z-index: -1;
 }
