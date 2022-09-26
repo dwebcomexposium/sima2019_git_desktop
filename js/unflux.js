@@ -186,6 +186,12 @@
 
                     const img = el.querySelector('.at-illust')
                     img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`
+
+                    const firstParagraph = el.querySelector('p:first-of-type')
+                    const lastParagraph = el.querySelector('p:last-of-type')
+
+                    firstParagraph.insertAdjacentHTML('beforebegin', '<div calss="edito-content">')
+                    lastParagraph.insertAdjacentHTML('afterend', '</div>')
                 })
             }
         }

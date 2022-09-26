@@ -11366,7 +11366,7 @@ html[lang="en"] .landing-anniversary {
   position: relative;
 }
 
-.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus::after {
+/* .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -11374,7 +11374,7 @@ html[lang="en"] .landing-anniversary {
   bottom: 100%;
   background-color: #f4f4f4;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-}
+} */
 
 .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item {
   box-shadow: 0px 4px 50px 5px rgba(0, 0, 0, 0.1) !important;
@@ -12256,16 +12256,20 @@ html[lang="en"] .landing-anniversary {
   right: -4rem;
 }
 
+.content905639 .edito:nth-child(1n + 2) .inside .edito-content {
+  grid-area: content;
+}
+
 .content905639 .edito:nth-child(1n + 2) .inside > p:not(:last-child) {
   margin: 0 0 1rem 0;
   font-size: 2rem;
   font-family: 'NeutrifStudio-regular';
   color: #474747;
-  grid-area: content;
+  /* grid-area: content; */
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:last-child {
-  grid-area: content;
+  /* grid-area: content; */
   margin-top: 8rem;
 }
 
