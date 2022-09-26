@@ -8,7 +8,7 @@
             this.addLang();
             this.animateFigures();
             this.headerDisplace();
-            this.rework2022()
+            // this.rework2022()
 
         },
         
