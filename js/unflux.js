@@ -130,6 +130,9 @@
             const baneer = document.querySelector('.anniversary-baneer')
             if(!baneer) return
 
+            // Add class on parent
+            baneer.parentNode.classList.add('anniversary-baneer-wrapper')
+
             // Move banner
             const header = document.querySelector('.site-banner')
             const headerInside = header.querySelector('.inside')
