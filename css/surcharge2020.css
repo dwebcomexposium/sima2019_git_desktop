@@ -9510,7 +9510,7 @@ h1.main-title  {
 }
 
 .body-corpo.infos #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-5.jpg") !important;
+  background-image: url("/theme/sima2019_git_desktop/images/bg-14.jpg") !important;
 }
 
 .body-corpo.infos.article_list #main .site-wrapper.wrapper::before {
@@ -12340,4 +12340,9 @@ html[lang="en"] .landing-anniversary {
 .content374309 .cxp-pagination article:nth-of-type(2) .gla-item-content,
 .content374309 .cxp-pagination article:nth-of-type(2) a:after {
   background-color: #f39200;
+}
+
+.content374309 .cxp-pagination article a:hover .gla-item-content .gla-item-title,
+.content374309 .cxp-pagination article a:hover .gla-item-content .gla-item-btn .gla-btn-read-more{
+  color: white !important;
 }
