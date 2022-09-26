@@ -8,8 +8,7 @@
             this.addLang();
             this.animateFigures();
             this.headerDisplace();
-            // this.rework2022()
-
+            this.rework2022()
         },
         
 
@@ -131,6 +130,7 @@
             if(!baneer) return
 
             // Add class on parent
+            console.log(baneer.parentNode)
             baneer.parentNode.classList.add('anniversary-baneer-wrapper')
 
             // Move banner
