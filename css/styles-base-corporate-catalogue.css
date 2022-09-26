@@ -2247,17 +2247,17 @@ input[type="reset"].mod-catal .unstyled:focus {
           animation: 1s ease-in-out infinite both alternate;
 }
 .catalogue .shape:nth-child(1) {
-  background: #7ea203;
+  background: #0B8E36;
   -webkit-animation-name: spinOne ;
           animation-name: spinOne ;
 }
 .catalogue .shape:nth-child(2) {
-  background: #a3c434;
+  background: #65B880;
   -webkit-animation-name: spinTwo;
           animation-name: spinTwo;
 }
 .catalogue .shape:nth-child(3) {
-  background: #c8dd81;
+  background: #B1DBBF;
   -webkit-animation-name: spinThree;
           animation-name: spinThree;
 }

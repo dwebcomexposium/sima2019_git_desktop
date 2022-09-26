@@ -165,40 +165,41 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
   .page-events #main #event_result_zone .catal-results-title {
     margin-bottom: 25px; }
   .page-events #main #event_result_zone .catal-ex-item-content {
-    padding-left: 10px; }
+    padding-left: 5rem; padding-right: 5rem;}
   .page-events #main #event_result_zone .catal-ex-item {
     padding-right: 0;
     margin-right: 0;
     border-right: 0; }
   .page-events #main #event_result_zone .catal-ex-item-group-title {
-    border-bottom-color: #91c100;
+    border-bottom-color: #0b8e36;
     padding-left: 0; }
     .page-events #main #event_result_zone .catal-ex-item-group-title .catal-ex-item-title {
       padding-top: 8px; }
       .page-events #main #event_result_zone .catal-ex-item-group-title .catal-ex-item-title a {
-        font-family: ITC Avant Garde Gothic W01, sans-serif;
         font-size: 18px;
         font-weight: 300;
-        color: #91c100;
-        line-height: 1;
-        text-transform: uppercase; }
+        color: #0b8e36;
+        line-height: 1;}
   .page-events #main #event_result_zone .catal-ex-item-desc {
     font-family: Raleway, sans-serif;
     font-size: 15px;
     padding-left: 0; }
     .page-events #main #event_result_zone .catal-ex-item-desc .icon-catal-localisation {
-      display: inline-block;
+      /* display: inline-block; */
+      display: none;
       width: 20px; }
     .page-events #main #event_result_zone .catal-ex-item-desc .place_event {
       width: 70%;
-      display: inline-block; }
+      display: inline-block;
+      color: #634e42;
+    }
     .page-events #main #event_result_zone .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-list .catal-ex-item-stand-item {
       margin-left: 0; }
       .page-events #main #event_result_zone .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-list .catal-ex-item-stand-item .date_event {
         font-family: Raleway, sans-serif;
         font-size: 15px;
         font-style: normal;
-        color: #f36f23;
+        color: #f39200;
         font-weight: 700; }
     .page-events #main #event_result_zone .catal-ex-item-desc .description_event {
       margin-top: 15px;
@@ -208,7 +209,7 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
       font-size: 15px;
       color: black; }
       .page-events #main #event_result_zone .catal-ex-item-desc .organizer_event .catal-ed-activity-link, .page-events #main #event_result_zone .catal-ex-item-desc .types_event .catal-ed-activity-link, .page-events #main #event_result_zone .catal-ex-item-desc .topics_event .catal-ed-activity-link {
-        color: #f36f23;
+        color: #f39200;
         padding-right: 5px; }
       .page-events #main #event_result_zone .catal-ex-item-desc .organizer_event .catal-ex-item-cat-title, .page-events #main #event_result_zone .catal-ex-item-desc .types_event .catal-ex-item-cat-title, .page-events #main #event_result_zone .catal-ex-item-desc .topics_event .catal-ex-item-cat-title {
         font-weight: 700;
@@ -254,9 +255,9 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
       font-weight: 700;
       text-transform: none; }
     .page-details.page-events #main .catal-ex-details .catal-ed-main .catal-ed-main-desc .catal-ed-activity-link {
-      color: #f36f23; }
+      color: #f39200; }
       .page-details.page-events #main .catal-ex-details .catal-ed-main .catal-ed-main-desc .catal-ed-activity-link:hover {
-        color: #91c100; }
+        color: #0b8e36; }
     .page-details.page-events #main .catal-ex-details .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-content {
       color: black;
       font-family: Raleway, sans-serif;
@@ -267,10 +268,10 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
         font-family: ITC Avant Garde Gothic W01, sans-serif;
         font-size: 18px;
         font-weight: 300;
-        color: #91c100;
+        color: #0b8e36;
         line-height: 1;
         text-transform: uppercase;
-        border-bottom-color: #91c100; }
+        border-bottom-color: #0b8e36; }
       .page-details.page-events #main .catal-ex-details .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li:before {
         width: 6px;
         height: 6px;
@@ -279,16 +280,16 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
         border-radius: 50%;
         margin-top: -3px; }
       .page-details.page-events #main .catal-ex-details .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li a {
-        color: #f36f23;
+        color: #f39200;
         background-color: transparent; }
   .page-details.page-events #main .catal-ex-details .catal-ed-group-title {
-    border-bottom-color: #91c100;
+    border-bottom-color: #0b8e36;
     padding: 0; }
     .page-details.page-events #main .catal-ex-details .catal-ed-group-title .catal-ed-products-main-title, .page-details.page-events #main .catal-ex-details .catal-ed-group-title .catal-ed-group-title, .page-details.page-events #main .catal-ex-details .catal-ed-group-title .catal-ed-main-title {
       font-family: ITC Avant Garde Gothic W01, sans-serif;
       font-size: 18px;
       font-weight: 300;
-      color: #91c100;
+      color: #0b8e36;
       line-height: 1;
       text-transform: uppercase; }
   .page-details.page-events #main .catal-ex-details .catal-edp-list .catal-edp-item {
@@ -319,20 +320,20 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
       font-family: Raleway, sans-serif;
       font-size: 15px; }
     .page-details.page-events #main .catal-ex-details #complement .catal-ed-activity-group .catal-ed-activity-list .catal-ed-activity-item a {
-      color: #f36f23;
+      color: #f39200;
       background-color: transparent; }
 
 .body-corpo .js-add-to-calendar .ac-add-to-calendar {
   right: 0 !important; }
 
 .body-corpo .js-add-to-calendar .ac-add-to-calendar .ac-switcher:checked ~ .ac-list, .body-visual .js-add-to-calendar .ac-add-to-calendar .ac-switcher:checked ~ .ac-list {
-  background-color: #91c100 !important; }
+  background-color: #0b8e36 !important; }
 
 .ac-switcher:checked ~ .ac-list .ac-item:before {
   display: none !important; }
 .ac-switcher:checked ~ .ac-list .ac-item:hover, .ac-switcher:checked ~ .ac-list .ac-item:focus, .ac-switcher:checked ~ .ac-list .ac-item:active {
   background-color: transparent !important;
-  color: #f36f23 !important; }
+  color: #f39200 !important; }
 
 .js-add-to-calendar {
   width: 100%; }
