@@ -181,17 +181,17 @@
                 const blocks = document.querySelectorAll('.content905639 .edito')
                 blocks.forEach((el, i) => {
                     if(i === 0) return
-                    const title = el.querySelector('h2')
-                    title.innerHTML = `<span>#${i + 1}</span>` + title.innerHTML
+                    const title = el.querySelector('h2');
+                    title.innerHTML = `<span>#${i + 1}</span>` + title.innerHTML;
 
-                    const img = el.querySelector('.at-illust')
-                    img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`
+                    const img = el.querySelector('.at-illust');
+                    img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`;
 
-                    const firstParagraph = el.querySelector('p:first-of-type')
-                    const lastParagraph = el.querySelector('p:last-of-type')
+                    const firstParagraph = el.querySelector('p:first-of-type');
+                    const lastParagraph = el.querySelector('p:last-of-type');
 
-                    firstParagraph.insertAdjacentHTML('beforebegin', '<div class="edito-content">')
-                    lastParagraph.insertAdjacentHTML('afterend', '</div>')
+                    firstParagraph.insertAdjacentHTML('beforebegin', '<div class="edito-content">');
+                    lastParagraph.insertAdjacentHTML('afterend', '</div>');
                 })
             }
         }
