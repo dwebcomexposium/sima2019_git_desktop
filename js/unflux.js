@@ -190,7 +190,7 @@
                     const firstParagraph = el.querySelector('p:first-of-type')
                     const lastParagraph = el.querySelector('p:last-of-type')
 
-                    firstParagraph.insertAdjacentHTML('beforebegin', '<div calss="edito-content">')
+                    firstParagraph.insertAdjacentHTML('beforebegin', '<div class="edito-content">')
                     lastParagraph.insertAdjacentHTML('afterend', '</div>')
                 })
             }
