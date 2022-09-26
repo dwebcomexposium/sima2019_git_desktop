@@ -208,6 +208,10 @@ h2 {
   margin-top: 5rem;
 }
 
+.front .site-wrapper .block:not(:first-child){
+  margin-top: 0;
+}
+
 .page-rubric main .zone .list-articles {
   max-width: 100% !important;
   margin: 0 auto;
@@ -587,6 +591,7 @@ figure {
 .gla-item > a:focus {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
+  box-shadow: 0 0 0 2px #0B8E36;
 }
 
 .gla-item > a:hover .gla-item-content,
@@ -2323,7 +2328,7 @@ figure {
   .nf-form-item
   .nf-form-input
   .form-txt {
-  min-width: 80%;
+  min-width: 85%;
   min-height: 6.2rem;
   margin-top: -1px;
   padding-left: 2rem;
@@ -4115,8 +4120,7 @@ figure {
 
 .landing-video-2 {
   justify-content: center;
-  height: 62vh;
-  max-height: 62rem;
+  height: 67vh;
   background-image: url("/theme/sima2019_git_desktop/images/sima-photo-fr.webp");
   background-size: cover;
   background-position: center;
@@ -4305,7 +4309,7 @@ html[lang="en"] .landing-video-2 {
 
 .front .zone .mosaic {
   justify-content: center;
-  height: calc(100vh - 15rem);
+  height: calc(80vh - 15rem);
   max-height: 100rem;
 }
 
@@ -4468,7 +4472,7 @@ html[lang="en"] .landing-video-2 {
 }
 
 .front .zone .salon-innovation + .list-articles .inside {
-  padding: 0 0 10rem !important;
+  padding: 0 0 1rem !important;
   background-color: transparent;
 }
 
@@ -4724,7 +4728,11 @@ html[lang="en"] .landing-video-2 {
 
 /*END FRONT*/
 .actus .inside {
-  padding: 7rem 0 9rem !important;
+  padding: 6rem 0 0 !important;
+}
+
+.actus + .actus .inside {
+  padding: 0 0 4rem 0 !important;
 }
 
 .actus .inside .gla-item-content {
@@ -4786,7 +4794,7 @@ html[lang="en"] .landing-video-2 {
 .content743324 #main .zone .landing-exposant,
 .content374293 #main .zone .landing-exposant {
   padding: 0 2rem 2rem 2rem;
-  height: calc(100vh - 15rem);
+  height: calc(80vh - 15rem);
   max-height: 100rem;
 }
 
@@ -12279,6 +12287,11 @@ html[lang="en"] .landing-anniversary {
 
 .content905639 .edito:nth-child(1n + 2) .inside .edito-content {
   grid-area: content;
+}
+
+.content905639 .edito:nth-child(1n + 2) .inside .edito-content a:not(.lien1){
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .content905639 .edito:nth-child(1n + 2) .inside > p:not(:last-child) {
