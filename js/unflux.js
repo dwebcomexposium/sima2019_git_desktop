@@ -187,13 +187,13 @@
                     const img = el.querySelector('.at-illust');
                     img.outerHTML = `<div class="img-with-cube"><div class="img-with-cube__cube"></div>${img.outerHTML}</div>`;
 
-                    const firstParagraph = el.querySelector('p:first-of-type');
-                    const lastParagraph = el.querySelector('p:last-of-type');
-                    console.log(firstParagraph)
-                    console.log(lastParagraph)
+                    el.querySelector('.inside').insertAdjacentHTML('beforeend', '<div class="edito-content"></div>');
 
-                    firstParagraph.insertAdjacentHTML('beforebegin', '<div class="edito-content">');
-                    lastParagraph.insertAdjacentHTML('afterend', '</div>');
+                    const content = el.querySelector('.edito-content');
+                    const paragraphs = el.querySelectorAll('p');
+                    paragraphs.forEach((paragraph) => {
+                        content.appendChild(paragraph)
+                    }
                 })
             }
         }
