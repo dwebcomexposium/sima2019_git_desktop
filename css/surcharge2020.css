@@ -11789,14 +11789,15 @@ html[lang="en"] .landing-anniversary {
 .content905618 .focusedition {
   width: 70%;
   background: none;
-  margin: 24rem 0 7rem 0 !important;
+  margin: 13rem 0 13rem 0 !important;
   padding: 5rem;
   justify-content: flex-start;
   align-items: flex-start;
+  min-height: 0;
 }
 
 .content905618 .focusedition .txtright {
-  margin: auto 0 0 0;
+  margin: 5rem 0 0 0;
 }
 
 .content905618 .focusedition .txtright::before {
@@ -11830,9 +11831,10 @@ html[lang="en"] .landing-anniversary {
   left: 35%;
   margin: auto;
   height: calc(100% + 14rem);
-  width: 100vw;
+  width: calc(100vw + 7rem);
   transform: translateX(-36%) translateY(-50%);
-  background-image: url('https://www.simaonline.com/theme/sima2019_git_desktop/images/sima-photo-fr.webp');
+  background-image: url('https://www.simaonline.com/theme/sima2019_git_desktop/images/100year-right.webp');
+  background-size: cover;
   z-index: -1;
 }
 
