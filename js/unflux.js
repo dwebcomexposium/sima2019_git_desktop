@@ -130,8 +130,7 @@
             if(!baneer) return
 
             // Add class on parent
-            console.log(baneer.parentNode)
-            baneer.parentNode.classList.add('anniversary-baneer-wrapper')
+            baneer.parentNode.parentNode.classList.add('anniversary-baneer-wrapper')
 
             // Move banner
             const header = document.querySelector('.site-banner')
