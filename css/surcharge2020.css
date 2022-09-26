@@ -8846,6 +8846,7 @@ h1.main-title  {
   .focus1 {
   margin-top: 3rem;
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
@@ -8857,6 +8858,7 @@ h1.main-title  {
   color: white;
   padding: 1.8rem 2.8rem;
   text-decoration: none;
+  font-weight: bold;
   background-size: 100% 200%;
   background-image: linear-gradient(to bottom, #0b8e36 50%, #252525 50%);
 }
@@ -9106,10 +9108,10 @@ h1.main-title  {
   .zone
   .article-content
   .cl-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
 }
 
 @media screen and (max-width: 1199px) {
@@ -9130,10 +9132,12 @@ h1.main-title  {
   .cl-item {
   display: block;
   margin: 0;
-  padding: 0;
+  padding: 0 2rem 3.5rem;
   border: 0 none;
   text-align: center;
+  transition: background-color 0.2s ease-in-out;
 }
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
   .site-wrapper
   .zone
@@ -9144,6 +9148,13 @@ h1.main-title  {
   color: white;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item:hover .cl-item-phone,
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item:hover .cl-item-phone span,
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item:hover .cl-item-email,
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content .cl-content .cl-item:hover .cl-item-email a {
+  color: white !important;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
   .site-wrapper
   .zone
@@ -9151,7 +9162,7 @@ h1.main-title  {
   .cl-content
   .cl-item
   .cl-item-illust {
-    margin: 4rem auto 2rem;
+    margin: 2rem auto;
     display: block;
 }
 
@@ -9177,6 +9188,8 @@ h1.main-title  {
   .cl-item-content {
   background: transparent;
   position: relative;
+  display: block;
+  margin: 0 auto;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
@@ -9189,7 +9202,7 @@ h1.main-title  {
   .h3-like {
   color: #252525;
   padding-left: 0;
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 0;
   line-height: 2.7rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
@@ -9207,8 +9220,8 @@ h1.main-title  {
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
   padding-left: 0;
   font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 2.1rem !important;
+  font-size: 1.2rem;
+  line-height: 1.4 !important;
   margin: 0;
   position: relative;
   text-transform: capitalize;
@@ -9287,7 +9300,7 @@ h1.main-title  {
   p.cl-item-email {
   margin: 0.3rem 0 0 0;
   padding-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
@@ -9299,7 +9312,7 @@ h1.main-title  {
   .cl-item-content
   p.cl-item-email
   .label {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
@@ -9312,7 +9325,7 @@ h1.main-title  {
   .cl-item-content
   p.cl-item-email
   span.__cf_email__ {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-left: 0.5rem;
   color: #0b8e36;
 }
@@ -9325,7 +9338,7 @@ h1.main-title  {
   .cl-item
   .cl-item-content
   .cl-item-phone {
-  margin: 0 0 -2rem 0;
+  margin: 0;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
@@ -9337,7 +9350,7 @@ h1.main-title  {
   .cl-item-content
   .cl-item-phone
   .label {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list)
@@ -9350,7 +9363,7 @@ h1.main-title  {
   .cl-item-phone
   span:nth-child(2) {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 0.6rem;
   display: inline;
   color: black;
