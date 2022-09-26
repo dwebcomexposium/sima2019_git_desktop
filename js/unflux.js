@@ -176,9 +176,9 @@
             }
 
             // Pourquoi visiter moves
-            const whyVisit = document.querySelector('.content905639')
+            const whyVisit = document.querySelector('.content905639');
             if(whyVisit) {
-                const blocks = document.querySelectorAll('.content905639 .edito')
+                const blocks = document.querySelectorAll('.content905639 .edito');
                 blocks.forEach((el, i) => {
                     if(i === 0) return
                     const title = el.querySelector('h2');
@@ -192,8 +192,8 @@
                     const content = el.querySelector('.edito-content');
                     const paragraphs = el.querySelectorAll('p');
                     paragraphs.forEach((paragraph) => {
-                        content.appendChild(paragraph)
-                    }
+                        content.appendChild(paragraph);
+                    })
                 })
             }
         }
