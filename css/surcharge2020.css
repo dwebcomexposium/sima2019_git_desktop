@@ -12432,6 +12432,7 @@ html[lang="en"] .landing-anniversary {
 }
  .popup__close p {
 	 font-size: 1.2rem;
+	 color: white;
 }
  .popup__text {
 	 display: flex;
@@ -12440,3 +12441,4 @@ html[lang="en"] .landing-anniversary {
 	 font-size: 2.4rem;
 	 color: white;
 }
+ 
