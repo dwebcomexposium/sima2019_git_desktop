@@ -196,6 +196,14 @@
                     })
                 })
             }
+            
+            const popUp = document.querySelector('.popup')
+            if(popUp) {
+                const close = popUp.querySelector('.popup__close')
+                close.addEventListener('click', () => {
+                    pop.style.display = 'none';
+                })
+            }
         }
 
     }
