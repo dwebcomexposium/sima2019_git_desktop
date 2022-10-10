@@ -12422,6 +12422,12 @@ html[lang="en"] .landing-anniversary {
 	 bottom: 0;
 	 right: 0;
 }
+ .popup__container a {
+	 margin-top: 6rem;
+	 padding: 1rem 2rem;
+	 font-size: 3rem;
+	 line-height: 1;
+}
  .popup__close {
 	 position: absolute;
 	 top: 1.8rem;
@@ -12429,6 +12435,7 @@ html[lang="en"] .landing-anniversary {
 	 display: flex;
 	 align-items: center;
 	 gap: 16px;
+	 cursor: pointer;
 }
  .popup__close p {
 	 font-size: 1.3rem;
