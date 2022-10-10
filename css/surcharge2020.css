@@ -12387,9 +12387,20 @@ html[lang="en"] .landing-anniversary {
 	 left: 0;
 	 right: 0;
 	 bottom: 0;
-	 background-color: rgba(0, 10, 3, 0.6);
 	 z-index: 10;
 	 display: flex;
+}
+ .popup::before {
+	 background-color: rgba(0, 10, 3, 0.6);
+	 content: "";
+	 width: 100vw;
+	 height: 100vh;
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 transform: translateX(50%) translateY(50%);
+	 z-index: 5;
 }
  .popup__container {
 	 background: linear-gradient(180deg, #0b8e36 26.66%, #f39200 149.01%);
@@ -12400,5 +12411,7 @@ html[lang="en"] .landing-anniversary {
 	 flex-direction: column;
 	 align-items: center;
 	 justify-content: center;
+	 z-index: 12;
 }
+ 
  
