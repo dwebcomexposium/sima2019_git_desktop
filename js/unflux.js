@@ -201,7 +201,7 @@
             if(popUp) {
                 const close = popUp.querySelector('.popup__close')
                 close.addEventListener('click', () => {
-                    pop.style.display = 'none';
+                    popUp.style.display = 'none';
                 })
             }
         }
