@@ -12431,8 +12431,10 @@ html[lang="en"] .landing-anniversary {
 	 gap: 16px;
 }
  .popup__close p {
-	 font-size: 1.2rem;
+	 font-size: 1.3rem;
 	 color: white;
+	 display: flex;
+	 align-items: center;
 }
  .popup__text {
 	 display: flex;
@@ -12448,3 +12450,4 @@ html[lang="en"] .landing-anniversary {
 	 line-height: 1.2;
 	 font-family: 'neutrifstudio-bold';
 }
+ 
