@@ -199,9 +199,12 @@
             
             const popUp = document.querySelector('.popup')
             if(popUp) {
+                const HTMLElement = document.querySelector('html')
+                HTMLElement.classList.add('noscroll')
                 const close = popUp.querySelector('.popup__close')
                 close.addEventListener('click', () => {
                     popUp.style.display = 'none';
+                    HTMLElement.classList.remove('noscroll')
                 })
             }
         }
