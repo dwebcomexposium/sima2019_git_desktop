@@ -12412,10 +12412,31 @@ html[lang="en"] .landing-anniversary {
 	 justify-content: center;
 	 z-index: 12;
 	 position: relative;
+	 padding: 10rem;
+}
+ .popup__container > svg {
+	 width: 15rem;
+	 opacity: 0.5;
+	 transform: rotate(323deg);
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
 }
  .popup__close {
 	 position: absolute;
 	 top: 1.8rem;
 	 right: 1.8rem;
+	 display: flex;
+	 align-items: center;
+	 gap: 16px;
 }
- 
+ .popup__close p {
+	 font-size: 1.2rem;
+}
+ .popup__text {
+	 display: flex;
+	 flex-direction: column;
+	 font-family: 'neutrifstudio-regular';
+	 font-size: 2.4rem;
+	 color: white;
+}
