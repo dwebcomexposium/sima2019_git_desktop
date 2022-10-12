@@ -1,5 +1,6 @@
 (function($) {
 
+    console.log('maj')
     var simaJS = {
 
         init : function(){
