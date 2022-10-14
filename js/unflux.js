@@ -30,7 +30,8 @@ const getCookie = (cname) => {
             this.addLang();
             this.animateFigures();
             this.headerDisplace();
-            this.rework2022()
+            this.rework2022();
+            this.anniversaryGridBlock();
         },
         
 
@@ -234,6 +235,19 @@ const getCookie = (cname) => {
                 })
               }
             }
+        },
+      
+        anniversaryGridBlock() {
+          const wrapper = document.querySelector('#zone2')
+          const blocks = document.querySelectorAll('.block[class*="centans"]')
+          if(blocks.length > 0) {
+            const container = document.createElement('div')
+            container.classList.add('anniversary-grid')
+            wrapper.insertBefore(container, blocks[0])
+            blocks.forEach(el => {
+              container.appendChild(el)
+            })
+          }
         }
 
     }
