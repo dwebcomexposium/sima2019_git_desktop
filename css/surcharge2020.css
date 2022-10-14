@@ -12480,6 +12480,14 @@ html[lang="en"] .landing-anniversary {
     transform: translateY(-50%);
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) {
+    grid-column: span 2;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) {
+    grid-column-start: 2;
+}
+
 .anniversary-grid .block[class*="centans"]:last-child {
     height: 200%;
 }
