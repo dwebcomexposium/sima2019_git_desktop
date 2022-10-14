@@ -12478,6 +12478,11 @@ html[lang="en"] .landing-anniversary {
 	justify-content: center;
 }
 
+.anniversary-grid__container .block .inside {
+	width: 100%;
+	height: 100%;
+}
+
 .anniversary-grid .block[class*="centans"] img {
     position: absolute;
     width: 100%;
