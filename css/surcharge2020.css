@@ -12470,5 +12470,6 @@ html[lang="en"] .landing-anniversary {
 	grid-template-rows: repeat(auto-fill, 38rem);
 	max-width: calc(3 * 40rem);
     	gap: 2rem;
+	margin: auto;
 }
 
