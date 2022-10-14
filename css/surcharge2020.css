@@ -12471,5 +12471,6 @@ html[lang="en"] .landing-anniversary {
 	max-width: calc(3 * 40rem);
     	gap: 2rem;
 	margin: auto;
+	justify-content: center;
 }
 
