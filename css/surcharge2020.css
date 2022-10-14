@@ -12497,6 +12497,12 @@ z-index: 3;
    padding: 3rem;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside,
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .inside {
+	display: flex;
+	align-self: flex-end;
+}
+
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) {
 	align-self: flex-end;
    	height: 160%;
