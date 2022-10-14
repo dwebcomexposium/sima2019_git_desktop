@@ -12472,7 +12472,7 @@ html[lang="en"] .landing-anniversary {
 .anniversary-grid__container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 38rem);
-	grid-template-rows: repeat(auto-fill, 38rem);
+	grid-template-rows: repeat(3, 38rem);
 	max-width: calc(3 * 40rem);
     	gap: 2rem;
 	margin: auto;
