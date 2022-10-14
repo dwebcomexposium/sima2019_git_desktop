@@ -12488,6 +12488,18 @@ html[lang="en"] .landing-anniversary {
     grid-column: span 2;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) {
+    
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) {
+
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) {
+
+}
+
 .anniversary-grid .block[class*="centans"]:nth-of-type(6) {
     grid-column-start: 2;
 }
