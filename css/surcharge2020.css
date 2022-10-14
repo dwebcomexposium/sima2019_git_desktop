@@ -12463,3 +12463,9 @@ html[lang="en"] .landing-anniversary {
 	 font-size: 2.4rem;
 	 margin-top: 2rem;
 }
+
+.anniversary-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 38rem);
+	grid-template-rows: repeat(auto-fill, 38rem)
+}
