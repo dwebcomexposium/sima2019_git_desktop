@@ -12472,5 +12472,14 @@ html[lang="en"] .landing-anniversary {
     	gap: 2rem;
 	margin: auto;
 	justify-content: center;
+	padding: 38rem 0;
 }
 
+.anniversary-grid div:nth-of-type(1) {
+    height: 200%;
+    transform: translateY(-50%);
+}
+
+.anniversary-grid div:last-child {
+    height: 200%;
+}
