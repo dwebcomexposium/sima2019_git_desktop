@@ -12479,6 +12479,19 @@ html[lang="en"] .landing-anniversary {
 	justify-content: center;
 }
 
+.anniversary-grid .block[class*="centans"] img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.anniversary-grid .block[class*="centans"] .at-content {
+   position: absolute;
+   padding: 3rem;
+}
+
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) {
 	align-self: flex-end;
    	height: 160%;
@@ -12489,11 +12502,11 @@ html[lang="en"] .landing-anniversary {
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) {
-    
+    background-color: #F4F4F4;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(4) {
-
+    background-color: white;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(5) {
@@ -12502,6 +12515,10 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(6) {
     grid-column-start: 2;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) {
+    background-color: #F4F4F4;
 }
 
 .anniversary-grid .block[class*="centans"]:last-child {
