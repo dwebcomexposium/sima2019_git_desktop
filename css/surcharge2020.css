@@ -12465,6 +12465,11 @@ html[lang="en"] .landing-anniversary {
 }
 
 .anniversary-grid {
+	padding: 38rem 0;
+	background-color: #f4f4f4;
+}
+
+.anniversary-grid__container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 38rem);
 	grid-template-rows: repeat(auto-fill, 38rem);
@@ -12472,7 +12477,6 @@ html[lang="en"] .landing-anniversary {
     	gap: 2rem;
 	margin: auto;
 	justify-content: center;
-	padding: 38rem 0;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) {
