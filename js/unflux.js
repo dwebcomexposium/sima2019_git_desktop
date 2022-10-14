@@ -243,6 +243,9 @@ const getCookie = (cname) => {
           if(blocks.length > 0) {
             const container = document.createElement('div')
             container.classList.add('anniversary-grid')
+            const subContainer = document.createElement('div')
+            subContainer.classList.add('anniversary-grid__container')
+            container.appendChild(subContainer)
             wrapper.insertBefore(container, blocks[0])
             blocks.forEach(el => {
               container.appendChild(el)
