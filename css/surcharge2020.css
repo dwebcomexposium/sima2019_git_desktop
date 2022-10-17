@@ -12037,7 +12037,7 @@ html[lang="en"] .landing-anniversary {
   width: calc(100vw - 4rem);
   height: 100%;
   left: 50%;
-  transform: translateX(calc(-50% + 0.7rem));
+  transform: translateX(-50%);
   background-color: #0B8E36;
   opacity: 0.6;
   clip-path: polygon(0 0, 70% 0, 40% 100%, 0% 100%);
