@@ -11712,9 +11712,9 @@ html[lang="en"] .landing-anniversary {
 .content905618 .edito:nth-child(3) .inside {
   display: grid !important;
   grid-template-areas:
-    'title title title'
-    'subtitle subtitle subtitle'
-    'cta1 cta2 cta3';
+    'title title title subtitle'
+    'subtitle subtitle subtitle subtitle'
+    'cta1 cta2 cta3 cta4';
   width: 100%;
   margin: auto;
   overflow: hidden;
@@ -11756,15 +11756,26 @@ html[lang="en"] .landing-anniversary {
   color: #252525;
 }
 
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) {
+  grid-area: cta4;
+  background-color: #634e42;
+}
+
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) a {
+  color: #634e42;
+}
+
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3)::after,
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4)::after,
-.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::after {
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::after,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6)::after {
   content: none !important;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3)::before,
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4)::before,
-.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::before {
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5)::before,
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6)::before {
   content: "" !important;
   position: absolute;
   top: 0;
@@ -11791,9 +11802,14 @@ html[lang="en"] .landing-anniversary {
   background-image: url("/theme/sima2019_git_desktop/images/car-f-1.svg");
 }
 
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6)::before {
+  background-image: url("/theme/sima2019_git_desktop/images/bus-f.svg");
+}
+
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3),
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4),
-.content905618 .edito:nth-child(3) .inside > p:nth-child(5) {
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5),
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) {
   padding: 2rem;
   display: flex;
   justify-content: flex-start;
@@ -11803,7 +11819,8 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3) a,
 .content905618 .edito:nth-child(3) .inside > p:nth-child(4) a,
-.content905618 .edito:nth-child(3) .inside > p:nth-child(5) a {
+.content905618 .edito:nth-child(3) .inside > p:nth-child(5) a, 
+.content905618 .edito:nth-child(3) .inside > p:nth-child(6) a {
   text-transform: none;
   font-size: 2rem;
   display: flex;
