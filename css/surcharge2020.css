@@ -11235,14 +11235,14 @@ html[lang="en"] .landing-anniversary {
 }
 
 /* Homepage 2022 */
-.content905639 .site-wrapper,
+.front[data-location-path='547663,598535,1433567'] .site-wrapper,
 .content905618 .site-wrapper,
 .content905639 .site-wrapper {
   margin-top: calc(15rem + 93px) !important;
   transition: margin 0.3s ease-in-out;
 }
 
-.content905639 .site-wrapper.no-banner,
+.front[data-location-path='547663,598535,1433567'] .site-wrapper.no-banner,
 .content905618 .site-wrapper.no-banner,
 .content905639 .site-wrapper.no-banner {
   margin-top: 15rem !important;
@@ -11323,11 +11323,11 @@ html[lang="en"] .landing-anniversary {
 
 /* END BANNER */
 
-.content905639 .focusbadge {
+.front[data-location-path='547663,598535,1433567'] .focusbadge {
   width: 100%;
   max-width: 116rem;
   margin: 4.5rem auto !important;
-  background: #634E42;
+  background: #634e42;
   min-height: unset;
   display: grid;
   column-gap: 10rem;
@@ -11340,7 +11340,7 @@ html[lang="en"] .landing-anniversary {
   padding: 6rem 7rem;
 }
 
-.content905639 .focusbadge::after {
+.front[data-location-path='547663,598535,1433567'] .focusbadge::after {
   content: "";
   width: 26rem;
   height: 26rem;
@@ -11351,7 +11351,7 @@ html[lang="en"] .landing-anniversary {
   background-image: url(/theme/sima2019_git_desktop/images/icon-ticket.svg);
 }
 
-.content905639 .focusbadge .af-title {
+.front[data-location-path='547663,598535,1433567'] .focusbadge .af-title {
   color: white;
   grid-area: title;
   margin: 0 !important;
@@ -11359,23 +11359,23 @@ html[lang="en"] .landing-anniversary {
   font-weight: 700;
 }
 
-.content905639 .focusbadge .txtright {
+.front[data-location-path='547663,598535,1433567'] .focusbadge .txtright {
   color: white;
   grid-area: button;
   z-index: 2;
   margin: 0;
 }
 
-.content905639 .focusbadge .txtright::before {
+.front[data-location-path='547663,598535,1433567'] .focusbadge .txtright::before {
   content: none !important;
 }
 
-.content905639 .focusbadge .txtright a {
+.front[data-location-path='547663,598535,1433567'] .focusbadge .txtright a {
   background-color: white;
-  color: #634E42;
+  color: #634e42;
 }
 
-.content905639 .focusbadge p {
+.front[data-location-path='547663,598535,1433567'] .focusbadge p {
   grid-area: content;
   font-size: 1.8rem;
   text-transform: none;
@@ -11384,15 +11384,15 @@ html[lang="en"] .landing-anniversary {
   line-height: 1.2;
 }
 
-.content905639 .focusbadge p:empty {
+.front[data-location-path='547663,598535,1433567'] .focusbadge p:empty {
   display: none;
 }
 
-.content905639 .block.list-articles.actus {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus {
   position: relative;
 }
 
-/* .content905639 .block.list-articles.actus::after {
+/* .front[data-location-path='547663,598535,1433567'] .block.list-articles.actus::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -11402,54 +11402,54 @@ html[lang="en"] .landing-anniversary {
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 } */
 
-.content905639 .block.list-articles.actus .gla-item {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item {
   box-shadow: 0px 4px 50px 5px rgba(0, 0, 0, 0.1) !important;
   position: relative;
 }
 
-.content905639 .block.list-articles.actus .gla-item a {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item a {
   transition: all 0.2s ease;
 }
 
-.content905639 .block.list-articles.actus .gla-item a:hover {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .gla-item a:hover {
   outline: 4px solid #0b8e36;
 }
 
-.content905639 .block.list-articles.actus .main-title-with-link {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .main-title-with-link {
   margin-bottom: 3rem !important;
 }
 
-.content905639 .block.edito:not(.solution-agriculteur),
-.content905639 .temoignages-exposants {
+.front[data-location-path='547663,598535,1433567'] .block.edito:not(.solution-agriculteur),
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants {
   margin: 0 !important;
 }
 
-.content905639 .block-page.list-articles.actus:not(.block) a {
+.front[data-location-path='547663,598535,1433567'] .block-page.list-articles.actus:not(.block) a {
   margin-top: 3.2rem !important;
 }
 
-.content905639 .block.list-articles.actus .inside {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus .inside {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
   background-color: transparent;
 }
 
-.content905639 .block-page.list-articles.actus:not(.block) .inside {
+.front[data-location-path='547663,598535,1433567'] .block-page.list-articles.actus:not(.block) .inside {
   padding-top: 0 !important;
 }
 
 /* Bloc 100 ans */
-.content905639 #zone2 .block.edito:not(.solution-agriculteur) {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) {
   background: #f4f4f4;
   padding-bottom: 4rem;
 }
 
-.content905639 #zone2 .block.edito:not(.solution-agriculteur) .inside {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside {
   margin: auto;
   max-width: 116rem;
 }
 
-.content905639 #zone2 .block.edito:not(.solution-agriculteur) .block-title {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .block-title {
   font-weight: 700;
   font-size: 5.2rem;
   text-align: center;
@@ -11461,7 +11461,7 @@ html[lang="en"] .landing-anniversary {
   font-family: 'neutrifstudio-bold';
 }
 
-.content905639 #zone2 .block.edito:not(.solution-agriculteur) .inside > p {
+.front[data-location-path='547663,598535,1433567'] #zone2 .block.edito:not(.solution-agriculteur) .inside > p {
   font-weight: 400;
   font-family: 'neutrifstudio-regular';
   line-height: 1.2;
@@ -11471,39 +11471,39 @@ html[lang="en"] .landing-anniversary {
   margin: 0!important;
 }
 
-.content905639 .block.list-articles.actus {
+.front[data-location-path='547663,598535,1433567'] .block.list-articles.actus {
   background-image: url("/theme/sima2019_git_desktop/images/img-background-besoin-info.webp");
   background-size: cover;
   padding: 3rem 0 8rem;
   background-position: center;
 }
 
-.content905639 .temoignages-exposants + .list-articles .list-grids-with-pagin .gla-item-title {
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .gla-item-title {
   font-size: 3.4rem !important;
   text-transform: uppercase;
   margin-top: 0;
 }
 
-.content905639 .temoignages-exposants + .list-articles .list-grids-with-pagin .grid-la-list .gla-item {
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .grid-la-list .gla-item {
   max-height: 50rem;
 }
 
-.content905639 .temoignages-exposants + .list-articles {
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles {
   margin-top: 0 !important;
 }
 
-.content905639 .temoignages-exposants + .list-articles .list-grids-with-pagin .gla-item-title {
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .gla-item-title {
   font-size: 3.4rem !important;
   text-transform: uppercase;
   margin-top: 0;
 }
 
-.content905639 .temoignages-exposants + .list-articles .list-grids-with-pagin .grid-la-list .gla-item {
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants + .list-articles .list-grids-with-pagin .grid-la-list .gla-item {
   max-height: 50rem;
 }
 
 @media screen and (max-width: 1199px) {
-  .content905639 .temoignages-exposants
+  .front[data-location-path='547663,598535,1433567'] .temoignages-exposants
     + .list-articles
     .list-grids-with-pagin
     .grid-la-list
@@ -11513,7 +11513,7 @@ html[lang="en"] .landing-anniversary {
   }
 }
 
-.content905639 .temoignages-exposants
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
   + .list-articles
   .list-grids-with-pagin
   .grid-la-list
@@ -11523,7 +11523,7 @@ html[lang="en"] .landing-anniversary {
 }
 
 @media screen and (max-width: 1199px) {
-  .content905639 .temoignages-exposants
+  .front[data-location-path='547663,598535,1433567'] .temoignages-exposants
     + .list-articles
     .list-grids-with-pagin
     .grid-la-list
@@ -11534,7 +11534,7 @@ html[lang="en"] .landing-anniversary {
   }
 }
 
-.content905639 .temoignages-exposants
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
   + .list-articles
   .list-grids-with-pagin
   .grid-la-list
@@ -11546,7 +11546,7 @@ html[lang="en"] .landing-anniversary {
   background-position: 0 100%;
 }
 
-.content905639 .temoignages-exposants
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
   + .list-articles
   .list-grids-with-pagin
   .grid-la-list
@@ -11556,7 +11556,7 @@ html[lang="en"] .landing-anniversary {
   color: #252525 !important;
 }
 
-.content905639 .temoignages-exposants
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
   + .list-articles
   .list-grids-with-pagin
   .grid-la-list
@@ -11572,7 +11572,7 @@ html[lang="en"] .landing-anniversary {
   text-align: center;
 }
 
-.content905639 .temoignages-exposants
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
   + .list-articles
   .list-grids-with-pagin
   .grid-la-list
@@ -11581,7 +11581,7 @@ html[lang="en"] .landing-anniversary {
   display: none;
 }
 
-.content905639 .temoignages-exposants
+.front[data-location-path='547663,598535,1433567'] .temoignages-exposants
   + .list-articles
   .list-grids-with-pagin
   .grid-la-list
