@@ -223,20 +223,20 @@ const getCookie = (cname) => {
             const popUp = document.querySelector('.popup')
             if(popUp) {
                 console.log('getCookies')
-              const showPopup = getCookie('popup')
-              if(!showPopup) {
-                console.log('displayPopin')
-                popUp.style.display = 'flex';
-                const HTMLElement = document.querySelector('html')
-                HTMLElement.classList.add('noscroll')
-                                console.log('displayPopin2')
-                const close = popUp.querySelector('.popup__close')
-                close.addEventListener('click', () => {
-                    setCookie('popup', 'false', 10)
-                    popUp.style.display = 'none';
-                    HTMLElement.classList.remove('noscroll')
-                })
-              }
+                const showPopup = getCookie('popup')
+                if(!showPopup) {
+                    console.log('displayPopin')
+                    popUp.style.display = 'flex';
+                    const HTMLElement = document.querySelector('html')
+                    HTMLElement.classList.add('noscroll')
+                    console.log('displayPopin2')
+                    const close = popUp.querySelector('.popup__close')
+                    close.addEventListener('click', () => {
+                        setCookie('popup', 'false', 10)
+                        popUp.style.display = 'none';
+                        HTMLElement.classList.remove('noscroll')
+                    })
+                }
             }
         },
       
