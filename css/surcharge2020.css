@@ -12512,7 +12512,7 @@ html[lang="en"] .landing-anniversary {
   padding: 3rem;
 }
 
-.anniversary-grid .block[class*="centans"] .block-title p {
+.anniversary-grid .block[class*="centans"] p {
   font-size: 2rem;
   line-height: 1.5;
   color: white;
