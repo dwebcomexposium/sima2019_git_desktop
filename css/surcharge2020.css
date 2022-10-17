@@ -12466,7 +12466,18 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-grid {
 	padding: 38rem 0;
-	background-color: #f4f4f4;
+  position: relative;
+}
+
+.anniversary-grid::after {
+  content: "";
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #f4f4f4;
+  clip-path: polygon(0 0, 100% 0%, 100% 40%, 0 69%);
 }
 
 .anniversary-grid__container {
