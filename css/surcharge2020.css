@@ -12490,13 +12490,16 @@ html[lang="en"] .landing-anniversary {
 	justify-content: center;
 }
 
-.anniversary-grid__container::after {
+.anniversary-grid__container::before {
+  line-height: 0.8;
   content: "100";
   position: absolute;
-  top: 0;
-  font-size: 15rem;
+  bottom: 15rem;
+  font-size: 40rem;
   font-family: 'NeutrifStudio-bold';
-  left: 0;
+  right: calc(2 * 39rem);
+  color: #0B8E36;
+  opacity: 0.1;
 }
 
 .anniversary-grid__container .block .inside {
