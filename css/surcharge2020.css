@@ -11711,8 +11711,9 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 .edito:nth-child(3) .inside {
   display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-    'title title title subtitle'
+    'title title title title'
     'subtitle subtitle subtitle subtitle'
     'cta1 cta2 cta3 cta4';
   width: 100%;
@@ -11762,7 +11763,7 @@ html[lang="en"] .landing-anniversary {
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(6) a {
-  color: #634e42;
+  color: white;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3)::after,
@@ -11804,6 +11805,7 @@ html[lang="en"] .landing-anniversary {
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(6)::before {
   background-image: url("/theme/sima2019_git_desktop/images/bus-f.svg");
+  opacity: 0.4;
 }
 
 .content905618 .edito:nth-child(3) .inside > p:nth-child(3),
@@ -11827,6 +11829,7 @@ html[lang="en"] .landing-anniversary {
   align-items: flex-end;
   width: 100%;
   z-index: 10;
+  text-align: start;
 }
 
 .content905618 .focusedition {
