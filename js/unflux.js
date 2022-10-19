@@ -256,8 +256,9 @@ const getCookie = (cname) => {
                 if(!containsButton) {
                     const link = el.querySelector(`.block-title a`).getAttribute('href')
                     const inside = document.querySelector(`.centans${index + 1} > .inside`)
-                    console.log(inside, link)
-                    inside.outerHTML = `<a href="${link}" target="blank" class="inside">${inside.innerHTML}</a>`
+                    console.log(document.querySelector(`.centans${index + 1} > .inside`).innerHTML)
+                    console.log(document.querySelector(`.centans${index + 1} > .inside`).outerHTML)
+                    // inside.outerHTML = `<a href="${link}" target="blank" class="inside">${inside.innerHTML}</a>`
                 }
             })
           }
