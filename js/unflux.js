@@ -254,11 +254,11 @@ const getCookie = (cname) => {
                 subContainer.appendChild(el)
                 const containsButton = el.querySelector('.lien1')
                 if(!containsButton) {
-                    const link = el.querySelector(`.block-title a`).getAttribute('href')
+                    const link = el.querySelector(`.block-title a`)
                     const inside = document.querySelector(`.centans${index + 1} > .inside`)
-                    console.log(document.querySelector(`.centans${index + 1} > .inside`).innerHTML)
-                    console.log(document.querySelector(`.centans${index + 1} > .inside`).outerHTML)
-                    // inside.outerHTML = `<a href="${link}" target="blank" class="inside">${inside.innerHTML}</a>`
+                    inside.addEventListener('click', () => {
+                        link.click();
+                    })
                 }
             })
           }
