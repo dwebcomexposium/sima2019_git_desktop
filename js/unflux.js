@@ -257,9 +257,10 @@ const getCookie = (cname) => {
                 subContainer.appendChild(el)
                 const containsButton = el.querySelector('.lien1')
                 if(!containsButton) {
-                    const link = el.querySelector('.block-title a')
-                    const inside = el.querySelector('.inside')
-                    inside.outerHTML = `<a href="${link.getAttribute('a')}" target="blank" class="inside">${inside.innerHTML}</a>`
+                    const link = el.querySelector('.block-title a').getAttribute('a')
+                    const inside = el.querySelector('> .inside')
+                    console.log(inside, link)
+                    // inside.outerHTML = `<a href="${link.getAttribute('a')}" target="blank" class="inside">${inside.innerHTML}</a>`
                 }
             })
           }
