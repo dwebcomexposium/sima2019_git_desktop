@@ -12540,6 +12540,10 @@ html[lang="en"] .landing-anniversary {
   z-index: 1;
 }
 
+.anniversary-grid__container .at-publication {
+  display: none !important;
+}
+
 .anniversary-grid__container .block .inside {
 	width: 100%;
 	height: 100%;
