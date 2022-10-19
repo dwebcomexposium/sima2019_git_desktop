@@ -12569,6 +12569,8 @@ html[lang="en"] .landing-anniversary {
   line-height: 1.5;
   color: white;
   font-family: 'NeutrifStudio-regular';
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -12583,6 +12585,14 @@ html[lang="en"] .landing-anniversary {
   font-size: 2.8rem;
   color: white;
   font-family: 'NeutrifStudio-bold';
+}
+
+.anniversary-grid .block[class*="centans"] .lien1 {
+  padding: 2rem;
+  width: fit-content;
+  line-height: 1;
+  margin-top: 2.6rem;
+  font-family: 'neutrifstudio-bold';
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside,
@@ -12608,16 +12618,26 @@ html[lang="en"] .landing-anniversary {
   font-size: 4rem;
 }
 
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .lien1 {
+  background-color: white;
+}
+
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) {
     background-color: #F4F4F4;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .lien1 {
+  background-color: #634E42;
+  color: white;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(4) {
     background-color: white;
 }
 
-.anniversary-grid .block[class*="centans"]:nth-of-type(5) {
-
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .lien1 {
+  background-color: #0b8e36;
+  color: white;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(6) {
@@ -12626,6 +12646,11 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(7) {
     background-color: #F4F4F4;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .lien1 {
+  background-color: white;
+  color: #252525;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(4) .block-title a {
