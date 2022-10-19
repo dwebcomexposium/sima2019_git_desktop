@@ -254,7 +254,13 @@ const getCookie = (cname) => {
             subContainer.classList.add('anniversary-grid__container')
             container.appendChild(subContainer)
             blocks.forEach(el => {
-              subContainer.appendChild(el)
+                subContainer.appendChild(el)
+                const containsButton = el.querySelector('.lien1')
+                if(!containsButton) {
+                    const link = el.querySelector('.block-title a')
+                    const inside = el.querySelector('inside')
+                    inside.outerHTML = `<a href="${link.getAttribute('a')}" target="blank" class="inside">${inside.innerHTML}</a>`
+                }
             })
           }
         }
