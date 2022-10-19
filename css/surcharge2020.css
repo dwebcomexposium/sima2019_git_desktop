@@ -12589,6 +12589,7 @@ html[lang="en"] .landing-anniversary {
   font-size: 2.8rem;
   color: white;
   font-family: 'NeutrifStudio-bold';
+  pointer-events: none;
 }
 
 .anniversary-grid .block[class*="centans"] .lien1 {
