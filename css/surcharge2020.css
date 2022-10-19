@@ -12657,16 +12657,16 @@ html[lang="en"] .landing-anniversary {
 
 .anniversary-grid .block[class*="centans"]:last-child {
 	align-self: flex-start;
-    	height: 160%;
+  height: 160%;
 }
 .content847246 .cl-content {
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 
 .content847246 .cl-content .cl-item {
-  text-align: start;
+  text-align: start !important;
 }
 
 .content847246 .cl-content .cl-item-illust{
-  padding: 0;
+  padding: 0 !important;
 }
