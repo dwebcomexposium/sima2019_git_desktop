@@ -12659,3 +12659,12 @@ html[lang="en"] .landing-anniversary {
 	align-self: flex-start;
     	height: 160%;
 }
+
+.cl-content .content847246 {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  text-align: start;
+}
+
+.cl-content .content847246 .cl-item-illust{
+  padding: 0;
+}

@@ -32,6 +32,7 @@ const getCookie = (cname) => {
             this.headerDisplace();
             this.rework2022();
             this.anniversaryGridBlock();
+            this.anniversaryPopup();
         },
         
 
@@ -219,7 +220,9 @@ const getCookie = (cname) => {
                     })
                 })
             }
-            
+        },
+
+        anniversaryPopup() {
             const popUp = document.querySelector('.popup')
             if(popUp) {
                 console.log('getCookies')
