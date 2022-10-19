@@ -12543,6 +12543,7 @@ html[lang="en"] .landing-anniversary {
 .anniversary-grid__container .block .inside {
 	width: 100%;
 	height: 100%;
+  cursor: pointer;
 }
 
 .anniversary-grid .block[class*="centans"] img {

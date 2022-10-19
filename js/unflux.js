@@ -253,13 +253,11 @@ const getCookie = (cname) => {
             blocks.forEach((el, index) => {
                 subContainer.appendChild(el)
                 const containsButton = el.querySelector('.lien1')
-                if(!containsButton) {
-                    const link = el.querySelector(`.block-title a`)
-                    const inside = document.querySelector(`.centans${index + 1} > .inside`)
-                    inside.addEventListener('click', () => {
-                        link.click();
-                    })
-                }
+                const link = el.querySelector(`.block-title a`)
+                const inside = document.querySelector(`.centans${index + 1} > .inside`)
+                inside.addEventListener('click', () => {
+                    containsButton ? containsButton.click() : link.click()
+                })
             })
           }
         }
