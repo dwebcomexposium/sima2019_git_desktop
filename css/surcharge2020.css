@@ -12597,6 +12597,16 @@ html[lang="en"] .landing-anniversary {
   line-height: 1;
   margin-top: 2.6rem;
   font-family: 'neutrifstudio-bold';
+  transition: transform 0.1s ease-in-out;
+}
+
+.anniversary-grid .block[class*="centans"] .lien1:hover,
+.anniversary-grid .block[class*="centans"] p a:hover {
+  transform: scale(1.04);
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(2) .lien1:hover {
+  color: #0B8E36;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(1) .inside,
