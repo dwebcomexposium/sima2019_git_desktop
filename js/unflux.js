@@ -30,6 +30,7 @@ const getCookie = (cname) => {
             this.addLang();
             this.animateFigures();
             this.headerDisplace();
+            this.anniversaryBanner();
             this.rework2022();
             this.anniversaryGridBlock();
             this.anniversaryPopup();
@@ -148,8 +149,8 @@ const getCookie = (cname) => {
           span.innerHTML.startsWith('- ') && (span.innerHTML = span.innerHTML.replace('- ', ''))
         },
 
-        rework2022() {
-            // Safe for dev
+        anniversaryBanner() {
+             // Safe for dev
             const baneer = document.querySelector('.anniversary-baneer')
             if(!baneer) return
 
@@ -167,7 +168,9 @@ const getCookie = (cname) => {
                 header.classList.add('no-banner')
                 document.querySelector('.site-wrapper').classList.add('no-banner')
             })
+        },
 
+        rework2022() {
             // Infos pratiques moves
             const ip = document.querySelector('.content905618')
             if(ip) {
