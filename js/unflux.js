@@ -27,7 +27,7 @@ const getCookie = (cname) => {
         init : function(){
 
             this.popin();
-            this.addLang();
+            // this.addLang();
             this.animateFigures();
             this.headerDisplace();
             this.anniversaryBanner();
@@ -57,13 +57,13 @@ const getCookie = (cname) => {
             }
         },
 
-        addLang : function() {
-            if ( $('html').attr('lang') == 'en' ) {
-                $(".js .ls-lang-list").append('<li class="ls-lang-item ls-lang-es"><a class="ls-lang-link" href="/Visit/Visitar-SIMA"><abbr title="Español">es</abbr></a></li> <li class="ls-lang-item ls-lang-it"><a class="ls-lang-link" href="/Visit/Visitare-SIMA"><abbr title="Italiano">it</abbr></a></li> <li class="ls-lang-item ls-lang-de"><a class="ls-lang-link" href="/Visit/Die-SIMA-besuchen"><abbr title="Deutsch">de</abbr></a></li>');
-            } else {
-                $(".js .ls-lang-list").append('<li class="ls-lang-item ls-lang-es"><a class="ls-lang-link" href="/Visiter/Visitar-SIMA"><abbr title="Español">es</abbr></a></li> <li class="ls-lang-item ls-lang-it"><a class="ls-lang-link" href="/Visiter/Visitare-SIMA"><abbr title="Italiano">it</abbr></a></li> <li class="ls-lang-item ls-lang-de"><a class="ls-lang-link" href="/Visiter/Die-SIMA-besuchen"><abbr title="Deutsch">de</abbr></a></li>');
-            }
-        },
+        // addLang : function() {
+        //     if ( $('html').attr('lang') == 'en' ) {
+        //         $(".js .ls-lang-list").append('<li class="ls-lang-item ls-lang-es"><a class="ls-lang-link" href="/Visit/Visitar-SIMA"><abbr title="Español">es</abbr></a></li> <li class="ls-lang-item ls-lang-it"><a class="ls-lang-link" href="/Visit/Visitare-SIMA"><abbr title="Italiano">it</abbr></a></li> <li class="ls-lang-item ls-lang-de"><a class="ls-lang-link" href="/Visit/Die-SIMA-besuchen"><abbr title="Deutsch">de</abbr></a></li>');
+        //     } else {
+        //         $(".js .ls-lang-list").append('<li class="ls-lang-item ls-lang-es"><a class="ls-lang-link" href="/Visiter/Visitar-SIMA"><abbr title="Español">es</abbr></a></li> <li class="ls-lang-item ls-lang-it"><a class="ls-lang-link" href="/Visiter/Visitare-SIMA"><abbr title="Italiano">it</abbr></a></li> <li class="ls-lang-item ls-lang-de"><a class="ls-lang-link" href="/Visiter/Die-SIMA-besuchen"><abbr title="Deutsch">de</abbr></a></li>');
+        //     }
+        // },
         
         animateFigures : function() {
             
