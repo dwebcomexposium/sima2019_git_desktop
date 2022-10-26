@@ -107,7 +107,7 @@ const getCookie = (cname) => {
 
                         //Animate enterprise number
                         $('#figure-enterprise').animateNumber({
-                                number: 1800,
+                                number: parseInt($('#figure-enterprise').text()),
                                 easing: 'easeOutQuart',
                                 numberStep: comma_separator_number_step
                             } , 2000
