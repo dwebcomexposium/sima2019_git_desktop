@@ -103,7 +103,7 @@ const getCookie = (cname) => {
                         }
 
                         //Animate visite number
-                        $('#figure-visit').animateNumber({ number: 25, easing: 'easeOutQuart' }, 2000);
+                        $('#figure-visit').animateNumber({ number: parseInt($('#figure-visit').text()), easing: 'easeOutQuart' }, 2000);
 
                         //Animate enterprise number
                         $('#figure-enterprise').animateNumber({
@@ -114,17 +114,17 @@ const getCookie = (cname) => {
                         );
 
                         //Animate europe number
-                        $('#figure-europe').animateNumber({ number: 200, easing: 'easeOutQuart' }, 2000);
+                        $('#figure-europe').animateNumber({ number: parseInt($('#figure-europe').text()), easing: 'easeOutQuart' }, 2000);
 
                         //Animate press number
-                        $('#figure-press').animateNumber({ number: 600, easing: 'easeOutQuart' }, 2000);
+                        $('#figure-press').animateNumber({ number: parseInt($('#figure-press').text()), easing: 'easeOutQuart' }, 2000);
 
                         //Animate continent number
-                        $('#figure-continent').animateNumber({ number: 5, easing: 'easeOutQuart' }, 2000);
+                        $('#figure-continent').animateNumber({ number: parseInt($('#figure-continent').text()), easing: 'easeOutQuart' }, 2000);
 
                         //Animate pro number
                         $('#figure-pro').animateNumber({
-                                number: 230000,
+                                number: parseInt($('#figure-pro').text()),
                                 easing: 'easeOutQuart',
                                 numberStep: comma_separator_number_step
                             } , 2000
