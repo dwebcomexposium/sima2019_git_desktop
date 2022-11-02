@@ -12565,6 +12565,41 @@ html[lang="en"] .landing-anniversary {
   position: absolute;
   z-index: 10;
   padding: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro,
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field {
+  height: 100%;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro .ezxmltext-field,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field {
+  display: flex;
+  flex-direction: column;
 }
 
 .anniversary-grid .block[class*="centans"] p {
