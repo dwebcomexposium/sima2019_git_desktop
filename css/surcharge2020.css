@@ -12565,9 +12565,6 @@ html[lang="en"] .landing-anniversary {
   position: absolute;
   z-index: 10;
   padding: 3rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content,
@@ -12600,6 +12597,14 @@ html[lang="en"] .landing-anniversary {
 .anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field {
   display: flex;
   flex-direction: column;
+}
+
+.anniversary-grid .block[class*="centans"]:nth-of-type(3) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(4) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(5) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(6) .at-content .article-intro .ezxmltext-field p:last-of-type,
+.anniversary-grid .block[class*="centans"]:nth-of-type(7) .at-content .article-intro .ezxmltext-field p:last-of-type {
+  margin: auto 0 0 0;
 }
 
 .anniversary-grid .block[class*="centans"] p {
