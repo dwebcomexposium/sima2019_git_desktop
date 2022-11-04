@@ -240,7 +240,7 @@ const getCookie = (cname) => {
                         HTMLElement.classList.remove('noscroll')
                     })
                   const seeMore = popUp.querySelector('.btn')
-                  seeMore.addEventListener('click', {
+                  seeMore.addEventListener('click', () => {
                     setCookie('popup', 'false', 10)
                   })
                 }
