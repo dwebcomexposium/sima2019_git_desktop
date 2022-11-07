@@ -11216,6 +11216,7 @@ html[lang="en"] .landing-anniversary {
 
 .landing-anniversary .countd {
   background-color: white;
+  display: none;
 }
 
 .landing-anniversary .countd li span {
