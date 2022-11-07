@@ -3728,6 +3728,21 @@ figure {
   position: relative;
 }
 
+.list-picto + .actus {
+  position: relative;
+}
+
+.list-picto + .actus::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100vw;
+  height: 30rem;
+  background-color: #f4f4f4;
+  clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0 100%);
+}
+
 .list-picto.list-horizontal {
   margin: -28rem auto 24rem auto;
 }
