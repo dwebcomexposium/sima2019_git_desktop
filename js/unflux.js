@@ -194,7 +194,7 @@ const getCookie = (cname) => {
                     </svg>
                 </div>
                 <div class="salon-dates__end salon-dates__part">
-                    <p class="salon-dates__day">28</p>
+                    <p class="salon-dates__day">27</p>
                     <p class="salon-dates__month">${lang == "fr" ? 'novembre' : 'november'}</p>
                     <p class="salon-dates__year">2024</p>
                     <svg viewBox="0 0 41 16" fill="none" xmlns="http://www.w3.org/2000/svg">
