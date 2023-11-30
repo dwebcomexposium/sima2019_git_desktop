@@ -16,6 +16,7 @@
 
 }
 
+/*Evolutions*/
 
 .solutions-agri {padding: 0!important; width: 100%; max-width: 116rem; margin: 0 auto; }
 .solutions-agri .container { display: flex; flex-wrap: wrap; margin: 20px auto;   }
@@ -53,5 +54,4 @@
 
 }
 
-
-.solution-agriculteur { display: none; }
+.solution-agriculteur, .front .list-vertica { display: none; }
