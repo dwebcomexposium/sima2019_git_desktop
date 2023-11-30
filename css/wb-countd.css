@@ -49,9 +49,9 @@
 
 
 @media (max-width: 767px) { 
-   .solutions-agri .container .column, .front .zone .solutions-agri .container_3cols .column { flex: 0 0 100%; }
+ .solutions-agri .container .column, .solutions-agri .container_3cols .column, .solutions-agri .container_2cols .column  { flex: 0 0 100%; }
 .solutions-agri .inside h2 { max-width: 100%;  }
 
 }
 
-.solution-agriculteur, .front .list-vertica { display: none; }
+.solution-agriculteur, .front .list-vertical { display: none; }
