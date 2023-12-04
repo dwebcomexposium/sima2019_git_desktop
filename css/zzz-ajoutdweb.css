@@ -531,7 +531,7 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
 
 .list-picto+.actus::before, .anniversary-grid::before {
 
-    background-color: #ffffff;
+    background-color: #ffffff; display: none;
 }
 
 .list-articles .inside {
