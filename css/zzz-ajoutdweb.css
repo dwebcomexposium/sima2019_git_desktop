@@ -537,3 +537,13 @@ li.ls-lang-item.ls-lang-es, li.ls-lang-item.ls-lang-it, li.ls-lang-item.ls-lang-
 .list-articles .inside {
   background-color: #ffffff;
 }
+
+
+.content743324 #main .zone .edito {  max-width: 116rem;}
+.content743324 #main .zone .edito .block-title { text-align: center; }
+.content743324 #main .zone .edito p:nth-child(3) {text-align: center; }
+.content374294 #main .zone .edito .block-title::after {display: none; }
+
+.content743324 #main .zone .chiffres-cles, .content374293 #main .zone .chiffres-cles {
+    background-color: #fff;
+}
