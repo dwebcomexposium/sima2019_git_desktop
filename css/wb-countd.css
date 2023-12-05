@@ -1,21 +1,21 @@
 .landing-video-2 .container {
 	-ms-flex-pack: distribute;
-	justify-content: space-around
+	justify-content: space-around;
 }
 
 .hright {
-	font-family: neutrifstudio-bold,Helvetica,Arial,sans-serif
+	font-family: neutrifstudio-bold,Helvetica,Arial,sans-serif;
 }
 
 .hright a.video-wrap {
-	margin-top: 50px
+	margin-top: 50px;
 }
 
 .hright h3 {
 	color: #fff;
 	text-align: center;
 	line-height: 140%;
-	padding-top: 60px
+	padding-top: 60px;
 }
 
 .countd {
@@ -26,24 +26,24 @@
 	font-family: neutrifstudio-bold,Helvetica,Arial,sans-serif;
 	width: 400px;
 	text-align: center;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 .countd span {
 	text-decoration: none;
 	color: #fff;
 	font-size: 18px;
-	line-height: 1
+	line-height: 1;
 }
 
 .countd li {
 	display: inline-block;
 	border-right: 1px solid #f39200;
-	padding: 0 20px
+	padding: 0 20px;
 }
 
 .countd li:last-child {
-	border: 0
+	border: 0;
 }
 
 @media screen and (max-width:1199px) {
